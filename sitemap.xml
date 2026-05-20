@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Example/Test_Example.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sargassum_Watch_System/Sargassum_Watch_System.json</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>unknown</changefreq>
@@ -3183,6 +3178,11 @@
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_Celtic_Sea_Herring_Acoustic_Survey_CSHAS/The_Celtic_Sea_Herring_Acoustic_Survey_CSHAS.json</loc>
     <lastmod>2026-05-15</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Example/Test_Example.json</loc>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>unknown</changefreq>
   </url>
   <url>
