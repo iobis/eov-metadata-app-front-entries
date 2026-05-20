@@ -3186,6 +3186,11 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa__Venezuela/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa__Venezuela.json</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Australian_continuous_plankton_recorder_survey__AusCPR_/Australian_continuous_plankton_recorder_survey__AusCPR_.json</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>asNeeded</changefreq>
