@@ -31,30 +31,20 @@
             ],
             "schema:foundingDate": "2019-04-01",
             "schema:dissolutionDate": "",
-            "schema:areaServed": [
-                {
-                    "schema:name": "",
-                    "schema:identifier": "",
-                    "schema:geo": {
-                        "geosparql:asWKT": {
-                            "@value": ""
-                        }
-                    },
-                    "geosparql:hasGeometry": {
-                        "geosparql:asWKT": {
-                            "@value": ""
-                        }
+            "schema:areaServed": {
+                "schema:name": "",
+                "schema:identifier": "",
+                "schema:geo": {
+                    "geosparql:asWKT": {
+                        "@value": ""
                     }
                 },
-                {
-                    "geosparql:hasGeometry": {
-                        "geosparql:asWKT": {
-                            "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-                            "@value": "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-67.762 10.493)"
-                        }
+                "geosparql:hasGeometry": {
+                    "geosparql:asWKT": {
+                        "@value": ""
                     }
                 }
-            ],
+            },
             "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa,_Venezuela/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa,_Venezuela.json",
             "schema:keywords": [
                 {
@@ -72,6 +62,41 @@
                         "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
                         "https://goosocean.org/document/17515"
                     ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Community composition Community abundance",
+                    "schema:url": "https://geobon.org/ebvs/what-are-ebvs/"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Community composition Taxonomic/phylogenetic diversity",
+                    "schema:url": "https://geobon.org/ebvs/what-are-ebvs/"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Species populations Species abundances",
+                    "schema:url": "https://geobon.org/ebvs/what-are-ebvs/"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Benthic invertebrates - % living cover",
+                    "schema:url": "https://goosocean.org/document/36269"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Benthic invertebrates - Number of individuals per unit area",
+                    "schema:url": "https://goosocean.org/document/36269"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Benthic invertebrates - Presence/absence",
+                    "schema:url": "https://goosocean.org/document/36269"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Macroalgae - Canopy percent cover",
+                    "schema:url": "https://goosocean.org/document/17515"
                 }
             ],
             "schema:contactPoint": [
@@ -92,9 +117,15 @@
                 "schema:name": "Rocky shore biodiversity assessment in Ocumare de la Costa, Venezuela"
             },
             "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa,_Venezuela/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa,_Venezuela_actions.json",
-            "schema:instrument": [],
+            "schema:instrument": [
+                {
+                    "@type": "schema:Thing",
+                    "schema:name": "Fixed point: Human based",
+                    "schema:url": "http://vocab.nerc.ac.uk/collection/L06/current/71/"
+                }
+            ],
             "schema:actionProcess": [],
-            "schema:description": "annually"
+            "schema:description": "notPlanned"
         },
         {
             "schema:frequency": "unknown"
