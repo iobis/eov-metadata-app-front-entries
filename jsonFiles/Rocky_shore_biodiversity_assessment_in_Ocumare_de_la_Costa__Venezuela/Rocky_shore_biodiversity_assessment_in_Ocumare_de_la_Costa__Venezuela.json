@@ -1,0 +1,103 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    },
+    "@graph": [
+        {
+            "@type": "Project",
+            "schema:legalName": "Rocky shore biodiversity assessment in Ocumare de la Costa, Venezuela",
+            "schema:name": "Rocky shore biodiversity assessment in Ocumare de la Costa, Venezuela",
+            "schema:url": "https://marinebon.org/p2p/",
+            "schema:description": "This is an ongoing rocky shore biodiversity monitoring effort linked to the MBON Pole to Pole Project",
+            "schema:identifier": {
+                "@type": "schema:PropertyValue",
+                "schema:description": "ROR",
+                "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+                "schema:url": "https://ror.org/01ak5cj98",
+                "schema:value": "01ak5cj98"
+            },
+            "schema:parentOrganization": {
+                "@type": "schema:Organization",
+                "schema:legalName": "MBON Pole to Pole Project",
+                "schema:url": "https://marinebon.org/p2p/"
+            },
+            "schema:publishingPrinciples": [
+                {
+                    "@type": "schema:CreativeWork",
+                    "schema:name": "CC-BY-NC: Creative Commons Attribution Non Commercial 4.0 International",
+                    "schema:url": "https://creativecommons.org/licenses/by-nc/4.0/"
+                }
+            ],
+            "schema:foundingDate": "2019-04-01",
+            "schema:dissolutionDate": "",
+            "schema:areaServed": [
+                {
+                    "schema:name": "",
+                    "schema:identifier": "",
+                    "schema:geo": {
+                        "geosparql:asWKT": {
+                            "@value": ""
+                        }
+                    },
+                    "geosparql:hasGeometry": {
+                        "geosparql:asWKT": {
+                            "@value": ""
+                        }
+                    }
+                },
+                {
+                    "geosparql:hasGeometry": {
+                        "geosparql:asWKT": {
+                            "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                            "@value": "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-67.762 10.493)"
+                        }
+                    }
+                }
+            ],
+            "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa,_Venezuela/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa,_Venezuela.json",
+            "schema:keywords": [
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Benthic invertebrate abundance and distribution",
+                    "schema:url": [
+                        "http://vocab.nerc.ac.uk/collection/EXV/current/EXV068/",
+                        "https://goosocean.org/document/36269"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Macroalgal canopy cover and composition",
+                    "schema:url": [
+                        "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+                        "https://goosocean.org/document/17515"
+                    ]
+                }
+            ],
+            "schema:contactPoint": [
+                {
+                    "@type": "schema:ContactPoint",
+                    "schema:contactType": "Principle Investigator",
+                    "schema:name": "Ana Carolina Peralta",
+                    "schema:email": "anacarolaperaltab@usf.edu",
+                    "schema:url": ""
+                }
+            ]
+        },
+        {
+            "@type": "schema:Action",
+            "schema:agent": {
+                "@type": "schema:ResearchProject",
+                "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa,_Venezuela/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa,_Venezuela.json",
+                "schema:name": "Rocky shore biodiversity assessment in Ocumare de la Costa, Venezuela"
+            },
+            "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa,_Venezuela/Rocky_shore_biodiversity_assessment_in_Ocumare_de_la_Costa,_Venezuela_actions.json",
+            "schema:instrument": [],
+            "schema:actionProcess": [],
+            "schema:description": "annually"
+        },
+        {
+            "schema:frequency": "unknown"
+        }
+    ]
+}
