@@ -436,11 +436,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/eOceans/eOceans.json</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Fisheries_-_Dolphin_CMR_surveys_in_the_Gulf_o/NOAA_Fisheries_-_Dolphin_CMR_surveys_in_the_Gulf_o.json</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>unknown</changefreq>
@@ -3194,5 +3189,10 @@
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Australian_continuous_plankton_recorder_survey__AusCPR_/Australian_continuous_plankton_recorder_survey__AusCPR_.json</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>asNeeded</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/eOceans/eOceans.json</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>unknown</changefreq>
   </url>
 </urlset>
