@@ -33,12 +33,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Australian_BRUV_network/Australian_BRUV_network.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Australian_BRUV_network/Australian_BRUV_network.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -62,17 +65,24 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "tim.langlois@uwa.edu.au",
+          "schema:name": "Tim Langlois"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Australian_BRUV_network/Australian_BRUV_network.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Australian_BRUV_network/Australian_BRUV_network.json",
         "name": "Australian BRUV network"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Australian_BRUV_network/Australian_BRUV_network_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Australian_BRUV_network/Australian_BRUV_network.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

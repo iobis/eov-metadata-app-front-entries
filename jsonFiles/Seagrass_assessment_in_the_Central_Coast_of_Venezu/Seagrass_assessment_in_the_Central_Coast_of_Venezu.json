@@ -31,26 +31,44 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Seagrass_assessment_in_the_Central_Coast_of_Venezu/Seagrass_assessment_in_the_Central_Coast_of_Venezu.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Seagrass_assessment_in_the_Central_Coast_of_Venezu/Seagrass_assessment_in_the_Central_Coast_of_Venezu.json",
       "schema:keywords": [
-        "seagrass"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+            "https://goosocean.org/document/17513"
+          ]
+        }
       ],
       "schema:funding": [
         {
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Carolina Peralta"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Seagrass_assessment_in_the_Central_Coast_of_Venezu/Seagrass_assessment_in_the_Central_Coast_of_Venezu.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Seagrass_assessment_in_the_Central_Coast_of_Venezu/Seagrass_assessment_in_the_Central_Coast_of_Venezu.json",
         "name": "Seagrass assessment in the Central Coast of Venezuela"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Seagrass_assessment_in_the_Central_Coast_of_Venezu/Seagrass_assessment_in_the_Central_Coast_of_Venezu_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Seagrass_assessment_in_the_Central_Coast_of_Venezu/Seagrass_assessment_in_the_Central_Coast_of_Venezu.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

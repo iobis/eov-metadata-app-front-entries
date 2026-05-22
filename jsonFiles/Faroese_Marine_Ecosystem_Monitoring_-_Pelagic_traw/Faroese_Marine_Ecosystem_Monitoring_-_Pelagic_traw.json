@@ -31,26 +31,39 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw.json",
       "schema:keywords": [
-        "ICES"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        }
       ],
       "schema:funding": [
         {
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Ian Salter"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw.json",
         "name": "Faroese Marine Ecosystem Monitoring - Pelagic trawl survey"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw/Faroese_Marine_Ecosystem_Monitoring_-_Pelagic_traw.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

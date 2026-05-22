@@ -33,11 +33,38 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_.json",
       "schema:keywords": [
-        "Baltic Sea",
-        "HELCOM",
-        "citizen science"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance by size/age/stage",
+          "schema:url": "https://goosocean.org/eov/fish/abundance/by_size_age_stage"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -61,10 +88,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_.json",
         "name": "FISH-PRO III  - Baltic Sea Coastal Fish Monitoring Program (Denmark)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring_.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

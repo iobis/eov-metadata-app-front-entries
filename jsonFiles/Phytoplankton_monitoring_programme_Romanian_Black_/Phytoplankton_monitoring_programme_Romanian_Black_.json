@@ -31,12 +31,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Phytoplankton_monitoring_programme_Romanian_Black_/Phytoplankton_monitoring_programme_Romanian_Black_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Phytoplankton_monitoring_programme_Romanian_Black_/Phytoplankton_monitoring_programme_Romanian_Black_.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         }
       ],
       "schema:funding": [
@@ -48,17 +51,24 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "lboicenco@alpha.rmri.ro",
+          "schema:name": "Laura Boicenco"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Phytoplankton_monitoring_programme_Romanian_Black_/Phytoplankton_monitoring_programme_Romanian_Black_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Phytoplankton_monitoring_programme_Romanian_Black_/Phytoplankton_monitoring_programme_Romanian_Black_.json",
         "name": "Phytoplankton monitoring programme Romanian Black Sea waters"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Phytoplankton_monitoring_programme_Romanian_Black_/Phytoplankton_monitoring_programme_Romanian_Black__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Phytoplankton_monitoring_programme_Romanian_Black_/Phytoplankton_monitoring_programme_Romanian_Black_.json",
       "schema:description": "twice_per_year",
       "instrument": [],
       "actionProcess": []

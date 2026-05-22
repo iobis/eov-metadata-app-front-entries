@@ -31,13 +31,197 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu.json",
       "schema:keywords": [
-        "Coastal",
-        "Ecosystems",
-        "Environmental state",
-        "Human activities",
-        "In-situ sampling coastal"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+            "https://goosocean.org/document/17513"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance",
+          "schema:url": "https://goosocean.org/eov/fish/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish community composition",
+          "schema:url": "https://goosocean.org/eov/fish/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish ecosystem structure",
+          "schema:url": "https://goosocean.org/eov/fish/ecosystem_structure"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish species traits",
+          "schema:url": "https://goosocean.org/eov/fish/traits"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance",
+          "schema:url": "https://goosocean.org/eov/invertebrates/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate ecosystem functioning - ecosystem disturbances",
+          "schema:url": "https://goosocean.org/eov/invertebrates/ecosystem_functioning/ecosystem_disturbances"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate ecosystem structure",
+          "schema:url": "https://goosocean.org/eov/invertebrates/ecosystem_structure"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate species traits",
+          "schema:url": "https://goosocean.org/eov/invertebrates/traits"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae community composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae community composition - trait diversity",
+          "schema:url": "https://goosocean.org/eov/macroalgae/community_composition/trait_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae diversity",
+          "schema:url": "https://goosocean.org/eov/macroalgae/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae ecosystem functioning - ecosystem disturbances",
+          "schema:url": "https://goosocean.org/eov/macroalgae/ecosystem_functioning/ecosystem_disturbances"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton abundance",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/biomass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton community composition",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass canopy cover",
+          "schema:url": "https://goosocean.org/eov/seagrass/canopy_cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover",
+          "schema:url": "https://goosocean.org/eov/seagrass/cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Particulate matter",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0612/",
+            "https://goosocean.org/document/17477"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -46,17 +230,24 @@
           "schema:description": "Basque Water Agency (URA) through a convention with AZTI"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "aborja@azti.es",
+          "schema:name": "Angel Borja"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu.json",
         "name": "Basque monitoring network for the ecological status assessment"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu.json",
       "schema:description": "quarterly",
       "instrument": [],
       "actionProcess": []

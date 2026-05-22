@@ -31,14 +31,20 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/OceanSITES_Network/OceanSITES_Network.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/OceanSITES_Network/OceanSITES_Network.json",
       "schema:keywords": [],
       "schema:funding": [
         {
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Raquel Somavilla"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -55,10 +61,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/OceanSITES_Network/OceanSITES_Network.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/OceanSITES_Network/OceanSITES_Network.json",
         "name": "OceanSITES Network"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/OceanSITES_Network/OceanSITES_Network_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/OceanSITES_Network/OceanSITES_Network.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

@@ -19,7 +19,7 @@
       "schema:foundingDate": "2004-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finnish_Inventory_Programme_for_the_Underwater_Mar/Finnish_Inventory_Programme_for_the_Underwater_Mar.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Finnish_Inventory_Programme_for_the_Underwater_Mar/Finnish_Inventory_Programme_for_the_Underwater_Mar.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -29,12 +29,18 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Macroalgal canopy cover and composition",
-          "schema:url": "https://goosocean.org/eov/macroalgae"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Seagrass cover and composition",
-          "schema:url": "https://goosocean.org/eov/seagrass"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+            "https://goosocean.org/document/17513"
+          ]
         }
       ],
       "schema:funding": [
@@ -43,17 +49,23 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Elina Virtanen"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finnish_Inventory_Programme_for_the_Underwater_Mar/Finnish_Inventory_Programme_for_the_Underwater_Mar.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Finnish_Inventory_Programme_for_the_Underwater_Mar/Finnish_Inventory_Programme_for_the_Underwater_Mar.json",
         "name": "Finnish Inventory Programme for the Underwater Marine Environment"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finnish_Inventory_Programme_for_the_Underwater_Mar/Finnish_Inventory_Programme_for_the_Underwater_Mar_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Finnish_Inventory_Programme_for_the_Underwater_Mar/Finnish_Inventory_Programme_for_the_Underwater_Mar.json",
       "schema:description": "every_10_years_or_more",
       "instrument": [],
       "actionProcess": []

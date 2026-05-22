@@ -31,10 +31,147 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc.json",
       "schema:keywords": [
-        "SBC LTER",
-        "Santa Barbara Coastal LTER"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance",
+          "schema:url": "https://goosocean.org/eov/fish/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish community composition",
+          "schema:url": "https://goosocean.org/eov/fish/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish distribution",
+          "schema:url": "https://goosocean.org/eov/dish/distribution"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish ecosystem structure",
+          "schema:url": "https://goosocean.org/eov/fish/ecosystem_structure"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance",
+          "schema:url": "https://goosocean.org/eov/invertebrates/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates/distribution"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae areal extent",
+          "schema:url": "https://goosocean.org/eov/macroalgae/areal_extent"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae canopy height",
+          "schema:url": "https://goosocean.org/eov/macroalgae/canopy_height"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae community composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae condition",
+          "schema:url": "https://goosocean.org/eov/macroalgae/condition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae ecosystem functioning - ecosystem disturbances",
+          "schema:url": "https://goosocean.org/eov/macroalgae/ecosystem_functioning/ecosystem_disturbances"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae ecosystem functioning - primary productivity",
+          "schema:url": "https://goosocean.org/eov/macroalgae/ecosystem_functioning/primary_productivity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae ecosystem structure",
+          "schema:url": "https://goosocean.org/eov/macroalgae/ecosystem_structure"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae stem density (kelps)",
+          "schema:url": "https://goosocean.org/eov/macroalgae/stem_density"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance",
+          "schema:url": "https://goosocean.org/eov/birds/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds distribution",
+          "schema:url": "https://goosocean.org/eov/birds/distribution"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton abundance",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/biomass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton community composition",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/community_composition"
+        }
       ],
       "schema:funding": [
         {
@@ -43,17 +180,24 @@
           "schema:description": "National Science Foundation, Awards OCE-9982105, OCE-0620276, OCE-1232779, OCE-1831937"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "rjmiller@ucsb.edu",
+          "schema:name": "Robert Miller"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc.json",
         "name": "Santa Barbara Coastal Long Term Ecological Research program"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

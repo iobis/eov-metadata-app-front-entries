@@ -33,7 +33,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -41,17 +41,24 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "roberto.bozzano@cnr.it",
+          "schema:name": "Roberto Bozzano"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array.json",
         "name": "Wester 1 - Mediterranean Moored Multi-sensor Array"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array.json",
       "schema:description": "sub_daily",
       "instrument": [],
       "actionProcess": []

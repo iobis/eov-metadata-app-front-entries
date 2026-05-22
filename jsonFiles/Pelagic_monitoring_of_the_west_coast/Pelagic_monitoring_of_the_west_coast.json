@@ -19,22 +19,31 @@
       "schema:foundingDate": "1985-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pelagic_monitoring_of_the_west_coast/Pelagic_monitoring_of_the_west_coast.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pelagic_monitoring_of_the_west_coast/Pelagic_monitoring_of_the_west_coast.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Microbe biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/microbes"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         }
       ],
       "schema:funding": [
@@ -49,10 +58,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pelagic_monitoring_of_the_west_coast/Pelagic_monitoring_of_the_west_coast.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pelagic_monitoring_of_the_west_coast/Pelagic_monitoring_of_the_west_coast.json",
         "name": "Pelagic monitoring of the west coast"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pelagic_monitoring_of_the_west_coast/Pelagic_monitoring_of_the_west_coast_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pelagic_monitoring_of_the_west_coast/Pelagic_monitoring_of_the_west_coast.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

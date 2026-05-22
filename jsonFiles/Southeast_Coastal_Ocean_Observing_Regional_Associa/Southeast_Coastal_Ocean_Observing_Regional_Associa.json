@@ -19,7 +19,7 @@
       "schema:foundingDate": "",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southeast_Coastal_Ocean_Observing_Regional_Associa/Southeast_Coastal_Ocean_Observing_Regional_Associa.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Southeast_Coastal_Ocean_Observing_Regional_Associa/Southeast_Coastal_Ocean_Observing_Regional_Associa.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -29,7 +29,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -44,7 +47,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -54,7 +60,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         }
       ],
       "schema:funding": [
@@ -63,17 +72,23 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Kyle Wilcox"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southeast_Coastal_Ocean_Observing_Regional_Associa/Southeast_Coastal_Ocean_Observing_Regional_Associa.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Southeast_Coastal_Ocean_Observing_Regional_Associa/Southeast_Coastal_Ocean_Observing_Regional_Associa.json",
         "name": "Southeast Coastal Ocean Observing Regional Association"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southeast_Coastal_Ocean_Observing_Regional_Associa/Southeast_Coastal_Ocean_Observing_Regional_Associa_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Southeast_Coastal_Ocean_Observing_Regional_Associa/Southeast_Coastal_Ocean_Observing_Regional_Associa.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

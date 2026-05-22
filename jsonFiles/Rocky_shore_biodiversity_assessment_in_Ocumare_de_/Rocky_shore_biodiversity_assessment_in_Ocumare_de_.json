@@ -31,26 +31,44 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_/Rocky_shore_biodiversity_assessment_in_Ocumare_de_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_/Rocky_shore_biodiversity_assessment_in_Ocumare_de_.json",
       "schema:keywords": [
-        "marine invertebrates"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
+        }
       ],
       "schema:funding": [
         {
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Carolina Peralta"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_/Rocky_shore_biodiversity_assessment_in_Ocumare_de_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_/Rocky_shore_biodiversity_assessment_in_Ocumare_de_.json",
         "name": "Rocky shore biodiversity assessment in Ocumare de la Costa, Venezuela"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_/Rocky_shore_biodiversity_assessment_in_Ocumare_de__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_/Rocky_shore_biodiversity_assessment_in_Ocumare_de_.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

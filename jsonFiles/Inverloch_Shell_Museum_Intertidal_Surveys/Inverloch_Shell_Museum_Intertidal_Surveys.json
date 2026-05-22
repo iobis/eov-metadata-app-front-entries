@@ -31,24 +31,31 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Inverloch_Shell_Museum_Intertidal_Surveys/Inverloch_Shell_Museum_Intertidal_Surveys.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Inverloch_Shell_Museum_Intertidal_Surveys/Inverloch_Shell_Museum_Intertidal_Surveys.json",
       "schema:keywords": [],
       "schema:funding": [
         {
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "phasianella@dcsi.net.au",
+          "schema:name": "T. Joan Hales"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Inverloch_Shell_Museum_Intertidal_Surveys/Inverloch_Shell_Museum_Intertidal_Surveys.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Inverloch_Shell_Museum_Intertidal_Surveys/Inverloch_Shell_Museum_Intertidal_Surveys.json",
         "name": "Inverloch Shell Museum Intertidal Surveys"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Inverloch_Shell_Museum_Intertidal_Surveys/Inverloch_Shell_Museum_Intertidal_Surveys_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Inverloch_Shell_Museum_Intertidal_Surveys/Inverloch_Shell_Museum_Intertidal_Surveys.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

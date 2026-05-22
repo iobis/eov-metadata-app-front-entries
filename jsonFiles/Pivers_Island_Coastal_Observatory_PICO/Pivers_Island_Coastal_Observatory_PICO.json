@@ -31,11 +31,32 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pivers_Island_Coastal_Observatory_PICO/Pivers_Island_Coastal_Observatory_PICO.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pivers_Island_Coastal_Observatory_PICO/Pivers_Island_Coastal_Observatory_PICO.json",
       "schema:keywords": [
-        "Climate Variability and Change",
-        "Coastal",
-        "coastal ecosystems"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -47,17 +68,24 @@
           "schema:description": "NSF Ocean Sciences Research Initiation Grants\r\nDuke University"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "zij@duke.edu",
+          "schema:name": "Zackary Johnson"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pivers_Island_Coastal_Observatory_PICO/Pivers_Island_Coastal_Observatory_PICO.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pivers_Island_Coastal_Observatory_PICO/Pivers_Island_Coastal_Observatory_PICO.json",
         "name": "Pivers Island Coastal Observatory (PICO)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pivers_Island_Coastal_Observatory_PICO/Pivers_Island_Coastal_Observatory_PICO_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pivers_Island_Coastal_Observatory_PICO/Pivers_Island_Coastal_Observatory_PICO.json",
       "schema:description": "daily",
       "instrument": [],
       "actionProcess": []

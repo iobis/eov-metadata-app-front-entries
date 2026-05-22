@@ -31,17 +31,23 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_A_Coruna_Station_E2CO/RADIALES_A_Coruna_Station_E2CO.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/RADIALES_A_Coruna_Station_E2CO/RADIALES_A_Coruna_Station_E2CO.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -76,12 +82,18 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Nutrients",
-          "schema:url": "https://goosocean.org/eov/nutrients"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Oxygen",
-          "schema:url": "https://goosocean.org/eov/oxygen"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
         }
       ],
       "schema:funding": [
@@ -91,7 +103,13 @@
           "schema:description": "RADIALES CORUÑA long-term ecosystem research project is funded by the Spanish Institute of Oceanography. It allows the development of other projects with short-term objectives (financed with external funding) using as base its sampling, analysis and database infrastructure. Besides, the information derived from the project will continue to contribute to the ocean ecosystem monitoring required by the application of various environmental management policies, especially those related to the EU Marine Strategy Framework Directive (MSFD)."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Mar Nieto-Cid"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -108,10 +126,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_A_Coruna_Station_E2CO/RADIALES_A_Coruna_Station_E2CO.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/RADIALES_A_Coruna_Station_E2CO/RADIALES_A_Coruna_Station_E2CO.json",
         "name": "RADIALES A Coruna Station E2CO"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_A_Coruna_Station_E2CO/RADIALES_A_Coruna_Station_E2CO_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/RADIALES_A_Coruna_Station_E2CO/RADIALES_A_Coruna_Station_E2CO.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

@@ -21,7 +21,7 @@
       "schema:foundingDate": "2017-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Assessment_of_Species_Catch_Composition_in_Fisheri/Assessment_of_Species_Catch_Composition_in_Fisheri.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Assessment_of_Species_Catch_Composition_in_Fisheri/Assessment_of_Species_Catch_Composition_in_Fisheri.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -31,7 +31,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -61,10 +64,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Assessment_of_Species_Catch_Composition_in_Fisheri/Assessment_of_Species_Catch_Composition_in_Fisheri.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Assessment_of_Species_Catch_Composition_in_Fisheri/Assessment_of_Species_Catch_Composition_in_Fisheri.json",
         "name": "Assessment of Species Catch Composition in Fisheries Posing a Risk to Biodiversity Phase 2"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Assessment_of_Species_Catch_Composition_in_Fisheri/Assessment_of_Species_Catch_Composition_in_Fisheri_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Assessment_of_Species_Catch_Composition_in_Fisheri/Assessment_of_Species_Catch_Composition_in_Fisheri.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Zone_Atelier_Antarctique_ZATA/Zone_Atelier_Antarctique_ZATA.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Zone_Atelier_Antarctique_ZATA/Zone_Atelier_Antarctique_ZATA.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -41,7 +41,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -56,7 +59,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         }
       ],
       "schema:funding": [
@@ -65,17 +71,24 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "jean-patrice.robin@iphc.cnrs.fr",
+          "schema:name": "jean-patrice robin"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Zone_Atelier_Antarctique_ZATA/Zone_Atelier_Antarctique_ZATA.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Zone_Atelier_Antarctique_ZATA/Zone_Atelier_Antarctique_ZATA.json",
         "name": "Zone Atelier Antarctique (ZATA)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Zone_Atelier_Antarctique_ZATA/Zone_Atelier_Antarctique_ZATA_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Zone_Atelier_Antarctique_ZATA/Zone_Atelier_Antarctique_ZATA.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

@@ -19,12 +19,15 @@
       "schema:foundingDate": "",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         }
       ],
       "schema:funding": [
@@ -32,17 +35,23 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Federica Grilli"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia.json",
         "name": "LTER Transetto Senigallia-Susak and TeleSenigallia pylon"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

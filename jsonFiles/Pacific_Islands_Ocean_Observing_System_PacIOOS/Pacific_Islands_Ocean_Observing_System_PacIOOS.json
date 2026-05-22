@@ -33,26 +33,122 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pacific_Islands_Ocean_Observing_System_PacIOOS/Pacific_Islands_Ocean_Observing_System_PacIOOS.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pacific_Islands_Ocean_Observing_System_PacIOOS/Pacific_Islands_Ocean_Observing_System_PacIOOS.json",
       "schema:keywords": [
-        "atmospheric forecasts",
-        "coral",
-        "currents",
-        "forecasts",
-        "high frequency radio (HFR)",
-        "marine ecosystems",
-        "nearshore sensors",
-        "ocean forecasts",
-        "ocean observations",
-        "physical oceanography",
-        "sea level rise",
-        "shoreline impacts",
-        "tiger shark tracking",
-        "water quality buoys",
-        "wave buoys",
-        "wave forecasts",
-        "waves",
-        "weather stations"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+            "https://goosocean.org/document/17513"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface height",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_01001377",
+            "https://goosocean.org/document/17465"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface currents",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "https://goosocean.org/document/17469"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Surface currents",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_01000099",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV021/",
+            "https://goosocean.org/document/17468"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -64,7 +160,13 @@
           "schema:description": "Funded in part by National Oceanic and Atmospheric Administration (NOAA) Awards #NA16NOS0120024 and #NA21NOS0120091."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Melissa Iwamoto"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -135,10 +237,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pacific_Islands_Ocean_Observing_System_PacIOOS/Pacific_Islands_Ocean_Observing_System_PacIOOS.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pacific_Islands_Ocean_Observing_System_PacIOOS/Pacific_Islands_Ocean_Observing_System_PacIOOS.json",
         "name": "Pacific Islands Ocean Observing System (PacIOOS)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pacific_Islands_Ocean_Observing_System_PacIOOS/Pacific_Islands_Ocean_Observing_System_PacIOOS_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pacific_Islands_Ocean_Observing_System_PacIOOS/Pacific_Islands_Ocean_Observing_System_PacIOOS.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

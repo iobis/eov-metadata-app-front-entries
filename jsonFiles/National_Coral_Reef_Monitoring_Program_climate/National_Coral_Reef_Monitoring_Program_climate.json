@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/National_Coral_Reef_Monitoring_Program_climate/National_Coral_Reef_Monitoring_Program_climate.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/National_Coral_Reef_Monitoring_Program_climate/National_Coral_Reef_Monitoring_Program_climate.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -39,17 +39,24 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "Derek.Manzello@noaa.gov",
+          "schema:name": "Derek Manzello"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/National_Coral_Reef_Monitoring_Program_climate/National_Coral_Reef_Monitoring_Program_climate.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/National_Coral_Reef_Monitoring_Program_climate/National_Coral_Reef_Monitoring_Program_climate.json",
         "name": "National Coral Reef Monitoring Program: climate"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/National_Coral_Reef_Monitoring_Program_climate/National_Coral_Reef_Monitoring_Program_climate_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/National_Coral_Reef_Monitoring_Program_climate/National_Coral_Reef_Monitoring_Program_climate.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

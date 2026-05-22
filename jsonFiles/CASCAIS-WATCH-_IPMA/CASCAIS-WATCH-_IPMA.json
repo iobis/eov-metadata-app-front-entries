@@ -31,32 +31,48 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CASCAIS-WATCH-_IPMA/CASCAIS-WATCH-_IPMA.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/CASCAIS-WATCH-_IPMA/CASCAIS-WATCH-_IPMA.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface salinity",
-          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface temperature",
-          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface salinity",
-          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface temperature",
-          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
         }
       ],
       "schema:funding": [
@@ -64,17 +80,23 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Antonina Dos santos"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CASCAIS-WATCH-_IPMA/CASCAIS-WATCH-_IPMA.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/CASCAIS-WATCH-_IPMA/CASCAIS-WATCH-_IPMA.json",
         "name": "CASCAIS-WATCH- IPMA"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CASCAIS-WATCH-_IPMA/CASCAIS-WATCH-_IPMA_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/CASCAIS-WATCH-_IPMA/CASCAIS-WATCH-_IPMA.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

@@ -33,11 +33,88 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_Observing_System_for_Northern_and_Arctic_S/Coastal_Observing_System_for_Northern_and_Arctic_S.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Coastal_Observing_System_for_Northern_and_Arctic_S/Coastal_Observing_System_for_Northern_and_Arctic_S.json",
       "schema:keywords": [
-        "FerryBox",
-        "Glider",
-        "Remote sensing"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Dissolved organic carbon",
+          "schema:url": [
+            "https://goosocean.org/document/17480"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Inorganic carbon",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV030/",
+            "https://goosocean.org/document/17475"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Particulate matter",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0612/",
+            "https://goosocean.org/document/17477"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -48,17 +125,23 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Philipp Fischer"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_Observing_System_for_Northern_and_Arctic_S/Coastal_Observing_System_for_Northern_and_Arctic_S.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Coastal_Observing_System_for_Northern_and_Arctic_S/Coastal_Observing_System_for_Northern_and_Arctic_S.json",
         "name": "Coastal Observing System for Northern and Arctic Seas (COSYNA)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_Observing_System_for_Northern_and_Arctic_S/Coastal_Observing_System_for_Northern_and_Arctic_S_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Coastal_Observing_System_for_Northern_and_Arctic_S/Coastal_Observing_System_for_Northern_and_Arctic_S.json",
       "schema:description": "sub_daily",
       "instrument": [],
       "actionProcess": []

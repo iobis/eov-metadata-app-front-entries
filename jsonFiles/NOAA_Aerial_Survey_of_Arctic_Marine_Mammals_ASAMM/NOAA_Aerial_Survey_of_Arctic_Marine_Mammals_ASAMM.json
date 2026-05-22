@@ -33,13 +33,28 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM.json",
       "schema:keywords": [
-        "Alaska",
-        "Amundsen Gulf",
-        "Beaufort Sea",
-        "Bering Sea",
-        "Chukchi Sea"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance",
+          "schema:url": "https://goosocean.org/eov/mammals/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals distribution",
+          "schema:url": "https://goosocean.org/eov/mammals/distribution"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals ecosystem functioning - ecosystem disturbances",
+          "schema:url": "https://goosocean.org/eov/mammals/ecosystem_functioning/ecosystem_disturbances"
+        }
       ],
       "schema:funding": [
         {
@@ -48,7 +63,14 @@
           "schema:description": "U.S. Bureau of Ocean Energy Management (formerly Minerals Management Service)"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "amelia.brower@noaa.gov",
+          "schema:name": "Amelia Brower"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -65,10 +87,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM.json",
         "name": "NOAA Aerial Survey of Arctic Marine Mammals (ASAMM)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

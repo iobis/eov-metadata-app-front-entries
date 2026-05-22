@@ -19,12 +19,15 @@
       "schema:foundingDate": "2003-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Research_Station_Zmiinyi_island/Marine_Research_Station_Zmiinyi_island.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Marine_Research_Station_Zmiinyi_island/Marine_Research_Station_Zmiinyi_island.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -34,7 +37,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Macroalgal canopy cover and composition",
-          "schema:url": "https://goosocean.org/eov/macroalgae"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -44,17 +50,26 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Microbe biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/microbes"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         }
       ],
       "schema:funding": [
@@ -66,17 +81,23 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Volodymyr Medinets"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Research_Station_Zmiinyi_island/Marine_Research_Station_Zmiinyi_island.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Marine_Research_Station_Zmiinyi_island/Marine_Research_Station_Zmiinyi_island.json",
         "name": "Marine Research Station \"Zmiinyi island\""
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Research_Station_Zmiinyi_island/Marine_Research_Station_Zmiinyi_island_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Marine_Research_Station_Zmiinyi_island/Marine_Research_Station_Zmiinyi_island.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

@@ -19,7 +19,7 @@
       "schema:foundingDate": "2015-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Biodiversity_extreme_environment_and_global_change/Biodiversity_extreme_environment_and_global_change.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Biodiversity_extreme_environment_and_global_change/Biodiversity_extreme_environment_and_global_change.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -33,17 +33,23 @@
           "schema:category": "other"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Nadine Lebris"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Biodiversity_extreme_environment_and_global_change/Biodiversity_extreme_environment_and_global_change.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Biodiversity_extreme_environment_and_global_change/Biodiversity_extreme_environment_and_global_change.json",
         "name": "Biodiversity, extreme environment and global change"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Biodiversity_extreme_environment_and_global_change/Biodiversity_extreme_environment_and_global_change_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Biodiversity_extreme_environment_and_global_change/Biodiversity_extreme_environment_and_global_change.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

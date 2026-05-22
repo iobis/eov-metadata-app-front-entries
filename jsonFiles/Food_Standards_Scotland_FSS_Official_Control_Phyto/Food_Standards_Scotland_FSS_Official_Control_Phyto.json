@@ -33,12 +33,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Food_Standards_Scotland_FSS_Official_Control_Phyto/Food_Standards_Scotland_FSS_Official_Control_Phyto.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Food_Standards_Scotland_FSS_Official_Control_Phyto/Food_Standards_Scotland_FSS_Official_Control_Phyto.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         }
       ],
       "schema:funding": [
@@ -54,10 +57,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Food_Standards_Scotland_FSS_Official_Control_Phyto/Food_Standards_Scotland_FSS_Official_Control_Phyto.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Food_Standards_Scotland_FSS_Official_Control_Phyto/Food_Standards_Scotland_FSS_Official_Control_Phyto.json",
         "name": "Food Standards Scotland (FSS) Official Control Phytoplankton monitoring Programme"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Food_Standards_Scotland_FSS_Official_Control_Phyto/Food_Standards_Scotland_FSS_Official_Control_Phyto_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Food_Standards_Scotland_FSS_Official_Control_Phyto/Food_Standards_Scotland_FSS_Official_Control_Phyto.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

@@ -33,29 +33,39 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/BALLT-D05_ChlA/BALLT-D05_ChlA.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/BALLT-D05_ChlA/BALLT-D05_ChlA.json",
       "schema:keywords": [
-        "Environmental state",
-        "HELCOM",
-        "In-situ sampling coastal",
-        "In-situ sampling offshore"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        }
       ],
       "schema:funding": [
         {
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Nijole Remeikaite-Nikiene"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/BALLT-D05_ChlA/BALLT-D05_ChlA.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/BALLT-D05_ChlA/BALLT-D05_ChlA.json",
         "name": "BALLT-D05_ChlA"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/BALLT-D05_ChlA/BALLT-D05_ChlA_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/BALLT-D05_ChlA/BALLT-D05_ChlA.json",
       "schema:description": "quarterly",
       "instrument": [],
       "actionProcess": []

@@ -19,7 +19,7 @@
       "schema:foundingDate": "2005-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IUCN_Pinniped_Specialist_Group/IUCN_Pinniped_Specialist_Group.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/IUCN_Pinniped_Specialist_Group/IUCN_Pinniped_Specialist_Group.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -36,17 +36,24 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "kit.kovacs@npolar.no",
+          "schema:name": "Kit Kovacs"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IUCN_Pinniped_Specialist_Group/IUCN_Pinniped_Specialist_Group.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/IUCN_Pinniped_Specialist_Group/IUCN_Pinniped_Specialist_Group.json",
         "name": "IUCN Pinniped Specialist Group"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IUCN_Pinniped_Specialist_Group/IUCN_Pinniped_Specialist_Group_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/IUCN_Pinniped_Specialist_Group/IUCN_Pinniped_Specialist_Group.json",
       "schema:description": "every_2_to_5_years",
       "instrument": [],
       "actionProcess": []

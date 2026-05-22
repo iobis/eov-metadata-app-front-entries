@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CeNCOOS_MBON_eDNA/CeNCOOS_MBON_eDNA.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/CeNCOOS_MBON_eDNA/CeNCOOS_MBON_eDNA.json",
       "schema:keywords": [
         "Environmental DNA",
         "MBON"
@@ -41,17 +41,23 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Kathleen Pitz"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CeNCOOS_MBON_eDNA/CeNCOOS_MBON_eDNA.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/CeNCOOS_MBON_eDNA/CeNCOOS_MBON_eDNA.json",
         "name": "CeNCOOS MBON eDNA"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CeNCOOS_MBON_eDNA/CeNCOOS_MBON_eDNA_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/CeNCOOS_MBON_eDNA/CeNCOOS_MBON_eDNA.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

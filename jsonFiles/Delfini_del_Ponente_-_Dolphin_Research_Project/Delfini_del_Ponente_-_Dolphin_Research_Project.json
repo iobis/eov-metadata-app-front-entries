@@ -19,7 +19,7 @@
       "schema:foundingDate": "2018-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Delfini_del_Ponente_-_Dolphin_Research_Project/Delfini_del_Ponente_-_Dolphin_Research_Project.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Delfini_del_Ponente_-_Dolphin_Research_Project/Delfini_del_Ponente_-_Dolphin_Research_Project.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -29,7 +29,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -54,10 +57,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Delfini_del_Ponente_-_Dolphin_Research_Project/Delfini_del_Ponente_-_Dolphin_Research_Project.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Delfini_del_Ponente_-_Dolphin_Research_Project/Delfini_del_Ponente_-_Dolphin_Research_Project.json",
         "name": "Delfini del Ponente - Dolphin Research Project"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Delfini_del_Ponente_-_Dolphin_Research_Project/Delfini_del_Ponente_-_Dolphin_Research_Project_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Delfini_del_Ponente_-_Dolphin_Research_Project/Delfini_del_Ponente_-_Dolphin_Research_Project.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

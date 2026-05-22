@@ -31,9 +31,65 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Long_term_fish_communities_Monitoring_in_Ria_Formo/Long_term_fish_communities_Monitoring_in_Ria_Formo.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Long_term_fish_communities_Monitoring_in_Ria_Formo/Long_term_fish_communities_Monitoring_in_Ria_Formo.json",
       "schema:keywords": [
-        "Ria Formosa"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface height",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_01001377",
+            "https://goosocean.org/document/17465"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -62,10 +118,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Long_term_fish_communities_Monitoring_in_Ria_Formo/Long_term_fish_communities_Monitoring_in_Ria_Formo.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Long_term_fish_communities_Monitoring_in_Ria_Formo/Long_term_fish_communities_Monitoring_in_Ria_Formo.json",
         "name": "Long term fish communities Monitoring in Ria Formosa Coastal Lagoon"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Long_term_fish_communities_Monitoring_in_Ria_Formo/Long_term_fish_communities_Monitoring_in_Ria_Formo_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Long_term_fish_communities_Monitoring_in_Ria_Formo/Long_term_fish_communities_Monitoring_in_Ria_Formo.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

@@ -31,9 +31,16 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Purse_Search_Ireland/Purse_Search_Ireland.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Purse_Search_Ireland/Purse_Search_Ireland.json",
       "schema:keywords": [
-        "citizen science"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -58,10 +65,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Purse_Search_Ireland/Purse_Search_Ireland.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Purse_Search_Ireland/Purse_Search_Ireland.json",
         "name": "Purse Search Ireland"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Purse_Search_Ireland/Purse_Search_Ireland_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Purse_Search_Ireland/Purse_Search_Ireland.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

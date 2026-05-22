@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P1-Breeding_Seabirds_in_Belgium/ANSBE-P1-Breeding_Seabirds_in_Belgium.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ANSBE-P1-Breeding_Seabirds_in_Belgium/ANSBE-P1-Breeding_Seabirds_in_Belgium.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -49,17 +49,23 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Eric Stienen"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P1-Breeding_Seabirds_in_Belgium/ANSBE-P1-Breeding_Seabirds_in_Belgium.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ANSBE-P1-Breeding_Seabirds_in_Belgium/ANSBE-P1-Breeding_Seabirds_in_Belgium.json",
         "name": "ANSBE-P1-Breeding Seabirds in Belgium"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P1-Breeding_Seabirds_in_Belgium/ANSBE-P1-Breeding_Seabirds_in_Belgium_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ANSBE-P1-Breeding_Seabirds_in_Belgium/ANSBE-P1-Breeding_Seabirds_in_Belgium.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

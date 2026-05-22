@@ -31,11 +31,26 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ocean_Tracking_Network/Ocean_Tracking_Network.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Ocean_Tracking_Network/Ocean_Tracking_Network.json",
       "schema:keywords": [
-        "Animal tracking",
-        "fish",
-        "movement"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        }
       ],
       "schema:funding": [
         {
@@ -49,17 +64,23 @@
           "schema:description": "The Canada Foundation for Innovation (CFI; $35M) provides support for the global acoustic receiver infrastructure. The Nova Scotia Research and Innovation Trust (NSRIT) provides matching funding to CFI support for HQ personnel. The Natural Sciences and Engineering Research Council of Canada (NSERC; $10M) funds Canadian scientists conducting research using the acoustic infrastructure within Canada. NSERC-supported research addresses key questions by focusing on Canada’s ocean and aquatic ecosystems. OTN is also supported in-kind through our many international partners."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Jonathan Pye"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ocean_Tracking_Network/Ocean_Tracking_Network.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Ocean_Tracking_Network/Ocean_Tracking_Network.json",
         "name": "Ocean Tracking Network"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ocean_Tracking_Network/Ocean_Tracking_Network_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Ocean_Tracking_Network/Ocean_Tracking_Network.json",
       "schema:description": "sub_daily",
       "instrument": [],
       "actionProcess": []

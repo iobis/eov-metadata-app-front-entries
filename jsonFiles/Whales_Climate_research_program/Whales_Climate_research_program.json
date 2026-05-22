@@ -31,13 +31,77 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Whales_Climate_research_program/Whales_Climate_research_program.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Whales_Climate_research_program/Whales_Climate_research_program.json",
       "schema:keywords": [
-        "Climate Variability and Change",
-        "humpback whales",
-        "ocean dynamics",
-        "southern right whales",
-        "whales"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance",
+          "schema:url": "https://goosocean.org/eov/mammals/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea ice",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_00002200",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV027/",
+            "https://goosocean.org/document/17464"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface currents",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "https://goosocean.org/document/17469"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -46,17 +110,23 @@
           "schema:description": "Philantrophic Trust"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Olaf Meynecke"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Whales_Climate_research_program/Whales_Climate_research_program.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Whales_Climate_research_program/Whales_Climate_research_program.json",
         "name": "Whales & Climate research program"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Whales_Climate_research_program/Whales_Climate_research_program_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Whales_Climate_research_program/Whales_Climate_research_program.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

@@ -31,12 +31,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/FGBNMS_Data_Dashboard/FGBNMS_Data_Dashboard.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/FGBNMS_Data_Dashboard/FGBNMS_Data_Dashboard.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -46,17 +49,27 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Ocean colour",
-          "schema:url": "https://goosocean.org/eov/ocean_color"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV033/",
+            "https://goosocean.org/document/19959"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Particulate matter",
-          "schema:url": "https://goosocean.org/eov/particulate_matter"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0612/",
+            "https://goosocean.org/document/17477"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface temperature",
-          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
         }
       ],
       "schema:funding": [
@@ -66,17 +79,23 @@
           "schema:description": "This project is part the Marine Biodiversity Observation Network (MBON). Support is provided by NOAA, NASA, IOOS and BOEM."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Dan Otis"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/FGBNMS_Data_Dashboard/FGBNMS_Data_Dashboard.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/FGBNMS_Data_Dashboard/FGBNMS_Data_Dashboard.json",
         "name": "FGBNMS Data Dashboard"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/FGBNMS_Data_Dashboard/FGBNMS_Data_Dashboard_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/FGBNMS_Data_Dashboard/FGBNMS_Data_Dashboard.json",
       "schema:description": "daily",
       "instrument": [],
       "actionProcess": []

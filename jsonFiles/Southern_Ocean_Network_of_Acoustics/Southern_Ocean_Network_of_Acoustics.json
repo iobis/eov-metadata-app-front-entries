@@ -19,17 +19,23 @@
       "schema:foundingDate": "2006-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southern_Ocean_Network_of_Acoustics/Southern_Ocean_Network_of_Acoustics.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Southern_Ocean_Network_of_Acoustics/Southern_Ocean_Network_of_Acoustics.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         }
       ],
       "schema:funding": [
@@ -38,17 +44,24 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "sof@bas.ac.uk",
+          "schema:name": "Sophie Fielding"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southern_Ocean_Network_of_Acoustics/Southern_Ocean_Network_of_Acoustics.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Southern_Ocean_Network_of_Acoustics/Southern_Ocean_Network_of_Acoustics.json",
         "name": "Southern Ocean Network of Acoustics"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southern_Ocean_Network_of_Acoustics/Southern_Ocean_Network_of_Acoustics_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Southern_Ocean_Network_of_Acoustics/Southern_Ocean_Network_of_Acoustics.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

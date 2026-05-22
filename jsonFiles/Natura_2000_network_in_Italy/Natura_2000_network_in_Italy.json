@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natura_2000_network_in_Italy/Natura_2000_network_in_Italy.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Natura_2000_network_in_Italy/Natura_2000_network_in_Italy.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -39,17 +39,24 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "maria.defrancesco@unimol.it",
+          "schema:name": "Maria Carla de Francesco"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natura_2000_network_in_Italy/Natura_2000_network_in_Italy.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Natura_2000_network_in_Italy/Natura_2000_network_in_Italy.json",
         "name": "Natura 2000 network in Italy"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natura_2000_network_in_Italy/Natura_2000_network_in_Italy_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Natura_2000_network_in_Italy/Natura_2000_network_in_Italy.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

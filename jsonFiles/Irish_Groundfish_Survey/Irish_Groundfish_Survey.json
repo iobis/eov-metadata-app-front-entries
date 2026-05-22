@@ -33,9 +33,26 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Groundfish_Survey/Irish_Groundfish_Survey.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Groundfish_Survey/Irish_Groundfish_Survey.json",
       "schema:keywords": [
-        "ICES"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        }
       ],
       "schema:funding": [
         {
@@ -60,10 +77,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Groundfish_Survey/Irish_Groundfish_Survey.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Groundfish_Survey/Irish_Groundfish_Survey.json",
         "name": "Irish Groundfish Survey"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Groundfish_Survey/Irish_Groundfish_Survey_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Groundfish_Survey/Irish_Groundfish_Survey.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

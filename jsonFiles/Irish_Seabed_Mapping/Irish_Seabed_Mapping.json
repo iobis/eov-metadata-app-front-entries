@@ -33,7 +33,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Seabed_Mapping/Irish_Seabed_Mapping.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Seabed_Mapping/Irish_Seabed_Mapping.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -47,10 +47,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Seabed_Mapping/Irish_Seabed_Mapping.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Seabed_Mapping/Irish_Seabed_Mapping.json",
         "name": "Irish Seabed Mapping"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Seabed_Mapping/Irish_Seabed_Mapping_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Seabed_Mapping/Irish_Seabed_Mapping.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

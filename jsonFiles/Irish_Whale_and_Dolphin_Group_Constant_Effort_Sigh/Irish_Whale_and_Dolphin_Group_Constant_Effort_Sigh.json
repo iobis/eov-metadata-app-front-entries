@@ -21,12 +21,15 @@
       "schema:foundingDate": "2010-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -51,10 +54,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh.json",
         "name": "Irish Whale and Dolphin Group: Constant Effort Sightings Scheme"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

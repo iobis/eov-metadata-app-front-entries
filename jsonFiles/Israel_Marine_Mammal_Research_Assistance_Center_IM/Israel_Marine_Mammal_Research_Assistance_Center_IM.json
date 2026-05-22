@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Israel_Marine_Mammal_Research_Assistance_Center_IM/Israel_Marine_Mammal_Research_Assistance_Center_IM.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Israel_Marine_Mammal_Research_Assistance_Center_IM/Israel_Marine_Mammal_Research_Assistance_Center_IM.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -44,17 +44,23 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Dani Kerem"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Israel_Marine_Mammal_Research_Assistance_Center_IM/Israel_Marine_Mammal_Research_Assistance_Center_IM.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Israel_Marine_Mammal_Research_Assistance_Center_IM/Israel_Marine_Mammal_Research_Assistance_Center_IM.json",
         "name": "Israel Marine Mammal Research & Assistance Center (IMMRAC)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Israel_Marine_Mammal_Research_Assistance_Center_IM/Israel_Marine_Mammal_Research_Assistance_Center_IM_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Israel_Marine_Mammal_Research_Assistance_Center_IM/Israel_Marine_Mammal_Research_Assistance_Center_IM.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

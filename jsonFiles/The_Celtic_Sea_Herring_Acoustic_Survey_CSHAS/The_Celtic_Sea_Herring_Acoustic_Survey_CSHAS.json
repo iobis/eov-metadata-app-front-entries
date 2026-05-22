@@ -6,10 +6,7 @@
       "schema:name": "The Celtic Sea Herring Acoustic Survey (CSHAS)",
       "schema:url": "http://hdl.handle.net/10793/1732",
       "schema:description": "In the southwest of Ireland and the Celtic Sea (ICES Divisions 6.aS, 7.g and 7.j), herring (Clupea harengus) and sprat (Sprattus sprattus) are historically important commercial species. Other small pelagic fish species including, sardine (Sardinas pilchardus) and anchovy (Engraulis encrasicolus) are increasing in abundance in the Celtic Sea through north and westward stock expansion.  Small pelagic fish (SPF) serve as a key link between lower trophic levels (plankton) and higher trophic levels (predators) and are important indicator species in the Celtic Seas Ecoregion.\r\nThe Celtic Sea Pelagic Ecosystem survey (CSPES) reports on the relative abundance and biomass of herring, sprat, sardine and anchovy in the Celtic Sea and south Irish Sea using acoustic survey methods. The survey provides critical fisheries-independent data and, combined with information from commercial catch sampling, supports the assessment and management of pelagic fish stocks in the Celtic Sea.\r\nThe survey collects oceanographic data including, temperature and salinity to monitor conditions between years and to help describe the distribution of SPF. Zooplankton, an important food source for SPF in the area, are sampled to monitor distribution and composition and to provide ongoing information on the availability of food resources over time.  Apex predator abundance and distribution (Marine mammal and seabirds) is determined by means of visual surveys using observer effort.\r\nCombined, the survey provides an annual snapshot of conditions in the Celtic Seas Ecoregion providing important information on the oceanographic conditions, primary consumers (zooplankton availability), the biomass and abundance of SPF as secondary consumers and apex predators.\r\nSurvey design and geographical coverage have been modified over the time series (1989- present) to adapt to changes in stock dynamics, behaviour and distribution. Survey timing has been consistent since 2004, beginning in early October. During the period 2016-2023, the wider core distribution area was surveyed with two independent surveys, supplemented with small high resolution adaptive surveys. Historically, the survey has been conducted over 24 hours. However, in 2024, the survey was re-designed focusing on collecting acoustic data primarily during daylight hours to better include sprat, sardine and anchovy. The rationale for change was to provide closer methodological alignment with co-occurring surveys in area to allow co-assessment of the wider area. High resolution adaptive surveys remain an important element of the survey design.",
-      "schema:identifier": {
-        "schema:url": "",
-        "schema:description": ""
-      },
+      "schema:identifier": {},
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""
@@ -47,30 +44,68 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_Celtic_Sea_Herring_Acoustic_Survey_(CSHAS)/The_Celtic_Sea_Herring_Acoustic_Survey_(CSHAS).json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/The_Celtic_Sea_Herring_Acoustic_Survey_CSHAS/The_Celtic_Sea_Herring_Acoustic_Survey_CSHAS.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/document/17510"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
-          "schema:name": "Marine mammal abundance and distribution",
-          "schema:url": "https://goosocean.org/document/36266"
-        },
-        {
-          "@type": "schema:DefinedTerm",
-          "schema:name": "Seabirds abundance and distribution",
-          "schema:url": "https://goosocean.org/document/36267"
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
           "schema:url": [
-            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
             "https://goosocean.org/document/17509"
           ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance by size/age/stage",
+          "schema:url": "https://goosocean.org/eov/fish/abundance/by_size_age_stage"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish community composition",
+          "schema:url": "https://goosocean.org/eov/fish/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance",
+          "schema:url": "https://goosocean.org/eov/birds/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds distribution",
+          "schema:url": "https://goosocean.org/eov/birds/distribution"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance",
+          "schema:url": "https://goosocean.org/eov/mammals/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals distribution",
+          "schema:url": "https://goosocean.org/eov/mammals/distribution"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton community composition - community abundance",
+          "schema:url": "https://goosocean.org/eov/zooplankton/community_composition/abundance"
         },
         {
           "@type": "schema:DefinedTerm",
@@ -87,6 +122,22 @@
             "http://purl.obolibrary.org/obo/ENVO_04000002",
             "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
             "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
           ]
         }
       ],
@@ -106,21 +157,22 @@
       "schema:contactPoint": [
         {
           "@type": "schema:ContactPoint",
-          "schema:contactType": "Other",
-          "schema:name": "Ciaran Odonnell",
+          "schema:contactType": "General Inquiries",
           "schema:email": "ciaran.odonnell@marine.ie",
+          "schema:name": "Ciaran O'Donnell",
           "schema:url": ""
         }
-      ]
+      ],
+      "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "schema:agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_Celtic_Sea_Herring_Acoustic_Survey_(CSHAS)/The_Celtic_Sea_Herring_Acoustic_Survey_(CSHAS).json",
-        "schema:name": "The Celtic Sea Herring Acoustic Survey (CSHAS)"
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/The_Celtic_Sea_Herring_Acoustic_Survey_CSHAS/The_Celtic_Sea_Herring_Acoustic_Survey_CSHAS.json",
+        "name": "The Celtic Sea Herring Acoustic Survey (CSHAS)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_Celtic_Sea_Herring_Acoustic_Survey_(CSHAS)/The_Celtic_Sea_Herring_Acoustic_Survey_(CSHAS)_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/The_Celtic_Sea_Herring_Acoustic_Survey_CSHAS/The_Celtic_Sea_Herring_Acoustic_Survey_CSHAS.json",
       "schema:instrument": [],
       "schema:actionProcess": [],
       "schema:description": "annually"

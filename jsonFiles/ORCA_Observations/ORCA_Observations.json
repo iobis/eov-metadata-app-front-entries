@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ORCA_Observations/ORCA_Observations.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ORCA_Observations/ORCA_Observations.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -66,10 +66,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ORCA_Observations/ORCA_Observations.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ORCA_Observations/ORCA_Observations.json",
         "name": "ORCA Observations"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ORCA_Observations/ORCA_Observations_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ORCA_Observations/ORCA_Observations.json",
       "schema:description": "daily",
       "instrument": [],
       "actionProcess": []

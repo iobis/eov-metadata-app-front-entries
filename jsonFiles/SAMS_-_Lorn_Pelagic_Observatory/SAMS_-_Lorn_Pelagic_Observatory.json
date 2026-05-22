@@ -31,17 +31,23 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SAMS_-_Lorn_Pelagic_Observatory/SAMS_-_Lorn_Pelagic_Observatory.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SAMS_-_Lorn_Pelagic_Observatory/SAMS_-_Lorn_Pelagic_Observatory.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Microbe biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/microbes"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         }
       ],
       "schema:funding": [
@@ -50,7 +56,13 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Paul Tett"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -67,10 +79,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SAMS_-_Lorn_Pelagic_Observatory/SAMS_-_Lorn_Pelagic_Observatory.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SAMS_-_Lorn_Pelagic_Observatory/SAMS_-_Lorn_Pelagic_Observatory.json",
         "name": "SAMS - Lorn Pelagic Observatory"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SAMS_-_Lorn_Pelagic_Observatory/SAMS_-_Lorn_Pelagic_Observatory_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SAMS_-_Lorn_Pelagic_Observatory/SAMS_-_Lorn_Pelagic_Observatory.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

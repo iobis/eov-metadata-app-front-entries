@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -45,7 +45,14 @@
           "schema:category": "civil_society"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "rugvinfoundation@gmail.com",
+          "schema:name": "Frank Zanderink"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -62,10 +69,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste.json",
         "name": "Rugvin North Sea Cetacean monitoring programme, Stena Line ferries"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

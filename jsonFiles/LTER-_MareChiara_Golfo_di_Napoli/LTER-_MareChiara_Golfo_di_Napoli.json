@@ -33,9 +33,94 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER-_MareChiara_Golfo_di_Napoli/LTER-_MareChiara_Golfo_di_Napoli.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER-_MareChiara_Golfo_di_Napoli/LTER-_MareChiara_Golfo_di_Napoli.json",
       "schema:keywords": [
-        "LTER"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton pigment concentration by spectrophotometry",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/pigment_concentration"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Particulate matter",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0612/",
+            "https://goosocean.org/document/17477"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -43,17 +128,24 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "zingone@szn.it",
+          "schema:name": "Adriana Zingone"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER-_MareChiara_Golfo_di_Napoli/LTER-_MareChiara_Golfo_di_Napoli.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER-_MareChiara_Golfo_di_Napoli/LTER-_MareChiara_Golfo_di_Napoli.json",
         "name": "LTER- MareChiara, Golfo di Napoli"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER-_MareChiara_Golfo_di_Napoli/LTER-_MareChiara_Golfo_di_Napoli_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER-_MareChiara_Golfo_di_Napoli/LTER-_MareChiara_Golfo_di_Napoli.json",
       "schema:description": "daily",
       "instrument": [],
       "actionProcess": []

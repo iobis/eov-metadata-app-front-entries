@@ -33,11 +33,99 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re.json",
       "schema:keywords": [
-        "BLE LTER",
-        "Beaufort Sea coast",
-        "coastal ecosystems"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance",
+          "schema:url": "https://goosocean.org/eov/fish/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance",
+          "schema:url": "https://goosocean.org/eov/invertebrates/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe diversity",
+          "schema:url": "https://goosocean.org/eov/microbe/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Dissolved organic carbon",
+          "schema:url": [
+            "https://goosocean.org/document/17480"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Particulate matter",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0612/",
+            "https://goosocean.org/document/17477"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea ice",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_00002200",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV027/",
+            "https://goosocean.org/document/17464"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Stable carbon isotopes",
+          "schema:url": [
+            "https://goosocean.org/document/17479"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -45,17 +133,23 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Nathan McTigue"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re.json",
         "name": "Beaufort Lagoon Ecosystems Long Term Ecological Research"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re/Beaufort_Lagoon_Ecosystems_Long_Term_Ecological_Re.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

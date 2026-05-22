@@ -33,10 +33,16 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/National_Fisheries_Data_Collection_Program_-_Migra/National_Fisheries_Data_Collection_Program_-_Migra.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/National_Fisheries_Data_Collection_Program_-_Migra/National_Fisheries_Data_Collection_Program_-_Migra.json",
       "schema:keywords": [
-        "HELCOM",
-        "ICES"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -50,10 +56,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/National_Fisheries_Data_Collection_Program_-_Migra/National_Fisheries_Data_Collection_Program_-_Migra.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/National_Fisheries_Data_Collection_Program_-_Migra/National_Fisheries_Data_Collection_Program_-_Migra.json",
         "name": "National Fisheries Data Collection Program - Migratory fish"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/National_Fisheries_Data_Collection_Program_-_Migra/National_Fisheries_Data_Collection_Program_-_Migra_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/National_Fisheries_Data_Collection_Program_-_Migra/National_Fisheries_Data_Collection_Program_-_Migra.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

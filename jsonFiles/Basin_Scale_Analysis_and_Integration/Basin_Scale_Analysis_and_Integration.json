@@ -19,7 +19,7 @@
       "schema:foundingDate": "",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basin_Scale_Analysis_and_Integration/Basin_Scale_Analysis_and_Integration.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Basin_Scale_Analysis_and_Integration/Basin_Scale_Analysis_and_Integration.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -30,17 +30,24 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "mstjo@aqua.dtu.dk",
+          "schema:name": "Michael St. John"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basin_Scale_Analysis_and_Integration/Basin_Scale_Analysis_and_Integration.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Basin_Scale_Analysis_and_Integration/Basin_Scale_Analysis_and_Integration.json",
         "name": "Basin Scale Analysis and Integration"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basin_Scale_Analysis_and_Integration/Basin_Scale_Analysis_and_Integration_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Basin_Scale_Analysis_and_Integration/Basin_Scale_Analysis_and_Integration.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

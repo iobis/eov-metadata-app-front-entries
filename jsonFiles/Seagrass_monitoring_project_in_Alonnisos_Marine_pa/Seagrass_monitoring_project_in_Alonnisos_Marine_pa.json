@@ -19,12 +19,15 @@
       "schema:foundingDate": "2018-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Seagrass_monitoring_project_in_Alonnisos_Marine_pa/Seagrass_monitoring_project_in_Alonnisos_Marine_pa.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Seagrass_monitoring_project_in_Alonnisos_Marine_pa/Seagrass_monitoring_project_in_Alonnisos_Marine_pa.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Seagrass cover and composition",
-          "schema:url": "https://goosocean.org/eov/seagrass"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+            "https://goosocean.org/document/17513"
+          ]
         }
       ],
       "schema:funding": [
@@ -33,17 +36,23 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Dimitris Poursanidis"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Seagrass_monitoring_project_in_Alonnisos_Marine_pa/Seagrass_monitoring_project_in_Alonnisos_Marine_pa.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Seagrass_monitoring_project_in_Alonnisos_Marine_pa/Seagrass_monitoring_project_in_Alonnisos_Marine_pa.json",
         "name": "Seagrass monitoring project in Alonnisos Marine park"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Seagrass_monitoring_project_in_Alonnisos_Marine_pa/Seagrass_monitoring_project_in_Alonnisos_Marine_pa_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Seagrass_monitoring_project_in_Alonnisos_Marine_pa/Seagrass_monitoring_project_in_Alonnisos_Marine_pa.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

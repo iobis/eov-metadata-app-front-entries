@@ -33,7 +33,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Synoptic_Intertidal_Benthic_Survey_SIBES/Synoptic_Intertidal_Benthic_Survey_SIBES.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Synoptic_Intertidal_Benthic_Survey_SIBES/Synoptic_Intertidal_Benthic_Survey_SIBES.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -51,17 +51,23 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Allert Bijleveld"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Synoptic_Intertidal_Benthic_Survey_SIBES/Synoptic_Intertidal_Benthic_Survey_SIBES.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Synoptic_Intertidal_Benthic_Survey_SIBES/Synoptic_Intertidal_Benthic_Survey_SIBES.json",
         "name": "Synoptic Intertidal Benthic Survey (SIBES)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Synoptic_Intertidal_Benthic_Survey_SIBES/Synoptic_Intertidal_Benthic_Survey_SIBES_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Synoptic_Intertidal_Benthic_Survey_SIBES/Synoptic_Intertidal_Benthic_Survey_SIBES.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

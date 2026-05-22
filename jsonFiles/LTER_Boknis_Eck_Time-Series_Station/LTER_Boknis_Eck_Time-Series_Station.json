@@ -31,32 +31,46 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Boknis_Eck_Time-Series_Station/LTER_Boknis_Eck_Time-Series_Station.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER_Boknis_Eck_Time-Series_Station/LTER_Boknis_Eck_Time-Series_Station.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Microbe biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/microbes"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Dissolved organic carbon",
-          "schema:url": "https://goosocean.org/eov/dissolved_organic_carbon"
+          "schema:url": [
+            "https://goosocean.org/document/17480"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Inorganic carbon",
-          "schema:url": "https://goosocean.org/eov/inorganic_carbon"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV030/",
+            "https://goosocean.org/document/17475"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -66,27 +80,43 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Nutrients",
-          "schema:url": "https://goosocean.org/eov/nutrients"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface salinity",
-          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface temperature",
-          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface salinity",
-          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface temperature",
-          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
         }
       ],
       "schema:funding": [
@@ -98,17 +128,24 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "hbange@geomar.de",
+          "schema:name": "Hermann Bange"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Boknis_Eck_Time-Series_Station/LTER_Boknis_Eck_Time-Series_Station.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER_Boknis_Eck_Time-Series_Station/LTER_Boknis_Eck_Time-Series_Station.json",
         "name": "LTER Boknis Eck Time-Series Station"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Boknis_Eck_Time-Series_Station/LTER_Boknis_Eck_Time-Series_Station_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER_Boknis_Eck_Time-Series_Station/LTER_Boknis_Eck_Time-Series_Station.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

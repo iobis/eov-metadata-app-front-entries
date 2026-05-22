@@ -31,26 +31,36 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant.json",
       "schema:keywords": [
-        "ICES"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        }
       ],
       "schema:funding": [
         {
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Ian Salter"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant.json",
         "name": "Faroese Marine Ecosystem Monitoring - North Atlantic Sightings Surveys"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant/Faroese_Marine_Ecosystem_Monitoring_-_North_Atlant.json",
       "schema:description": "every_6_to_10_years",
       "instrument": [],
       "actionProcess": []

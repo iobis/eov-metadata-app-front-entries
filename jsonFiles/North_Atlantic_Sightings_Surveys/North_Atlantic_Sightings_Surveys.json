@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Atlantic_Sightings_Surveys/North_Atlantic_Sightings_Surveys.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/North_Atlantic_Sightings_Surveys/North_Atlantic_Sightings_Surveys.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -51,10 +51,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Atlantic_Sightings_Surveys/North_Atlantic_Sightings_Surveys.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/North_Atlantic_Sightings_Surveys/North_Atlantic_Sightings_Surveys.json",
         "name": "North Atlantic Sightings Surveys"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Atlantic_Sightings_Surveys/North_Atlantic_Sightings_Surveys_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/North_Atlantic_Sightings_Surveys/North_Atlantic_Sightings_Surveys.json",
       "schema:description": "every_6_to_10_years",
       "instrument": [],
       "actionProcess": []

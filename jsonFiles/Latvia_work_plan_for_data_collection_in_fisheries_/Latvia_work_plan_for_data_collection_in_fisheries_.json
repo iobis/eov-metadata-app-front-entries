@@ -31,9 +31,16 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Latvia_work_plan_for_data_collection_in_fisheries_/Latvia_work_plan_for_data_collection_in_fisheries_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Latvia_work_plan_for_data_collection_in_fisheries_/Latvia_work_plan_for_data_collection_in_fisheries_.json",
       "schema:keywords": [
-        "ICES"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -57,10 +64,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Latvia_work_plan_for_data_collection_in_fisheries_/Latvia_work_plan_for_data_collection_in_fisheries_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Latvia_work_plan_for_data_collection_in_fisheries_/Latvia_work_plan_for_data_collection_in_fisheries_.json",
         "name": "Latvia work plan for data collection in fisheries and aquaculture sectors"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Latvia_work_plan_for_data_collection_in_fisheries_/Latvia_work_plan_for_data_collection_in_fisheries__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Latvia_work_plan_for_data_collection_in_fisheries_/Latvia_work_plan_for_data_collection_in_fisheries_.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

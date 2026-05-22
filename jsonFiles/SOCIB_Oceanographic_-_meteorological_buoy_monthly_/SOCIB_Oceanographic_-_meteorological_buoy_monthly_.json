@@ -33,10 +33,91 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SOCIB_Oceanographic_-_meteorological_buoy_monthly_/SOCIB_Oceanographic_-_meteorological_buoy_monthly_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SOCIB_Oceanographic_-_meteorological_buoy_monthly_/SOCIB_Oceanographic_-_meteorological_buoy_monthly_.json",
       "schema:keywords": [
-        "Bay of Palma",
-        "Ibiza channel"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Particulate matter",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0612/",
+            "https://goosocean.org/document/17477"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface currents",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "https://goosocean.org/document/17469"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Surface currents",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_01000099",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV021/",
+            "https://goosocean.org/document/17468"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -48,7 +129,13 @@
           "schema:description": "The financial contributions for investments from the two institutional partners, the Spanish Ministry of Science and the Balearic Islands Government. CSIC through IMEDEA (CSIC-UIB), provides a significant in kind contribution to SOCIB."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "John Ellen"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -65,10 +152,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SOCIB_Oceanographic_-_meteorological_buoy_monthly_/SOCIB_Oceanographic_-_meteorological_buoy_monthly_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SOCIB_Oceanographic_-_meteorological_buoy_monthly_/SOCIB_Oceanographic_-_meteorological_buoy_monthly_.json",
         "name": "SOCIB Oceanographic - meteorological buoy monthly sampling"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SOCIB_Oceanographic_-_meteorological_buoy_monthly_/SOCIB_Oceanographic_-_meteorological_buoy_monthly__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SOCIB_Oceanographic_-_meteorological_buoy_monthly_/SOCIB_Oceanographic_-_meteorological_buoy_monthly_.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

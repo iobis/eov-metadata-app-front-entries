@@ -21,7 +21,7 @@
       "schema:foundingDate": "2001-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Ferry_Surveys/Irish_Whale_and_Dolphin_Group_Ferry_Surveys.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Ferry_Surveys/Irish_Whale_and_Dolphin_Group_Ferry_Surveys.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -41,10 +41,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Ferry_Surveys/Irish_Whale_and_Dolphin_Group_Ferry_Surveys.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Ferry_Surveys/Irish_Whale_and_Dolphin_Group_Ferry_Surveys.json",
         "name": "Irish Whale and Dolphin Group: Ferry Surveys"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Ferry_Surveys/Irish_Whale_and_Dolphin_Group_Ferry_Surveys_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Ferry_Surveys/Irish_Whale_and_Dolphin_Group_Ferry_Surveys.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

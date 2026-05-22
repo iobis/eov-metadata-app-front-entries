@@ -31,11 +31,21 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation_.json",
       "schema:keywords": [
-        "Climate Variability and Change",
-        "biodiversity",
-        "intertidal"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -44,17 +54,24 @@
           "schema:description": "Fundação Para a Ciência e a Tecnologia\r\nH2020"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "fplima@gmail.com",
+          "schema:name": "Fernando Lima"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation_.json",
         "name": "European Temperature and Biodiversity Observation Network"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation_.json",
       "schema:description": "every_6_to_10_years",
       "instrument": [],
       "actionProcess": []

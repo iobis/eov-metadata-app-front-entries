@@ -19,7 +19,7 @@
       "schema:foundingDate": "1969-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/USGS_Research_on_San_Francisco_Bay/USGS_Research_on_San_Francisco_Bay.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/USGS_Research_on_San_Francisco_Bay/USGS_Research_on_San_Francisco_Bay.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -27,17 +27,23 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "erica Nejad"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/USGS_Research_on_San_Francisco_Bay/USGS_Research_on_San_Francisco_Bay.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/USGS_Research_on_San_Francisco_Bay/USGS_Research_on_San_Francisco_Bay.json",
         "name": "USGS Research on San Francisco Bay"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/USGS_Research_on_San_Francisco_Bay/USGS_Research_on_San_Francisco_Bay_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/USGS_Research_on_San_Francisco_Bay/USGS_Research_on_San_Francisco_Bay.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

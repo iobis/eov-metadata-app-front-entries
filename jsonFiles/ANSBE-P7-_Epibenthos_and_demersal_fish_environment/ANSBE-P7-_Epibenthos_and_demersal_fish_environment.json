@@ -31,12 +31,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P7-_Epibenthos_and_demersal_fish_environment/ANSBE-P7-_Epibenthos_and_demersal_fish_environment.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ANSBE-P7-_Epibenthos_and_demersal_fish_environment/ANSBE-P7-_Epibenthos_and_demersal_fish_environment.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -71,22 +74,35 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface salinity",
-          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface temperature",
-          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface salinity",
-          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface temperature",
-          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
         }
       ],
       "schema:funding": [
@@ -94,17 +110,23 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Gert Van Hoey"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P7-_Epibenthos_and_demersal_fish_environment/ANSBE-P7-_Epibenthos_and_demersal_fish_environment.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ANSBE-P7-_Epibenthos_and_demersal_fish_environment/ANSBE-P7-_Epibenthos_and_demersal_fish_environment.json",
         "name": "ANSBE-P7- Epibenthos and demersal fish environmental impact monitoring programme"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P7-_Epibenthos_and_demersal_fish_environment/ANSBE-P7-_Epibenthos_and_demersal_fish_environment_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ANSBE-P7-_Epibenthos_and_demersal_fish_environment/ANSBE-P7-_Epibenthos_and_demersal_fish_environment.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

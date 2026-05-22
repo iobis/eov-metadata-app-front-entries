@@ -31,12 +31,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coral_reef_fishes_invertebrates_seagrass_and_suppo/Coral_reef_fishes_invertebrates_seagrass_and_suppo.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Coral_reef_fishes_invertebrates_seagrass_and_suppo/Coral_reef_fishes_invertebrates_seagrass_and_suppo.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -51,22 +54,34 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Macroalgal canopy cover and composition",
-          "schema:url": "https://goosocean.org/eov/macroalgae"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Seagrass cover and composition",
-          "schema:url": "https://goosocean.org/eov/seagrass"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+            "https://goosocean.org/document/17513"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         }
       ],
       "schema:funding": [
@@ -75,17 +90,24 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "maxp@fisheries.gov.ki",
+          "schema:name": "Max Peter"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coral_reef_fishes_invertebrates_seagrass_and_suppo/Coral_reef_fishes_invertebrates_seagrass_and_suppo.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Coral_reef_fishes_invertebrates_seagrass_and_suppo/Coral_reef_fishes_invertebrates_seagrass_and_suppo.json",
         "name": "Coral, reef fishes, invertebrates, seagrass and supporting variables monitoring program"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coral_reef_fishes_invertebrates_seagrass_and_suppo/Coral_reef_fishes_invertebrates_seagrass_and_suppo_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Coral_reef_fishes_invertebrates_seagrass_and_suppo/Coral_reef_fishes_invertebrates_seagrass_and_suppo.json",
       "schema:description": "every_2_to_5_years",
       "instrument": [],
       "actionProcess": []

@@ -21,10 +21,93 @@
       "schema:foundingDate": "1972-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_White_tailed_/Finland_s_Marine_Strategy_Monitoring_White_tailed_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_White_tailed_/Finland_s_Marine_Strategy_Monitoring_White_tailed_.json",
       "schema:keywords": [
-        "HELCOM",
-        "ICES"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Dissolved organic carbon",
+          "schema:url": [
+            "https://goosocean.org/document/17480"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Inorganic carbon",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV030/",
+            "https://goosocean.org/document/17475"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Particulate matter",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0612/",
+            "https://goosocean.org/document/17477"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface height",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_01001377",
+            "https://goosocean.org/document/17465"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -38,10 +121,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_White_tailed_/Finland_s_Marine_Strategy_Monitoring_White_tailed_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_White_tailed_/Finland_s_Marine_Strategy_Monitoring_White_tailed_.json",
         "name": "Finland's Marine Strategy Monitoring: White tailed eagle breeding success"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_White_tailed_/Finland_s_Marine_Strategy_Monitoring_White_tailed__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_White_tailed_/Finland_s_Marine_Strategy_Monitoring_White_tailed_.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

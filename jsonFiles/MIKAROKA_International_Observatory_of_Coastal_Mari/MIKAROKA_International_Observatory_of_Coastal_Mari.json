@@ -19,7 +19,7 @@
       "schema:foundingDate": "2020-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MIKAROKA_International_Observatory_of_Coastal_Mari/MIKAROKA_International_Observatory_of_Coastal_Mari.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/MIKAROKA_International_Observatory_of_Coastal_Mari/MIKAROKA_International_Observatory_of_Coastal_Mari.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -29,7 +29,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -44,7 +47,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Microbe biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/microbes"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
         }
       ],
       "schema:funding": [
@@ -53,17 +59,23 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Dominique Ponton"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MIKAROKA_International_Observatory_of_Coastal_Mari/MIKAROKA_International_Observatory_of_Coastal_Mari.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/MIKAROKA_International_Observatory_of_Coastal_Mari/MIKAROKA_International_Observatory_of_Coastal_Mari.json",
         "name": "MIKAROKA (International Observatory of Coastal Marine Biodiversity and Uses in Madagascar)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MIKAROKA_International_Observatory_of_Coastal_Mari/MIKAROKA_International_Observatory_of_Coastal_Mari_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/MIKAROKA_International_Observatory_of_Coastal_Mari/MIKAROKA_International_Observatory_of_Coastal_Mari.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

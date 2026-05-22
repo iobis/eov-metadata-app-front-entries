@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Acoustic_Recordings_of_Fish_Spawning_Aggregations/Acoustic_Recordings_of_Fish_Spawning_Aggregations.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Acoustic_Recordings_of_Fish_Spawning_Aggregations/Acoustic_Recordings_of_Fish_Spawning_Aggregations.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -42,17 +42,24 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "michelle.scharer@upr.edu",
+          "schema:name": "Michelle Schärer"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Acoustic_Recordings_of_Fish_Spawning_Aggregations/Acoustic_Recordings_of_Fish_Spawning_Aggregations.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Acoustic_Recordings_of_Fish_Spawning_Aggregations/Acoustic_Recordings_of_Fish_Spawning_Aggregations.json",
         "name": "Acoustic Recordings of Fish Spawning Aggregations"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Acoustic_Recordings_of_Fish_Spawning_Aggregations/Acoustic_Recordings_of_Fish_Spawning_Aggregations_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Acoustic_Recordings_of_Fish_Spawning_Aggregations/Acoustic_Recordings_of_Fish_Spawning_Aggregations.json",
       "schema:description": "sub_daily",
       "instrument": [],
       "actionProcess": []

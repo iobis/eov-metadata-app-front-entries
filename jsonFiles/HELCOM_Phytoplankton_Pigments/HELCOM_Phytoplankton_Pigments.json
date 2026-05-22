@@ -33,9 +33,21 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/HELCOM_Phytoplankton_Pigments/HELCOM_Phytoplankton_Pigments.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/HELCOM_Phytoplankton_Pigments/HELCOM_Phytoplankton_Pigments.json",
       "schema:keywords": [
-        "HELCOM"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton pigment concentration by spectrophotometry",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/pigment_concentration"
+        }
       ],
       "schema:funding": [
         {
@@ -59,10 +71,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/HELCOM_Phytoplankton_Pigments/HELCOM_Phytoplankton_Pigments.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/HELCOM_Phytoplankton_Pigments/HELCOM_Phytoplankton_Pigments.json",
         "name": "HELCOM Phytoplankton Pigments"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/HELCOM_Phytoplankton_Pigments/HELCOM_Phytoplankton_Pigments_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/HELCOM_Phytoplankton_Pigments/HELCOM_Phytoplankton_Pigments.json",
       "schema:description": "sub_daily",
       "instrument": [],
       "actionProcess": []

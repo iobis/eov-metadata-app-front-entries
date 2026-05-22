@@ -33,9 +33,13 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/HELCOM_Seal_abundance/HELCOM_Seal_abundance.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/HELCOM_Seal_abundance/HELCOM_Seal_abundance.json",
       "schema:keywords": [
-        "HELCOM"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        }
       ],
       "schema:funding": [
         {
@@ -59,10 +63,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/HELCOM_Seal_abundance/HELCOM_Seal_abundance.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/HELCOM_Seal_abundance/HELCOM_Seal_abundance.json",
         "name": "HELCOM Seal abundance"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/HELCOM_Seal_abundance/HELCOM_Seal_abundance_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/HELCOM_Seal_abundance/HELCOM_Seal_abundance.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

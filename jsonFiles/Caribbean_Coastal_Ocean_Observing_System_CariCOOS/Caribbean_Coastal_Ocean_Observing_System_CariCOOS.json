@@ -31,12 +31,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Caribbean_Coastal_Ocean_Observing_System_CariCOOS/Caribbean_Coastal_Ocean_Observing_System_CariCOOS.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Caribbean_Coastal_Ocean_Observing_System_CariCOOS/Caribbean_Coastal_Ocean_Observing_System_CariCOOS.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -86,7 +89,14 @@
           "schema:description": "The PRCRMP and TCRMP databases were made possible with financial support from the National Oceanic and Atmospheric Administration Coral Reef Conservation Program, the Puerto Rico Department of Natural and Environmental Resources, the University of Puerto Rico Department of Marine Sciences, the USVI Department of Planning and Natural Resources, the VI NSF-Experimental Program to Stimulate Competitive Research (EPSCoR), NOAA National Marine Fisheries, NOAA’s Integrated Ocean Observing System, and the Caribbean Coastal and Ocean Observing System."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "mfiguerolahernandez@gmail.com",
+          "schema:name": "Miguel Figuerola"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -112,10 +122,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Caribbean_Coastal_Ocean_Observing_System_CariCOOS/Caribbean_Coastal_Ocean_Observing_System_CariCOOS.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Caribbean_Coastal_Ocean_Observing_System_CariCOOS/Caribbean_Coastal_Ocean_Observing_System_CariCOOS.json",
         "name": "Caribbean Coastal Ocean Observing System (CariCOOS)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Caribbean_Coastal_Ocean_Observing_System_CariCOOS/Caribbean_Coastal_Ocean_Observing_System_CariCOOS_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Caribbean_Coastal_Ocean_Observing_System_CariCOOS/Caribbean_Coastal_Ocean_Observing_System_CariCOOS.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

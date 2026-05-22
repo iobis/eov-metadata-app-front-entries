@@ -33,11 +33,43 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S.json",
       "schema:keywords": [
-        "Polar",
-        "Southern Ocean",
-        "antarctic"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton abundance",
+          "schema:url": "https://goosocean.org/eov/zooplankton/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -48,7 +80,13 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Dave Connell"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -65,10 +103,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S.json",
         "name": "SCAR Southern Ocean Continuous Plankton Recorder Survey"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S/SCAR_Southern_Ocean_Continuous_Plankton_Recorder_S.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

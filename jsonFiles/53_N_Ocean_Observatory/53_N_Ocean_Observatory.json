@@ -19,62 +19,97 @@
       "schema:foundingDate": "1997-07-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Nutrients",
-          "schema:url": "https://goosocean.org/eov/nutrients"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Ocean sound",
-          "schema:url": "https://goosocean.org/eov/ocean_sound"
+          "schema:url": [
+            "https://goosocean.org/document/22567"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Oxygen",
-          "schema:url": "https://goosocean.org/eov/oxygen"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface salinity",
-          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface temperature",
-          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface currents",
-          "schema:url": "https://goosocean.org/eov/subsurface_currents"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "https://goosocean.org/document/17469"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface salinity",
-          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface temperature",
-          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Surface currents",
-          "schema:url": "https://goosocean.org/eov/surface_currents"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_01000099",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV021/",
+            "https://goosocean.org/document/17468"
+          ]
         }
       ],
       "schema:funding": [
@@ -84,17 +119,24 @@
           "schema:description": "Various Projects"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "Jkarstensen@geomar.de",
+          "schema:name": "Johannes Karstensen"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory.json",
         "name": "53°N Ocean Observatory"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory.json",
       "schema:description": "every_2_to_5_years",
       "instrument": [],
       "actionProcess": []

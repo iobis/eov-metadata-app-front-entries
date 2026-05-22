@@ -31,11 +31,30 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Cetacean_passive_acoustic_network/Cetacean_passive_acoustic_network.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Cetacean_passive_acoustic_network/Cetacean_passive_acoustic_network.json",
       "schema:keywords": [
-        "Harbour porpoises",
-        "VLIZ",
-        "lifewatch"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals distribution",
+          "schema:url": "https://goosocean.org/eov/mammals/distribution"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals ecosystem functioning - ecosystem disturbances",
+          "schema:url": "https://goosocean.org/eov/mammals/ecosystem_functioning/ecosystem_disturbances"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Ocean sound",
+          "schema:url": [
+            "https://goosocean.org/document/22567"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -44,7 +63,13 @@
           "schema:description": "This work makes use of data and infrastructure provided by the VLIZ and funded by the Research Foundation—Flanders (FWO) as part of the Belgian contribution to the LifeWatch European Research Infrastructure (I000819N-LIFEWATCH and I002021N-LIFEWATCH)"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Elisabeth Debusschere"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -88,10 +113,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Cetacean_passive_acoustic_network/Cetacean_passive_acoustic_network.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Cetacean_passive_acoustic_network/Cetacean_passive_acoustic_network.json",
         "name": "Cetacean passive acoustic network"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Cetacean_passive_acoustic_network/Cetacean_passive_acoustic_network_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Cetacean_passive_acoustic_network/Cetacean_passive_acoustic_network.json",
       "schema:description": "sub_daily",
       "instrument": [],
       "actionProcess": []

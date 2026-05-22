@@ -31,12 +31,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -64,17 +67,23 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Els Torreele"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog.json",
         "name": "ANSBE-P11-Fisheries-dependent observer-at-sea programme - Common Fisheries Policy"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog/ANSBE-P11-Fisheries-dependent_observer-at-sea_prog.json",
       "schema:description": "sub_daily",
       "instrument": [],
       "actionProcess": []

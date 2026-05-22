@@ -19,12 +19,15 @@
       "schema:foundingDate": "2002-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -39,7 +42,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Macroalgal canopy cover and composition",
-          "schema:url": "https://goosocean.org/eov/macroalgae"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -49,7 +55,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Seagrass cover and composition",
-          "schema:url": "https://goosocean.org/eov/seagrass"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+            "https://goosocean.org/document/17513"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -66,17 +75,24 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "hbarriosg@gmail.com",
+          "schema:name": "Hector Barrios-Garrido"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru.json",
         "name": "Maracaibo Lake System: aquatic ecology unit (LUZ); Grupo de Trabajo en Tortugas Marinas del Golfo de Venezuela (GTTM-GV)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru/Maracaibo_Lake_System_aquatic_ecology_unit_LUZ_Gru.json",
       "schema:description": "quarterly",
       "instrument": [],
       "actionProcess": []

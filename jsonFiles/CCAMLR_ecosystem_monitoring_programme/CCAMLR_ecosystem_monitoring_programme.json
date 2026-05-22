@@ -19,7 +19,7 @@
       "schema:foundingDate": "",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CCAMLR_ecosystem_monitoring_programme/CCAMLR_ecosystem_monitoring_programme.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/CCAMLR_ecosystem_monitoring_programme/CCAMLR_ecosystem_monitoring_programme.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -34,7 +34,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         }
       ],
       "schema:funding": [
@@ -43,17 +46,23 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Daphnis Depooter"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CCAMLR_ecosystem_monitoring_programme/CCAMLR_ecosystem_monitoring_programme.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/CCAMLR_ecosystem_monitoring_programme/CCAMLR_ecosystem_monitoring_programme.json",
         "name": "CCAMLR ecosystem monitoring programme"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CCAMLR_ecosystem_monitoring_programme/CCAMLR_ecosystem_monitoring_programme_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/CCAMLR_ecosystem_monitoring_programme/CCAMLR_ecosystem_monitoring_programme.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Atlantic_Shelf_Break_Acoustic_Monitoring/Atlantic_Shelf_Break_Acoustic_Monitoring.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Atlantic_Shelf_Break_Acoustic_Monitoring/Atlantic_Shelf_Break_Acoustic_Monitoring.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -39,17 +39,24 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "sofie.vanparijs@noaa.gov",
+          "schema:name": "Sofie Van Parijs"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Atlantic_Shelf_Break_Acoustic_Monitoring/Atlantic_Shelf_Break_Acoustic_Monitoring.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Atlantic_Shelf_Break_Acoustic_Monitoring/Atlantic_Shelf_Break_Acoustic_Monitoring.json",
         "name": "Atlantic Shelf Break Acoustic Monitoring"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Atlantic_Shelf_Break_Acoustic_Monitoring/Atlantic_Shelf_Break_Acoustic_Monitoring_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Atlantic_Shelf_Break_Acoustic_Monitoring/Atlantic_Shelf_Break_Acoustic_Monitoring.json",
       "schema:description": "every_2_to_5_years",
       "instrument": [],
       "actionProcess": []

@@ -19,7 +19,7 @@
       "schema:foundingDate": "2015-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/University_of_Toronto_Laura_Brown/University_of_Toronto_Laura_Brown.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/University_of_Toronto_Laura_Brown/University_of_Toronto_Laura_Brown.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -34,10 +34,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/University_of_Toronto_Laura_Brown/University_of_Toronto_Laura_Brown.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/University_of_Toronto_Laura_Brown/University_of_Toronto_Laura_Brown.json",
         "name": "University of Toronto Laura Brown"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/University_of_Toronto_Laura_Brown/University_of_Toronto_Laura_Brown_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/University_of_Toronto_Laura_Brown/University_of_Toronto_Laura_Brown.json",
       "schema:description": "twice_per_year",
       "instrument": [],
       "actionProcess": []

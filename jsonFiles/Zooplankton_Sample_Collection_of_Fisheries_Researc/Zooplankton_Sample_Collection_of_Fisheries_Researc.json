@@ -31,9 +31,16 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Zooplankton_Sample_Collection_of_Fisheries_Researc/Zooplankton_Sample_Collection_of_Fisheries_Researc.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Zooplankton_Sample_Collection_of_Fisheries_Researc/Zooplankton_Sample_Collection_of_Fisheries_Researc.json",
       "schema:keywords": [
-        "North Pacific Ocean"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -41,17 +48,24 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "den@affrc.go.jp",
+          "schema:name": "Kazuaki Tadokoro"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Zooplankton_Sample_Collection_of_Fisheries_Researc/Zooplankton_Sample_Collection_of_Fisheries_Researc.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Zooplankton_Sample_Collection_of_Fisheries_Researc/Zooplankton_Sample_Collection_of_Fisheries_Researc.json",
         "name": "Zooplankton Sample Collection of Fisheries Research Agency"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Zooplankton_Sample_Collection_of_Fisheries_Researc/Zooplankton_Sample_Collection_of_Fisheries_Researc_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Zooplankton_Sample_Collection_of_Fisheries_Researc/Zooplankton_Sample_Collection_of_Fisheries_Researc.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

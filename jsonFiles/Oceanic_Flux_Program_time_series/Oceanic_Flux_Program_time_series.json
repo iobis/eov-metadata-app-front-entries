@@ -19,7 +19,7 @@
       "schema:foundingDate": "1978-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Oceanic_Flux_Program_time_series/Oceanic_Flux_Program_time_series.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Oceanic_Flux_Program_time_series/Oceanic_Flux_Program_time_series.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -27,17 +27,24 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "maureen.conte@bios.edu",
+          "schema:name": "Maureen Conte"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Oceanic_Flux_Program_time_series/Oceanic_Flux_Program_time_series.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Oceanic_Flux_Program_time_series/Oceanic_Flux_Program_time_series.json",
         "name": "Oceanic Flux Program time series"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Oceanic_Flux_Program_time_series/Oceanic_Flux_Program_time_series_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Oceanic_Flux_Program_time_series/Oceanic_Flux_Program_time_series.json",
       "schema:description": "daily",
       "instrument": [],
       "actionProcess": []

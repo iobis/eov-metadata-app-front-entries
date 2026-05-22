@@ -53,7 +53,7 @@
                     }
                 }
             ],
-            "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Example/Test_Example.json",
+            "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Test_Example/Test_Example.json",
             "schema:keywords": [
                 {
                     "schema:identifier": "http://purl.obolibrary.org/obo/ENVO_00000150",
@@ -151,12 +151,12 @@
             "@type": "schema:Action",
             "schema:agent": {
                 "@type": "schema:ResearchProject",
-                "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Example/Test_Example.json",
-                "schema:name": "Example Monitoring Organization TEST UPDATING"
+                "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Test_Example/Test_Example.json",
+                "name": "Example Monitoring Organization"
             },
-            "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Example/Test_Example_actions.json",
-            "schema:instrument": [],
-            "schema:actionProcess": []
+            "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Test_Example/Test_Example.json",
+            "instrument": [],
+            "actionProcess": []
         },
         {
             "schema:frequency": "unknown"

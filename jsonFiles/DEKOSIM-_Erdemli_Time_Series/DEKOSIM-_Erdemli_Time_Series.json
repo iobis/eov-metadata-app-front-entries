@@ -19,12 +19,15 @@
       "schema:foundingDate": "1997-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DEKOSIM-_Erdemli_Time_Series/DEKOSIM-_Erdemli_Time_Series.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/DEKOSIM-_Erdemli_Time_Series/DEKOSIM-_Erdemli_Time_Series.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -34,12 +37,18 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Macroalgal canopy cover and composition",
-          "schema:url": "https://goosocean.org/eov/macroalgae"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Seagrass cover and composition",
-          "schema:url": "https://goosocean.org/eov/seagrass"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+            "https://goosocean.org/document/17513"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -49,7 +58,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         }
       ],
       "schema:funding": [
@@ -64,10 +76,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DEKOSIM-_Erdemli_Time_Series/DEKOSIM-_Erdemli_Time_Series.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/DEKOSIM-_Erdemli_Time_Series/DEKOSIM-_Erdemli_Time_Series.json",
         "name": "DEKOSIM- Erdemli Time Series"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DEKOSIM-_Erdemli_Time_Series/DEKOSIM-_Erdemli_Time_Series_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/DEKOSIM-_Erdemli_Time_Series/DEKOSIM-_Erdemli_Time_Series.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

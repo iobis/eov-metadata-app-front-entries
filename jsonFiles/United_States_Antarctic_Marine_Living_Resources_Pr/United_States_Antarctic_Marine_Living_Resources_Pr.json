@@ -19,7 +19,7 @@
       "schema:foundingDate": "1988-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/United_States_Antarctic_Marine_Living_Resources_Pr/United_States_Antarctic_Marine_Living_Resources_Pr.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/United_States_Antarctic_Marine_Living_Resources_Pr/United_States_Antarctic_Marine_Living_Resources_Pr.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -29,7 +29,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -44,12 +47,18 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         }
       ],
       "schema:funding": [
@@ -57,17 +66,23 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "George Watters"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/United_States_Antarctic_Marine_Living_Resources_Pr/United_States_Antarctic_Marine_Living_Resources_Pr.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/United_States_Antarctic_Marine_Living_Resources_Pr/United_States_Antarctic_Marine_Living_Resources_Pr.json",
         "name": "United States Antarctic Marine Living Resources Program"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/United_States_Antarctic_Marine_Living_Resources_Pr/United_States_Antarctic_Marine_Living_Resources_Pr_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/United_States_Antarctic_Marine_Living_Resources_Pr/United_States_Antarctic_Marine_Living_Resources_Pr.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

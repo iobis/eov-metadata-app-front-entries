@@ -31,14 +31,125 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Cudillero_Station_E2CU/RADIALES_Cudillero_Station_E2CU.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/RADIALES_Cudillero_Station_E2CU/RADIALES_Cudillero_Station_E2CU.json",
       "schema:keywords": [
-        "Climate Variability and Change",
-        "Ecosystems",
-        "ocean dynamics",
-        "phytoplankton",
-        "time series",
-        "zooplankton"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass",
+          "schema:url": "https://goosocean.org/eov/microbe/biomass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe community composition",
+          "schema:url": "https://goosocean.org/eov/microbe/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton community composition",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton in vitro/in vivo pigment fluorescence",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/pigment_fluorescence"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton abundance",
+          "schema:url": "https://goosocean.org/eov/zooplankton/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass",
+          "schema:url": "https://goosocean.org/eov/zooplankton/biomass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton community composition",
+          "schema:url": "https://goosocean.org/eov/zooplankton/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface currents",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "https://goosocean.org/document/17469"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -47,7 +158,13 @@
           "schema:description": "RADCAN long-term ecosystem research project is funded by the Spanish Institute of Oceanography. It allows the development of other projects with short-term objectives (financed with external funding) using as base its sampling, analysis and database infrastructure. Besides, the information derived from the project will continue to contribute to the ocean ecosystem monitoring required by the application of various environmental management policies, especially those related to the EU Marine Strategy Framework Directive (MSFD)."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Raquel Somavilla"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -91,10 +208,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Cudillero_Station_E2CU/RADIALES_Cudillero_Station_E2CU.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/RADIALES_Cudillero_Station_E2CU/RADIALES_Cudillero_Station_E2CU.json",
         "name": "RADIALES Cudillero Station E2CU"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Cudillero_Station_E2CU/RADIALES_Cudillero_Station_E2CU_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/RADIALES_Cudillero_Station_E2CU/RADIALES_Cudillero_Station_E2CU.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

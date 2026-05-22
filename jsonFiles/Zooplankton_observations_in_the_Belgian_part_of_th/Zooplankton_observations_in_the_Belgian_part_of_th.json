@@ -33,11 +33,16 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Zooplankton_observations_in_the_Belgian_part_of_th/Zooplankton_observations_in_the_Belgian_part_of_th.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Zooplankton_observations_in_the_Belgian_part_of_th/Zooplankton_observations_in_the_Belgian_part_of_th.json",
       "schema:keywords": [
-        "belgium",
-        "lifewatch",
-        "zooplankton"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -45,7 +50,13 @@
           "schema:description": "This work makes use of data and infrastructure provided by the VLIZ and funded by the Research Foundation—Flanders (FWO) as part of the Belgian contribution to the LifeWatch European Research Infrastructure (I000819N-LIFEWATCH and I002021N-LIFEWATCH)"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Jonas Mortelmans"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -80,10 +91,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Zooplankton_observations_in_the_Belgian_part_of_th/Zooplankton_observations_in_the_Belgian_part_of_th.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Zooplankton_observations_in_the_Belgian_part_of_th/Zooplankton_observations_in_the_Belgian_part_of_th.json",
         "name": "Zooplankton observations in the Belgian part of the North Sea - LifeWatch observatory data"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Zooplankton_observations_in_the_Belgian_part_of_th/Zooplankton_observations_in_the_Belgian_part_of_th_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Zooplankton_observations_in_the_Belgian_part_of_th/Zooplankton_observations_in_the_Belgian_part_of_th.json",
       "schema:description": "twice_per_year",
       "instrument": [],
       "actionProcess": []

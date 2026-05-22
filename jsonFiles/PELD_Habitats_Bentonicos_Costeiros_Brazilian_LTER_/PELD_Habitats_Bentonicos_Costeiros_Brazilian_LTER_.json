@@ -21,11 +21,82 @@
       "schema:foundingDate": "2017-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_.json",
       "schema:keywords": [
-        "Southwestern Atlantic",
-        "coastal ecosystems",
-        "time series"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Mangrove cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV066/",
+            "https://goosocean.org/document/17514"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance",
+          "schema:url": "https://goosocean.org/eov/invertebrates/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition - community abundance",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates/distribution"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate ecosystem functioning",
+          "schema:url": "https://goosocean.org/eov/invertebrates/ecosystem_functioning"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate genetic composition",
+          "schema:url": "https://goosocean.org/eov/invertebrates/genetic_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae community composition - community abundance",
+          "schema:url": "https://goosocean.org/eov/macroalgae/community_composition/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae diversity",
+          "schema:url": "https://goosocean.org/eov/macroalgae/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae ecosystem structure - live cover fraction",
+          "schema:url": "https://goosocean.org/eov/macroalgae/ecosystem_structure/live_cover_fraction"
+        }
       ],
       "schema:funding": [
         {
@@ -37,7 +108,13 @@
           "schema:description": "Funded by CNPQ (The Brazilian National Council for Scientific and Technological Development), CAPES (The Brazilian Coordination for the Improvement of Higher Education Personnel), and FAPES (Foundation for Support to Research and Innovation of Espírito Santo)."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Angelo Bernardino"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -54,10 +131,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_.json",
         "name": "PELD Habitats Bentonicos Costeiros/Brazilian LTER/PELD CNPq"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

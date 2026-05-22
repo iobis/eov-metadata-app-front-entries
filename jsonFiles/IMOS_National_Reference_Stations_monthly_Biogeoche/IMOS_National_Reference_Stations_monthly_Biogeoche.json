@@ -33,27 +33,39 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Microbe biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/microbes"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -68,42 +80,69 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Nutrients",
-          "schema:url": "https://goosocean.org/eov/nutrients"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV029/",
+            "https://goosocean.org/document/17474"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Oxygen",
-          "schema:url": "https://goosocean.org/eov/oxygen"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface salinity",
-          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface temperature",
-          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface currents",
-          "schema:url": "https://goosocean.org/eov/subsurface_currents"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV022/",
+            "https://goosocean.org/document/17469"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface salinity",
-          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface temperature",
-          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Surface currents",
-          "schema:url": "https://goosocean.org/eov/surface_currents"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_01000099",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV021/",
+            "https://goosocean.org/document/17468"
+          ]
         }
       ],
       "schema:funding": [
@@ -116,17 +155,24 @@
           "schema:description": "Data was sourced from Australia’s Integrated Marine Observing System (IMOS) – IMOS is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS). It is operated by a consortium of institutions as an unincorporated joint venture, with the University of Tasmania as Lead Agent."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "claire.davies@csiro.au",
+          "schema:name": "claire davies"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche.json",
         "name": "IMOS National Reference Stations monthly Biogeochemical sampling"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

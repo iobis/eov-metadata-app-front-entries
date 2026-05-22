@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Helgoland_Roads_Sylt_Roads/Helgoland_Roads_Sylt_Roads.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Helgoland_Roads_Sylt_Roads/Helgoland_Roads_Sylt_Roads.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -39,17 +39,24 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "Karen.Wiltshire@awi.de",
+          "schema:name": "Karen Wiltshire"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Helgoland_Roads_Sylt_Roads/Helgoland_Roads_Sylt_Roads.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Helgoland_Roads_Sylt_Roads/Helgoland_Roads_Sylt_Roads.json",
         "name": "Helgoland Roads & Sylt Roads"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Helgoland_Roads_Sylt_Roads/Helgoland_Roads_Sylt_Roads_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Helgoland_Roads_Sylt_Roads/Helgoland_Roads_Sylt_Roads.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

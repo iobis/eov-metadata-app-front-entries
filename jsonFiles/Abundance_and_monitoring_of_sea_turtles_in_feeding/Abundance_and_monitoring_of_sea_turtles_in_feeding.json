@@ -31,12 +31,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Abundance_and_monitoring_of_sea_turtles_in_feeding/Abundance_and_monitoring_of_sea_turtles_in_feeding.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Abundance_and_monitoring_of_sea_turtles_in_feeding/Abundance_and_monitoring_of_sea_turtles_in_feeding.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Seagrass cover and composition",
-          "schema:url": "https://goosocean.org/eov/seagrass"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+            "https://goosocean.org/document/17513"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -50,17 +53,24 @@
           "schema:category": "other"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "evastropic@wanadoo.fr",
+          "schema:name": "Caroline RINALDI"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Abundance_and_monitoring_of_sea_turtles_in_feeding/Abundance_and_monitoring_of_sea_turtles_in_feeding.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Abundance_and_monitoring_of_sea_turtles_in_feeding/Abundance_and_monitoring_of_sea_turtles_in_feeding.json",
         "name": "Abundance and monitoring of sea turtles in feeding grounds of Guadeloupe FWI"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Abundance_and_monitoring_of_sea_turtles_in_feeding/Abundance_and_monitoring_of_sea_turtles_in_feeding_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Abundance_and_monitoring_of_sea_turtles_in_feeding/Abundance_and_monitoring_of_sea_turtles_in_feeding.json",
       "schema:description": "quarterly",
       "instrument": [],
       "actionProcess": []

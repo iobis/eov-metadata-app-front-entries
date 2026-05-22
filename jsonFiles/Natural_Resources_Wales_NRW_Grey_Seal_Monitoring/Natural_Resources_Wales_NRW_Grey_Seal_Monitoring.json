@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -49,7 +49,13 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Philip Newman"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -66,10 +72,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring.json",
         "name": "Natural Resources Wales (NRW) Grey Seal Monitoring"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring.json",
       "schema:description": "monthly",
       "instrument": [],
       "actionProcess": []

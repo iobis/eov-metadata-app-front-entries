@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sustaining_Arctic_Observing_Networks/Sustaining_Arctic_Observing_Networks.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sustaining_Arctic_Observing_Networks/Sustaining_Arctic_Observing_Networks.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -42,17 +42,24 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "jan.rene.larsen@amap.no",
+          "schema:name": "Jan Rene Larsen"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sustaining_Arctic_Observing_Networks/Sustaining_Arctic_Observing_Networks.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sustaining_Arctic_Observing_Networks/Sustaining_Arctic_Observing_Networks.json",
         "name": "Sustaining Arctic Observing Networks"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sustaining_Arctic_Observing_Networks/Sustaining_Arctic_Observing_Networks_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sustaining_Arctic_Observing_Networks/Sustaining_Arctic_Observing_Networks.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

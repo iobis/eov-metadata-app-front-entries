@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -41,7 +41,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -56,7 +59,9 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Ocean sound",
-          "schema:url": "https://goosocean.org/eov/ocean_sound"
+          "schema:url": [
+            "https://goosocean.org/document/22567"
+          ]
         }
       ],
       "schema:funding": [
@@ -64,17 +69,23 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Jason Gedamke"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network.json",
         "name": "NOAA/NPS Ocean Noise Reference Station Network"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

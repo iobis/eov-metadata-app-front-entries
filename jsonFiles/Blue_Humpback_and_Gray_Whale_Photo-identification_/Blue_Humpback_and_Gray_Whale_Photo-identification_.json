@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Blue_Humpback_and_Gray_Whale_Photo-identification_/Blue_Humpback_and_Gray_Whale_Photo-identification_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Blue_Humpback_and_Gray_Whale_Photo-identification_/Blue_Humpback_and_Gray_Whale_Photo-identification_.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -45,17 +45,24 @@
           "schema:category": "academia"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "calambokidis@cascadiaresearch.org",
+          "schema:name": "John Calambokidis"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Blue_Humpback_and_Gray_Whale_Photo-identification_/Blue_Humpback_and_Gray_Whale_Photo-identification_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Blue_Humpback_and_Gray_Whale_Photo-identification_/Blue_Humpback_and_Gray_Whale_Photo-identification_.json",
         "name": "Blue, Humpback, and Gray Whale Photo-identification and Sighting Databases"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Blue_Humpback_and_Gray_Whale_Photo-identification_/Blue_Humpback_and_Gray_Whale_Photo-identification__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Blue_Humpback_and_Gray_Whale_Photo-identification_/Blue_Humpback_and_Gray_Whale_Photo-identification_.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

@@ -19,7 +19,7 @@
       "schema:foundingDate": "2016-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Faroe_Bank_Channel_Transport_Mooring_Array/Faroe_Bank_Channel_Transport_Mooring_Array.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Faroe_Bank_Channel_Transport_Mooring_Array/Faroe_Bank_Channel_Transport_Mooring_Array.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -30,17 +30,23 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Karin Larsen"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Faroe_Bank_Channel_Transport_Mooring_Array/Faroe_Bank_Channel_Transport_Mooring_Array.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Faroe_Bank_Channel_Transport_Mooring_Array/Faroe_Bank_Channel_Transport_Mooring_Array.json",
         "name": "Faroe Bank Channel Transport Mooring Array"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Faroe_Bank_Channel_Transport_Mooring_Array/Faroe_Bank_Channel_Transport_Mooring_Array_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Faroe_Bank_Channel_Transport_Mooring_Array/Faroe_Bank_Channel_Transport_Mooring_Array.json",
       "schema:description": "sub_daily",
       "instrument": [],
       "actionProcess": []

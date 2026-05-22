@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SCANS-III_Small_Cetacean_Abundance_in_the_European/SCANS-III_Small_Cetacean_Abundance_in_the_European.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SCANS-III_Small_Cetacean_Abundance_in_the_European/SCANS-III_Small_Cetacean_Abundance_in_the_European.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -45,17 +45,23 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Philip Hammondv"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SCANS-III_Small_Cetacean_Abundance_in_the_European/SCANS-III_Small_Cetacean_Abundance_in_the_European.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SCANS-III_Small_Cetacean_Abundance_in_the_European/SCANS-III_Small_Cetacean_Abundance_in_the_European.json",
         "name": "SCANS-III: Small Cetacean Abundance in the European Atlantic and North Sea"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SCANS-III_Small_Cetacean_Abundance_in_the_European/SCANS-III_Small_Cetacean_Abundance_in_the_European_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/SCANS-III_Small_Cetacean_Abundance_in_the_European/SCANS-III_Small_Cetacean_Abundance_in_the_European.json",
       "schema:description": "every_10_years_or_more",
       "instrument": [],
       "actionProcess": []

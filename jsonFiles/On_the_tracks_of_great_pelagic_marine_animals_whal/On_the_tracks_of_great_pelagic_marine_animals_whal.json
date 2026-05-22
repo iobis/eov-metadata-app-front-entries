@@ -19,12 +19,15 @@
       "schema:foundingDate": "2020-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/On_the_tracks_of_great_pelagic_marine_animals_whal/On_the_tracks_of_great_pelagic_marine_animals_whal.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/On_the_tracks_of_great_pelagic_marine_animals_whal/On_the_tracks_of_great_pelagic_marine_animals_whal.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -43,17 +46,23 @@
           "schema:category": "civil_society"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Silvia Frey"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/On_the_tracks_of_great_pelagic_marine_animals_whal/On_the_tracks_of_great_pelagic_marine_animals_whal.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/On_the_tracks_of_great_pelagic_marine_animals_whal/On_the_tracks_of_great_pelagic_marine_animals_whal.json",
         "name": "On the tracks of great pelagic marine animals (whales, dolphins, sea turtles, swordfish and tunas)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/On_the_tracks_of_great_pelagic_marine_animals_whal/On_the_tracks_of_great_pelagic_marine_animals_whal_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/On_the_tracks_of_great_pelagic_marine_animals_whal/On_the_tracks_of_great_pelagic_marine_animals_whal.json",
       "schema:description": "twice_per_year",
       "instrument": [],
       "actionProcess": []

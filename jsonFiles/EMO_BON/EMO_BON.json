@@ -34,9 +34,127 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/EMO_BON/EMO_BON.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/EMO_BON/EMO_BON.json",
       "schema:keywords": [
-        "EMOBON"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate genetic composition - genetic diversity",
+          "schema:url": "https://goosocean.org/eov/invertebrates/genetic_composition/genetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe community composition",
+          "schema:url": "https://goosocean.org/eov/microbe/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/microbe/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe diversity",
+          "schema:url": "https://goosocean.org/eov/microbe/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe ecosystem functioning",
+          "schema:url": "https://goosocean.org/eov/microbe/ecosystem_functioning"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe genetic composition",
+          "schema:url": "https://goosocean.org/eov/microbe/genetic_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe genetic composition - genetic diversity",
+          "schema:url": "https://goosocean.org/eov/microbe/genetic_composition/genetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton community composition",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/community_composition/taxonomic_phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton genetic composition - genetic diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/genetic_composition/genetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -45,17 +163,24 @@
           "schema:description": "The EMO BON genomic observatory is funded and financed by the European Marine Biological Resource Centre - European Research Infrastructure Consortium (EMBRC-ERIC), which is part of the European Strategy Forum on Research Infrastructures (ESFRI)."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "ioulia.santi@gmail.com",
+          "schema:name": "Ioulia Santi"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/EMO_BON/EMO_BON.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/EMO_BON/EMO_BON.json",
         "name": "EMO_BON"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/EMO_BON/EMO_BON_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/EMO_BON/EMO_BON.json",
       "schema:description": "quarterly",
       "instrument": [],
       "actionProcess": []

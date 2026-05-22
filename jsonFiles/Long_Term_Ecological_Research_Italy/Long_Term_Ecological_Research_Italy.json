@@ -31,12 +31,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Long_Term_Ecological_Research_Italy/Long_Term_Ecological_Research_Italy.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Long_Term_Ecological_Research_Italy/Long_Term_Ecological_Research_Italy.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         }
       ],
       "schema:funding": [
@@ -46,17 +49,24 @@
           "schema:description": "No foundings. The activities, albeit not on a continuous basis, are carried out with own research funds"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "bmpadedda@uniss.it",
+          "schema:name": "Bachisio Mario Padedda"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Long_Term_Ecological_Research_Italy/Long_Term_Ecological_Research_Italy.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Long_Term_Ecological_Research_Italy/Long_Term_Ecological_Research_Italy.json",
         "name": "Long Term Ecological Research Italy"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Long_Term_Ecological_Research_Italy/Long_Term_Ecological_Research_Italy_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Long_Term_Ecological_Research_Italy/Long_Term_Ecological_Research_Italy.json",
       "schema:description": "every_2_to_5_years",
       "instrument": [],
       "actionProcess": []

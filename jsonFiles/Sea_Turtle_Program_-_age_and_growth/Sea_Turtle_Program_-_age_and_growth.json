@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sea_Turtle_Program_-_age_and_growth/Sea_Turtle_Program_-_age_and_growth.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sea_Turtle_Program_-_age_and_growth/Sea_Turtle_Program_-_age_and_growth.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -45,17 +45,24 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "Larisa.Avens@noaa.gov",
+          "schema:name": "Larisa Avens"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sea_Turtle_Program_-_age_and_growth/Sea_Turtle_Program_-_age_and_growth.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sea_Turtle_Program_-_age_and_growth/Sea_Turtle_Program_-_age_and_growth.json",
         "name": "Sea Turtle Program - age and growth"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sea_Turtle_Program_-_age_and_growth/Sea_Turtle_Program_-_age_and_growth_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sea_Turtle_Program_-_age_and_growth/Sea_Turtle_Program_-_age_and_growth.json",
       "schema:description": "daily",
       "instrument": [],
       "actionProcess": []

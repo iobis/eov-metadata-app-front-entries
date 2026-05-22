@@ -19,7 +19,7 @@
       "schema:foundingDate": "2009-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/South_East_Atlantic_Fisheries_Organisation/South_East_Atlantic_Fisheries_Organisation.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/South_East_Atlantic_Fisheries_Organisation/South_East_Atlantic_Fisheries_Organisation.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -29,7 +29,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -58,17 +61,24 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "lvoges@seafo.org",
+          "schema:name": "Lizette Voges"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/South_East_Atlantic_Fisheries_Organisation/South_East_Atlantic_Fisheries_Organisation.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/South_East_Atlantic_Fisheries_Organisation/South_East_Atlantic_Fisheries_Organisation.json",
         "name": "South East Atlantic Fisheries Organisation"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/South_East_Atlantic_Fisheries_Organisation/South_East_Atlantic_Fisheries_Organisation_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/South_East_Atlantic_Fisheries_Organisation/South_East_Atlantic_Fisheries_Organisation.json",
       "schema:description": "twice_per_year",
       "instrument": [],
       "actionProcess": []

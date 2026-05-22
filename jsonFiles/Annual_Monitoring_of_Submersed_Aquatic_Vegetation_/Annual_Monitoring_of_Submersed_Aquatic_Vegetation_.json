@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -39,17 +39,24 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "jjorth@vims.edu",
+          "schema:name": "Robert Orth"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_.json",
         "name": "Annual Monitoring of Submersed Aquatic Vegetation In Chesapeake Bay and its Tidal tributaries"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_/Annual_Monitoring_of_Submersed_Aquatic_Vegetation__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_/Annual_Monitoring_of_Submersed_Aquatic_Vegetation_.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

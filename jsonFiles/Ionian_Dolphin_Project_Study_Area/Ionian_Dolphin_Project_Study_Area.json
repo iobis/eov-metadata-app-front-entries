@@ -31,13 +31,28 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ionian_Dolphin_Project_Study_Area/Ionian_Dolphin_Project_Study_Area.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Ionian_Dolphin_Project_Study_Area/Ionian_Dolphin_Project_Study_Area.json",
       "schema:keywords": [
-        "Conservation",
-        "Dolphins",
-        "Marine Mammals",
-        "Mediterranean Monk Seal",
-        "Photo-ID"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals community composition - community abundance",
+          "schema:url": "https://goosocean.org/eov/mammals/community_composition/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals distribution",
+          "schema:url": "https://goosocean.org/eov/mammals/distribution"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals ecosystem functioning",
+          "schema:url": "https://goosocean.org/eov/mammals/ecosystem_functioning"
+        }
       ],
       "schema:funding": [
         {
@@ -49,7 +64,13 @@
           "schema:description": "For supporting sources please visit: https://www.ioniandolphinproject.org/"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Joan Gonzalvo"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -66,10 +87,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ionian_Dolphin_Project_Study_Area/Ionian_Dolphin_Project_Study_Area.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Ionian_Dolphin_Project_Study_Area/Ionian_Dolphin_Project_Study_Area.json",
         "name": "Ionian Dolphin Project Study Area"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ionian_Dolphin_Project_Study_Area/Ionian_Dolphin_Project_Study_Area_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Ionian_Dolphin_Project_Study_Area/Ionian_Dolphin_Project_Study_Area.json",
       "schema:description": "every_2_to_5_years",
       "instrument": [],
       "actionProcess": []

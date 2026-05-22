@@ -33,12 +33,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -48,12 +51,18 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Macroalgal canopy cover and composition",
-          "schema:url": "https://goosocean.org/eov/macroalgae"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Seagrass cover and composition",
-          "schema:url": "https://goosocean.org/eov/seagrass"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+            "https://goosocean.org/document/17513"
+          ]
         }
       ],
       "schema:funding": [
@@ -65,17 +74,24 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "julian.pizarro@invemar.org.co",
+          "schema:name": "Julian Pizarro"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral.json",
         "name": "Sistema de Soporte al Monitoreo de las Áreas Coralinas."
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral/Sistema_de_Soporte_al_Monitoreo_de_las_Áreas_Coral.json",
       "schema:description": "twice_per_year",
       "instrument": [],
       "actionProcess": []

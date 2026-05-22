@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -39,17 +39,24 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "Les.N.Harris@dfo-mpo.gc.ca",
+          "schema:name": "Les Harris"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic.json",
         "name": "Fishery-dependent sampling fo Cambridge Bay Arctic char"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

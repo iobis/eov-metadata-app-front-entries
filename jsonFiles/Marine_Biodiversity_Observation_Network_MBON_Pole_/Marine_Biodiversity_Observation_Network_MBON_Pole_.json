@@ -33,7 +33,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Biodiversity_Observation_Network_MBON_Pole_/Marine_Biodiversity_Observation_Network_MBON_Pole_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Marine_Biodiversity_Observation_Network_MBON_Pole_/Marine_Biodiversity_Observation_Network_MBON_Pole_.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -43,7 +43,10 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Macroalgal canopy cover and composition",
-          "schema:url": "https://goosocean.org/eov/macroalgae"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
@@ -68,7 +71,11 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface temperature",
-          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
         }
       ],
       "schema:funding": [
@@ -78,17 +85,24 @@
           "schema:description": "The program is supported by the NASA award titled “Laying the foundations of the Marine Biodiversity Observation Network Pole to Pole of the Americas” (grant number: 80NSSC18K0318), NASA grants NNX14AP62A and 80NSSC20K0017; NOAA U.S. Integrated Ocean Observing System (IOOS grant NA19NOS0120199); and the United States National Oceanographic Partnership Program (NOPP)."
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "enrique.montes@noaa.gov",
+          "schema:name": "Enrique Montes"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Biodiversity_Observation_Network_MBON_Pole_/Marine_Biodiversity_Observation_Network_MBON_Pole_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Marine_Biodiversity_Observation_Network_MBON_Pole_/Marine_Biodiversity_Observation_Network_MBON_Pole_.json",
         "name": "Marine Biodiversity Observation Network (MBON) Pole to Pole of the Americas"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Biodiversity_Observation_Network_MBON_Pole_/Marine_Biodiversity_Observation_Network_MBON_Pole__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Marine_Biodiversity_Observation_Network_MBON_Pole_/Marine_Biodiversity_Observation_Network_MBON_Pole_.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

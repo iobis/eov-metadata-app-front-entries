@@ -31,12 +31,15 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pacific_Northwest_Environmental_Sample_Processor/Pacific_Northwest_Environmental_Sample_Processor.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pacific_Northwest_Environmental_Sample_Processor/Pacific_Northwest_Environmental_Sample_Processor.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         }
       ],
       "schema:funding": [
@@ -48,17 +51,24 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "greg.doucette@noaa.gov",
+          "schema:name": "Greg Doucette"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pacific_Northwest_Environmental_Sample_Processor/Pacific_Northwest_Environmental_Sample_Processor.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pacific_Northwest_Environmental_Sample_Processor/Pacific_Northwest_Environmental_Sample_Processor.json",
         "name": "Pacific Northwest Environmental Sample Processor"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pacific_Northwest_Environmental_Sample_Processor/Pacific_Northwest_Environmental_Sample_Processor_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Pacific_Northwest_Environmental_Sample_Processor/Pacific_Northwest_Environmental_Sample_Processor.json",
       "schema:description": "daily",
       "instrument": [],
       "actionProcess": []

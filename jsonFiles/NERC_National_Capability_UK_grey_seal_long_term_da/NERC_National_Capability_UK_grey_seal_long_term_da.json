@@ -19,7 +19,7 @@
       "schema:foundingDate": "1978-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NERC_National_Capability_UK_grey_seal_long_term_da/NERC_National_Capability_UK_grey_seal_long_term_da.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/NERC_National_Capability_UK_grey_seal_long_term_da/NERC_National_Capability_UK_grey_seal_long_term_da.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -37,17 +37,23 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Patrick Pomeroy"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NERC_National_Capability_UK_grey_seal_long_term_da/NERC_National_Capability_UK_grey_seal_long_term_da.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/NERC_National_Capability_UK_grey_seal_long_term_da/NERC_National_Capability_UK_grey_seal_long_term_da.json",
         "name": "NERC National Capability UK grey seal long term data"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NERC_National_Capability_UK_grey_seal_long_term_da/NERC_National_Capability_UK_grey_seal_long_term_da_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/NERC_National_Capability_UK_grey_seal_long_term_da/NERC_National_Capability_UK_grey_seal_long_term_da.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

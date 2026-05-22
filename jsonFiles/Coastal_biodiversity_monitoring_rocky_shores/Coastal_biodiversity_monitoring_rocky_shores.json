@@ -31,10 +31,38 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_biodiversity_monitoring_rocky_shores/Coastal_biodiversity_monitoring_rocky_shores.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Coastal_biodiversity_monitoring_rocky_shores/Coastal_biodiversity_monitoring_rocky_shores.json",
       "schema:keywords": [
-        "biodiversity",
-        "rocky shores"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -43,17 +71,24 @@
           "schema:description": "BCLME III project, Ministry of Fisheries and Marine Resources"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "anja.kreiner@mfmr.gov.na",
+          "schema:name": "Anja Kreiner"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_biodiversity_monitoring_rocky_shores/Coastal_biodiversity_monitoring_rocky_shores.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Coastal_biodiversity_monitoring_rocky_shores/Coastal_biodiversity_monitoring_rocky_shores.json",
         "name": "Coastal biodiversity monitoring (rocky shores)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_biodiversity_monitoring_rocky_shores/Coastal_biodiversity_monitoring_rocky_shores_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Coastal_biodiversity_monitoring_rocky_shores/Coastal_biodiversity_monitoring_rocky_shores.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

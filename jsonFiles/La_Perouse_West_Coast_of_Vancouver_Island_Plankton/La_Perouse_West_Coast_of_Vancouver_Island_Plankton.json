@@ -19,22 +19,31 @@
       "schema:foundingDate": "1979-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/La_Perouse_West_Coast_of_Vancouver_Island_Plankton/La_Perouse_West_Coast_of_Vancouver_Island_Plankton.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/La_Perouse_West_Coast_of_Vancouver_Island_Plankton/La_Perouse_West_Coast_of_Vancouver_Island_Plankton.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance and distribution",
-          "schema:url": "https://goosocean.org/eov/fish"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Phytoplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/phytoplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Zooplankton biomass and diversity",
-          "schema:url": "https://goosocean.org/eov/zooplankton"
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
         }
       ],
       "schema:funding": [
@@ -43,17 +52,23 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Akash Sastri"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/La_Perouse_West_Coast_of_Vancouver_Island_Plankton/La_Perouse_West_Coast_of_Vancouver_Island_Plankton.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/La_Perouse_West_Coast_of_Vancouver_Island_Plankton/La_Perouse_West_Coast_of_Vancouver_Island_Plankton.json",
         "name": "La Perouse West Coast of Vancouver Island Plankton Monitoring Program"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/La_Perouse_West_Coast_of_Vancouver_Island_Plankton/La_Perouse_West_Coast_of_Vancouver_Island_Plankton_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/La_Perouse_West_Coast_of_Vancouver_Island_Plankton/La_Perouse_West_Coast_of_Vancouver_Island_Plankton.json",
       "schema:description": "twice_per_year",
       "instrument": [],
       "actionProcess": []

@@ -19,9 +19,18 @@
       "schema:foundingDate": "1991-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot.json",
       "schema:keywords": [
-        "citizen science"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        }
       ],
       "schema:funding": [
         {
@@ -35,10 +44,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot.json",
         "name": "Irish Whale and Dolphin Group: Irish Fin Whale Photo ID catalogue"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot/Irish_Whale_and_Dolphin_Group_Irish_Fin_Whale_Phot.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

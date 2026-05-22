@@ -19,7 +19,7 @@
       "schema:foundingDate": "2017-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Shorebird_habitat_use_in_the_western_Wadden_Sea/Shorebird_habitat_use_in_the_western_Wadden_Sea.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Shorebird_habitat_use_in_the_western_Wadden_Sea/Shorebird_habitat_use_in_the_western_Wadden_Sea.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -32,17 +32,23 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Allert Bijleveld"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Shorebird_habitat_use_in_the_western_Wadden_Sea/Shorebird_habitat_use_in_the_western_Wadden_Sea.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Shorebird_habitat_use_in_the_western_Wadden_Sea/Shorebird_habitat_use_in_the_western_Wadden_Sea.json",
         "name": "Shorebird habitat use in the western Wadden Sea"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Shorebird_habitat_use_in_the_western_Wadden_Sea/Shorebird_habitat_use_in_the_western_Wadden_Sea_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Shorebird_habitat_use_in_the_western_Wadden_Sea/Shorebird_habitat_use_in_the_western_Wadden_Sea.json",
       "schema:description": "opportunistically",
       "instrument": [],
       "actionProcess": []

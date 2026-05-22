@@ -33,7 +33,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MALCY-D0141_Marine_Birds/MALCY-D0141_Marine_Birds.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/MALCY-D0141_Marine_Birds/MALCY-D0141_Marine_Birds.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -46,7 +46,13 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Lavrentios Vasiliades"
+        }
+      ],
       "schema:makesOffer": [
         {
           "@type": "schema:Offer",
@@ -63,10 +69,10 @@
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MALCY-D0141_Marine_Birds/MALCY-D0141_Marine_Birds.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/MALCY-D0141_Marine_Birds/MALCY-D0141_Marine_Birds.json",
         "name": "MALCY-D0141 Marine Birds"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MALCY-D0141_Marine_Birds/MALCY-D0141_Marine_Birds_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/MALCY-D0141_Marine_Birds/MALCY-D0141_Marine_Birds.json",
       "schema:description": "every_6_to_10_years",
       "instrument": [],
       "actionProcess": []

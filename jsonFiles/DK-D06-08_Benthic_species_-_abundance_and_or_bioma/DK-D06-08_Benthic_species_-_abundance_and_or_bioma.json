@@ -33,28 +33,54 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DK-D06-08_Benthic_species_-_abundance_and_or_bioma/DK-D06-08_Benthic_species_-_abundance_and_or_bioma.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/DK-D06-08_Benthic_species_-_abundance_and_or_bioma/DK-D06-08_Benthic_species_-_abundance_and_or_bioma.json",
       "schema:keywords": [
-        "Environmental state",
-        "HELCOM",
-        "OSPAR"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+            "https://goosocean.org/document/17515"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae areal extent",
+          "schema:url": "https://goosocean.org/eov/macroalgae/areal_extent"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae community composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae ecosystem structure - live cover fraction",
+          "schema:url": "https://goosocean.org/eov/macroalgae/ecosystem_structure/live_cover_fraction"
+        }
       ],
       "schema:funding": [
         {
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Kristian Nielsen"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DK-D06-08_Benthic_species_-_abundance_and_or_bioma/DK-D06-08_Benthic_species_-_abundance_and_or_bioma.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/DK-D06-08_Benthic_species_-_abundance_and_or_bioma/DK-D06-08_Benthic_species_-_abundance_and_or_bioma.json",
         "name": "DK-D06-08 Benthic species - abundance and/or biomass"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DK-D06-08_Benthic_species_-_abundance_and_or_bioma/DK-D06-08_Benthic_species_-_abundance_and_or_bioma_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/DK-D06-08_Benthic_species_-_abundance_and_or_bioma/DK-D06-08_Benthic_species_-_abundance_and_or_bioma.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

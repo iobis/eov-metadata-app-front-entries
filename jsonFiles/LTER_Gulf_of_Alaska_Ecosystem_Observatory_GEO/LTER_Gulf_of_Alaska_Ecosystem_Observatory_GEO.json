@@ -31,10 +31,45 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO.json",
       "schema:keywords": [
-        "Gulf of Alaska",
-        "moorings"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV067/",
+            "https://goosocean.org/document/36264"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV056/",
+            "https://goosocean.org/document/17507"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+            "https://goosocean.org/document/17509"
+          ]
+        }
       ],
       "schema:funding": [
         {
@@ -47,17 +82,24 @@
           "schema:description": "The National Science Foundation (NSF)\r\nNorth Pacific Research Board (NPRB)\r\nThe Alaska Ocean Observing System (AOOS)\r\nThe Exxon Valdez Oil Spill Trustee Council through Gulf Watch Alaska\r\nThe M.J. Murdock Charitable Trust"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "sldanielson@alaska.edu",
+          "schema:name": "Seth Danielson"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO.json",
         "name": "LTER Gulf of Alaska Ecosystem Observatory (GEO)"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO.json",
       "schema:description": "sub_daily",
       "instrument": [],
       "actionProcess": []

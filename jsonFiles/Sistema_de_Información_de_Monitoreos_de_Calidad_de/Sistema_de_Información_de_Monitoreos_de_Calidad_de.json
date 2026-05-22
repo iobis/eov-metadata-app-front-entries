@@ -19,7 +19,7 @@
       "schema:foundingDate": "1992-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sistema_de_Información_de_Monitoreos_de_Calidad_de/Sistema_de_Información_de_Monitoreos_de_Calidad_de.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sistema_de_Información_de_Monitoreos_de_Calidad_de/Sistema_de_Información_de_Monitoreos_de_Calidad_de.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -27,17 +27,24 @@
           "schema:category": "governmental"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "julian.pizarro@invemar.org.co",
+          "schema:name": "Julian Pizarro"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sistema_de_Información_de_Monitoreos_de_Calidad_de/Sistema_de_Información_de_Monitoreos_de_Calidad_de.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sistema_de_Información_de_Monitoreos_de_Calidad_de/Sistema_de_Información_de_Monitoreos_de_Calidad_de.json",
         "name": "Sistema de Información de Monitoreos de Calidad de Agua"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sistema_de_Información_de_Monitoreos_de_Calidad_de/Sistema_de_Información_de_Monitoreos_de_Calidad_de_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Sistema_de_Información_de_Monitoreos_de_Calidad_de/Sistema_de_Información_de_Monitoreos_de_Calidad_de.json",
       "schema:description": "twice_per_year",
       "instrument": [],
       "actionProcess": []

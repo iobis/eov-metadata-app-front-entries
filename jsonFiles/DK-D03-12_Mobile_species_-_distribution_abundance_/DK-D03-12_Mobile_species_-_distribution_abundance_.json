@@ -33,29 +33,49 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DK-D03-12_Mobile_species_-_distribution_abundance_/DK-D03-12_Mobile_species_-_distribution_abundance_.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/DK-D03-12_Mobile_species_-_distribution_abundance_/DK-D03-12_Mobile_species_-_distribution_abundance_.json",
       "schema:keywords": [
-        "Environmental state",
-        "Human activities",
-        "In-situ sampling offshore",
-        "Pressures"
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": [
+            "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+            "https://goosocean.org/document/17510"
+          ]
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance",
+          "schema:url": "https://goosocean.org/eov/fish/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance by size/age/stage",
+          "schema:url": "https://goosocean.org/eov/fish/abundance/by_size_age_stage"
+        }
       ],
       "schema:funding": [
         {
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:name": "Kristian Nielsen"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DK-D03-12_Mobile_species_-_distribution_abundance_/DK-D03-12_Mobile_species_-_distribution_abundance_.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/DK-D03-12_Mobile_species_-_distribution_abundance_/DK-D03-12_Mobile_species_-_distribution_abundance_.json",
         "name": "DK-D03-12 Mobile species - distribution, abundance and/or biomass - pelagic fish - Survey IESSNS"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DK-D03-12_Mobile_species_-_distribution_abundance_/DK-D03-12_Mobile_species_-_distribution_abundance__actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/DK-D03-12_Mobile_species_-_distribution_abundance_/DK-D03-12_Mobile_species_-_distribution_abundance_.json",
       "schema:description": "annually",
       "instrument": [],
       "actionProcess": []

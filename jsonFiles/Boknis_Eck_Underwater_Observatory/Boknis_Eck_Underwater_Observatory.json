@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Boknis_Eck_Underwater_Observatory/Boknis_Eck_Underwater_Observatory.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Boknis_Eck_Underwater_Observatory/Boknis_Eck_Underwater_Observatory.json",
       "schema:keywords": [
         {
           "@type": "schema:DefinedTerm",
@@ -41,32 +41,52 @@
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Oxygen",
-          "schema:url": "https://goosocean.org/eov/oxygen"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV028/",
+            "https://goosocean.org/document/17473"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface salinity",
-          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+            "https://goosocean.org/document/17470"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface temperature",
-          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_04000002",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+            "https://goosocean.org/document/17466"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface salinity",
-          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+            "https://goosocean.org/document/17471"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Subsurface temperature",
-          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+          "schema:url": [
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "https://goosocean.org/document/17467"
+          ]
         },
         {
           "@type": "schema:DefinedTerm",
           "schema:name": "Surface currents",
-          "schema:url": "https://goosocean.org/eov/surface_currents"
+          "schema:url": [
+            "http://purl.obolibrary.org/obo/ENVO_01000099",
+            "https://vocab.nerc.ac.uk/collection/EXV/current/EXV021/",
+            "https://goosocean.org/document/17468"
+          ]
         }
       ],
       "schema:funding": [
@@ -74,17 +94,24 @@
           "@type": "schema:MonetaryGrant"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "hbange@geomar.de",
+          "schema:name": "Hermann Bange"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Boknis_Eck_Underwater_Observatory/Boknis_Eck_Underwater_Observatory.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Boknis_Eck_Underwater_Observatory/Boknis_Eck_Underwater_Observatory.json",
         "name": "Boknis Eck Underwater Observatory"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Boknis_Eck_Underwater_Observatory/Boknis_Eck_Underwater_Observatory_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Boknis_Eck_Underwater_Observatory/Boknis_Eck_Underwater_Observatory.json",
       "schema:description": "sub_daily",
       "instrument": [],
       "actionProcess": []

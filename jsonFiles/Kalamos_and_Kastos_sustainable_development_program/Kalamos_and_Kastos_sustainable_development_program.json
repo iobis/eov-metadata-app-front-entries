@@ -19,7 +19,7 @@
       "schema:foundingDate": "",
       "schema:dissolutionDate": "",
       "schema:areaServed": [],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Kalamos_and_Kastos_sustainable_development_program/Kalamos_and_Kastos_sustainable_development_program.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Kalamos_and_Kastos_sustainable_development_program/Kalamos_and_Kastos_sustainable_development_program.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -27,17 +27,24 @@
           "schema:category": "civil_society"
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "tedkarfakis@terrasylvestris.org",
+          "schema:name": "Theodore N.Karfakis"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Kalamos_and_Kastos_sustainable_development_program/Kalamos_and_Kastos_sustainable_development_program.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Kalamos_and_Kastos_sustainable_development_program/Kalamos_and_Kastos_sustainable_development_program.json",
         "name": "Kalamos and Kastos sustainable development program"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Kalamos_and_Kastos_sustainable_development_program/Kalamos_and_Kastos_sustainable_development_program_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Kalamos_and_Kastos_sustainable_development_program/Kalamos_and_Kastos_sustainable_development_program.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []

@@ -31,7 +31,7 @@
           }
         }
       ],
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Monitoreo_ecológico_de_los_manglares_de_la_penínsu/Monitoreo_ecológico_de_los_manglares_de_la_penínsu.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Monitoreo_ecológico_de_los_manglares_de_la_penínsu/Monitoreo_ecológico_de_los_manglares_de_la_penínsu.json",
       "schema:keywords": [],
       "schema:funding": [
         {
@@ -44,17 +44,24 @@
           ]
         }
       ],
-      "schema:contactPoint": [],
+      "schema:contactPoint": [
+        {
+          "@type": "schema:ContactPoint",
+          "schema:contactType": "General Inquiries",
+          "schema:email": "Benignoma@gocmarineprogram.org",
+          "schema:name": "Benigno Gustavo Guerrero Martinez"
+        }
+      ],
       "schema:makesOffer": []
     },
     {
       "@type": "schema:Action",
       "agent": {
         "@type": "schema:ResearchProject",
-        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Monitoreo_ecológico_de_los_manglares_de_la_penínsu/Monitoreo_ecológico_de_los_manglares_de_la_penínsu.json",
+        "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Monitoreo_ecológico_de_los_manglares_de_la_penínsu/Monitoreo_ecológico_de_los_manglares_de_la_penínsu.json",
         "name": "Monitoreo ecológico de los manglares de la península de Baja California"
       },
-      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Monitoreo_ecológico_de_los_manglares_de_la_penínsu/Monitoreo_ecológico_de_los_manglares_de_la_penínsu_actions.json",
+      "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Monitoreo_ecológico_de_los_manglares_de_la_penínsu/Monitoreo_ecológico_de_los_manglares_de_la_penínsu.json",
       "schema:description": "unknown",
       "instrument": [],
       "actionProcess": []
