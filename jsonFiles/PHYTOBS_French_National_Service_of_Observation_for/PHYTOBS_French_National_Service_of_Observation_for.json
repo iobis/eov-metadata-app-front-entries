@@ -20,10 +20,7 @@
       "schema:dissolutionDate": "",
       "schema:areaServed": [
         {
-          "@type": "schema:Place",
-          "schema:geo": {
-            "@type": "schema:GeoShape",
-            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+          "geosparql:hasGeometry": {
             "geosparql:asWKT": {
               "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
               "@value": "MULTIPOINT (-4.43 48.36, -4.298 48.11, -3.968 48.772, -3.95 47.833, -3.094 47.535, -2.538 47.458, -1.308 46.084, -1.233 44.633, -1.205 45.8, -1.159 44.674, -1.131 46.055, -0.328 49.354, 1.475 50.231, 1.549 50.753, 3.014 42.873, 3.057 42.875, 3.145 42.488, 3.664 43.435, 5.288 43.238, 7.317 43.683)"

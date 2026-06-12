@@ -20,10 +20,7 @@
       "schema:dissolutionDate": "",
       "schema:areaServed": [
         {
-          "@type": "schema:Place",
-          "schema:geo": {
-            "@type": "schema:GeoShape",
-            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+          "geosparql:hasGeometry": {
             "geosparql:asWKT": {
               "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
               "@value": "POLYGON ((-35.198 -8.875, -35.139 -8.67, -35.076 -8.576, -34.74 -8.673, -34.748 -8.706, -34.754 -8.725, -34.758 -8.742, -34.764 -8.765, -34.769 -8.787, -34.772 -8.805, -34.779 -8.836, -34.789 -8.874, -34.8 -8.907, -34.806 -8.936, -34.818 -8.959, -34.825 -8.979, -35.143 -8.894, -35.198 -8.875))"
