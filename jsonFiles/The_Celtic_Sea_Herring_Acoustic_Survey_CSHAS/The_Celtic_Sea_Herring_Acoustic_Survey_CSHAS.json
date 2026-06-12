@@ -1,4 +1,8 @@
 {
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
   "@graph": [
     {
       "@type": "Project",
@@ -21,20 +25,6 @@
       "schema:foundingDate": "2004-05-10",
       "schema:dissolutionDate": "",
       "schema:areaServed": [
-        {
-          "schema:name": "",
-          "schema:identifier": "",
-          "schema:geo": {
-            "geosparql:asWKT": {
-              "@value": ""
-            }
-          },
-          "geosparql:hasGeometry": {
-            "geosparql:asWKT": {
-              "@value": ""
-            }
-          }
-        },
         {
           "geosparql:hasGeometry": {
             "geosparql:asWKT": {
