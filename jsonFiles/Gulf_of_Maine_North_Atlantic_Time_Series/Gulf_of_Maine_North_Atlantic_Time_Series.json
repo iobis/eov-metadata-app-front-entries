@@ -1,8 +1,4 @@
 {
-  "@context": {
-    "schema": "http://schema.org/",
-    "geosparql": "http://www.opengis.net/ont/geosparql#"
-  },
   "@graph": [
     {
       "@type": "Project",
@@ -10,17 +6,37 @@
       "schema:name": "Gulf of Maine North Atlantic Time Series",
       "schema:url": "",
       "schema:description": "Gulf of Maine North Atlantic Time Series",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "schema:url": "",
+        "schema:description": ""
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""
       },
       "schema:publishingPrinciples": [
-        "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015gb005332"
+        {
+          "@type": "schema:CreativeWork",
+          "schema:name": "",
+          "schema:url": ""
+        }
       ],
       "schema:foundingDate": "1998-01-01",
       "schema:dissolutionDate": "",
-      "schema:areaServed": [],
+      "schema:areaServed": {
+        "schema:name": "",
+        "schema:identifier": "",
+        "schema:geo": {
+          "geosparql:asWKT": {
+            "@value": ""
+          }
+        },
+        "geosparql:hasGeometry": {
+          "geosparql:asWKT": {
+            "@value": ""
+          }
+        }
+      },
       "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Gulf_of_Maine_North_Atlantic_Time_Series/Gulf_of_Maine_North_Atlantic_Time_Series.json",
       "schema:keywords": [
         {
@@ -32,32 +48,27 @@
           ]
         }
       ],
-      "schema:funding": [
-        {
-          "@type": "schema:MonetaryGrant",
-          "schema:category": "academia"
-        }
-      ],
       "schema:contactPoint": [
         {
           "@type": "schema:ContactPoint",
-          "schema:contactType": "General Inquiries",
-          "schema:name": "Barney Balch"
+          "schema:contactType": "Other",
+          "schema:name": "Catherine Mitchell",
+          "schema:email": "cmitchell@bigelow.org",
+          "schema:url": ""
         }
-      ],
-      "schema:makesOffer": []
+      ]
     },
     {
       "@type": "schema:Action",
-      "agent": {
+      "schema:agent": {
         "@type": "schema:ResearchProject",
         "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Gulf_of_Maine_North_Atlantic_Time_Series/Gulf_of_Maine_North_Atlantic_Time_Series.json",
-        "name": "Gulf of Maine North Atlantic Time Series"
+        "schema:name": "Gulf of Maine North Atlantic Time Series"
       },
       "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Gulf_of_Maine_North_Atlantic_Time_Series/Gulf_of_Maine_North_Atlantic_Time_Series.json",
-      "schema:description": "quarterly",
-      "instrument": [],
-      "actionProcess": []
+      "schema:instrument": [],
+      "schema:actionProcess": [],
+      "schema:description": "quarterly"
     },
     {
       "schema:frequency": "unknown"
