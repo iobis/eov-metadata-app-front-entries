@@ -961,11 +961,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gulf_of_Maine_North_Atlantic_Time_Series/Gulf_of_Maine_North_Atlantic_Time_Series.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Polar_Ocean_Ecosystem_Time_Series_-_Western_Core_B/Polar_Ocean_Ecosystem_Time_Series_-_Western_Core_B.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
@@ -3193,6 +3188,11 @@
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/French_Caribbean_Marine_Mammal_Stranding_and_Distr/French_Caribbean_Marine_Mammal_Stranding_and_Distr.json</loc>
     <lastmod>2026-06-12</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gulf_of_Maine_North_Atlantic_Time_Series/Gulf_of_Maine_North_Atlantic_Time_Series.json</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>unknown</changefreq>
   </url>
 </urlset>
