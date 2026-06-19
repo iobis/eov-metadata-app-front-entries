@@ -1,0 +1,259 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    },
+    "@graph": [
+        {
+            "@type": "Project",
+            "schema:legalName": "LTER: Brazilian Oceanic Islands",
+            "schema:name": "PELD-ILOC",
+            "schema:url": "http://peldiloc.sites.ufsc.br/",
+            "schema:description": "Brazil has four tropical oceanic islands: St. Peter and St. Paul\u2019s Archipelago, Fernando de Noronha Archipelago, Rocas Atoll and Trindade Island and Martin Vaz Archipelago. These islands are geographically highly isolated, experience less harmful human-driven impacts than the coastal area and encompass different levels of protection. Therefore, these more pristine islands represent a reservoir of marine biodiversity for the country and the whole world. However, the Brazilian oceanic islands remain unknown to most of the population. Our mission is to increase the awareness and interest among Brazil\u2019s population, providing knowledge to support governmental decisions and thereby help to protect and preserve the diversity, manifoldness and health of the unique marine ecosystems of our oceanic islands.",
+            "schema:identifier": {
+                "schema:url": "",
+                "schema:description": ""
+            },
+            "schema:parentOrganization": {
+                "@type": "schema:Organization",
+                "schema:legalName": "PELD",
+                "schema:url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/peld"
+            },
+            "schema:publishingPrinciples": [
+                {
+                    "@type": "schema:CreativeWork",
+                    "schema:name": "CC-BY: Creative Commons Attribution 4.0",
+                    "schema:url": "https://creativecommons.org/licenses/by/4.0/"
+                }
+            ],
+            "schema:foundingDate": "2013-03-01",
+            "schema:dissolutionDate": "",
+            "schema:areaServed": [
+                {
+                    "@type": "schema:Place",
+                    "schema:name": "Brazil",
+                    "schema:identifier": "http://marineregions.org/mrgid/2143",
+                    "schema:geo": {
+                        "@type": "schema:GeoShape",
+                        "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+                        "geosparql:asWKT": {
+                            "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                            "@value": "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON((-44.812 -25.806, -27.630 -25.806, -27.630 3.652, -44.812 3.652, -44.812 -25.806 ))"
+                        }
+                    }
+                }
+            ],
+            "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD-ILOC/PELD-ILOC.json",
+            "schema:keywords": [
+                {
+                    "schema:identifier": "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/1/",
+                    "@type": "schema:DefinedTerm",
+                    "schema:termCode": "SDN:EXV::EXV059",
+                    "schema:name": "Fish abundance and distribution",
+                    "schema:url": "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/1/"
+                },
+                {
+                    "schema:identifier": "http://purl.obolibrary.org/obo/ENVO_01000854",
+                    "@type": "schema:DefinedTerm",
+                    "schema:termCode": "ENVO:01000854",
+                    "schema:name": "tropical marine coral reef biome",
+                    "schema:url": "http://purl.obolibrary.org/obo/ENVO_01000854"
+                },
+                {
+                    "schema:identifier": "http://vocab.nerc.ac.uk/collection/EXV/current/EXV068/1/",
+                    "@type": "schema:DefinedTerm",
+                    "schema:termCode": "SDN:EXV::EXV068",
+                    "schema:name": "Benthic invertebrate abundance and distribution",
+                    "schema:url": "http://vocab.nerc.ac.uk/collection/EXV/current/EXV068/1/"
+                },
+                {
+                    "schema:identifier": "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0483/",
+                    "@type": "schema:DefinedTerm",
+                    "schema:termCode": "SDN:P14::GVAR0483",
+                    "schema:name": "Macroalgae",
+                    "schema:url": "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0483/"
+                },
+                {
+                    "schema:identifier": "http://vocab.nerc.ac.uk/collection/C77/current/H72/",
+                    "@type": "schema:DefinedTerm",
+                    "schema:termCode": "SDN:C77::H72",
+                    "schema:name": "Subsurface temperature measurements",
+                    "schema:url": "http://vocab.nerc.ac.uk/collection/C77/current/H72/"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Benthic invertebrate abundance and distribution",
+                    "schema:url": [
+                        "http://vocab.nerc.ac.uk/collection/EXV/current/EXV068/",
+                        "https://goosocean.org/document/36269"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Coral cover and composition",
+                    "schema:url": [
+                        "http://vocab.nerc.ac.uk/collection/EXV/current/EXV063/",
+                        "https://goosocean.org/document/17512"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Fish abundance and distribution",
+                    "schema:url": [
+                        "http://vocab.nerc.ac.uk/collection/EXV/current/EXV059/",
+                        "https://goosocean.org/document/17510"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Macroalgal canopy cover and composition",
+                    "schema:url": [
+                        "http://vocab.nerc.ac.uk/collection/EXV/current/EXV065/",
+                        "https://goosocean.org/document/17515"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Zooplankton biomass and diversity",
+                    "schema:url": [
+                        "http://vocab.nerc.ac.uk/collection/EXV/current/EXV057/",
+                        "https://goosocean.org/document/17509"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Subsurface temperature",
+                    "schema:url": [
+                        "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+                        "https://goosocean.org/document/17467"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Benthic invertebrates - % living cover",
+                    "schema:url": "https://goosocean.org/document/36269"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Benthic invertebrates - Number of individuals per unit area",
+                    "schema:url": "https://goosocean.org/document/36269"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Coral - Coral condition and health",
+                    "schema:url": "https://goosocean.org/document/17512"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Coral - Coral diversity",
+                    "schema:url": "https://goosocean.org/document/17512"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Coral - Live coral cover and areal extent",
+                    "schema:url": "https://goosocean.org/document/17512"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Fish - Fish abundance (number of individuals)",
+                    "schema:url": "https://goosocean.org/document/17510"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Fish - Fish biomass (total weight)",
+                    "schema:url": "https://goosocean.org/document/17510"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Fish - Fish ID / Species composition",
+                    "schema:url": "https://goosocean.org/document/17510"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Fish - Fish length frequency distribution",
+                    "schema:url": "https://goosocean.org/document/17510"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Macroalgae - Canopy percent cover",
+                    "schema:url": "https://goosocean.org/document/17515"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Macroalgae - Canopy species diversity",
+                    "schema:url": "https://goosocean.org/document/17515"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Zooplankton - Biomass, total and/or by taxon",
+                    "schema:url": "https://goosocean.org/document/17509"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Zooplankton - Species composition",
+                    "schema:url": "https://goosocean.org/document/17509"
+                }
+            ],
+            "schema:funding": [
+                {
+                    "@type": "schema:MonetaryGrant",
+                    "schema:name": "PELD Program",
+                    "schema:identifier": "446005/2024-0",
+                    "schema:funder": {
+                        "@type": "schema:FundingAgency",
+                        "schema:name": "National Council for Scientific and Technological Development",
+                        "schema:legalName": "National Council for Scientific and Technological Development",
+                        "schema:url": "https://www.gov.br/cnpq/pt-br"
+                    }
+                }
+            ],
+            "schema:contactPoint": [
+                {
+                    "@type": "schema:ContactPoint",
+                    "schema:contactType": "General Inquiries",
+                    "schema:name": "Cesar Cordeiro",
+                    "schema:email": "cesarcordeiro@uenf.br",
+                    "schema:url": ""
+                },
+                {
+                    "@type": "schema:ContactPoint",
+                    "schema:contactType": "Principle Investigator",
+                    "schema:name": "Carlos Eduardo Leite Ferreira",
+                    "schema:email": "carlosferreira@id.uff.br",
+                    "schema:url": ""
+                }
+            ]
+        },
+        {
+            "@type": "schema:Action",
+            "schema:agent": {
+                "@type": "schema:ResearchProject",
+                "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD-ILOC/PELD-ILOC.json",
+                "schema:name": "LTER: Brazilian Oceanic Islands"
+            },
+            "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD-ILOC/PELD-ILOC_actions.json",
+            "schema:instrument": [
+                {
+                    "@type": "schema:Thing",
+                    "schema:name": "Fixed point: Fixed station",
+                    "schema:url": ""
+                },
+                {
+                    "@type": "schema:Thing",
+                    "schema:name": "Fixed point: Human based",
+                    "schema:url": "http://vocab.nerc.ac.uk/collection/L06/current/71/"
+                },
+                {
+                    "@type": "schema:Thing",
+                    "schema:name": "Fixed point: other",
+                    "schema:url": ""
+                }
+            ],
+            "schema:actionProcess": [],
+            "schema:description": "annually"
+        },
+        {
+            "schema:frequency": "asNeeded"
+        }
+    ]
+}
