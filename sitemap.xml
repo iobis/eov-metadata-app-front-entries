@@ -2161,11 +2161,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Example/Test_Example.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/BALLT-D05_ChlA/BALLT-D05_ChlA.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -3193,6 +3188,11 @@
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gulf_of_Maine_North_Atlantic_Time_Series/Gulf_of_Maine_North_Atlantic_Time_Series.json</loc>
     <lastmod>2026-06-17</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Example/Test_Example.json</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>unknown</changefreq>
   </url>
 </urlset>
