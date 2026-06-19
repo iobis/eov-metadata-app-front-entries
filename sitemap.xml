@@ -3195,4 +3195,9 @@
     <lastmod>2026-06-19</lastmod>
     <changefreq>unknown</changefreq>
   </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD-ILOC/PELD-ILOC.json</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>asNeeded</changefreq>
+  </url>
 </urlset>
