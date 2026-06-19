@@ -46,4 +46,8 @@ jobs:
             git config --global user.email "github-actions@github.com"
             git add .
             git commit -m "Add metadata for ${{ github.event.issue.title }}"
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push && break
+              echo "Push attempt $i failed, retrying..."
+              sleep $((i * 5))
+            done
