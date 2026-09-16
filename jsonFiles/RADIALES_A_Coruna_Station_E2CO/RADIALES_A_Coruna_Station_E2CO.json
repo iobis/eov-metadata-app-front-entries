@@ -117,6 +117,23 @@
             "schema:url": "https://www.seriestemporales-ieo.net/"
           }
         }
+      ],
+      "schema:additionalProperty": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessCoordination",
+          "schema:value": "Level 8 - Mission qualified"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessData",
+          "schema:value": "Level 5 - Verification"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessRequirements",
+          "schema:value": "Level 9 - Sustained"
+        }
       ]
     },
     {

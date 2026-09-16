@@ -160,7 +160,24 @@
           "schema:name": "claire davies"
         }
       ],
-      "schema:makesOffer": []
+      "schema:makesOffer": [],
+      "schema:additionalProperty": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessCoordination",
+          "schema:value": "Level 9 - Sustained"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessData",
+          "schema:value": "Level 9 - Sustained"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessRequirements",
+          "schema:value": "Level 9 - Sustained"
+        }
+      ]
     },
     {
       "@type": "schema:Action",

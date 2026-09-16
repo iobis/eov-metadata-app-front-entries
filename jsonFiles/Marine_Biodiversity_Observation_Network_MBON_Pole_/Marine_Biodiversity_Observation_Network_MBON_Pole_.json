@@ -90,7 +90,24 @@
           "schema:name": "Enrique Montes"
         }
       ],
-      "schema:makesOffer": []
+      "schema:makesOffer": [],
+      "schema:additionalProperty": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessCoordination",
+          "schema:value": "Level 3 - Proof of concept"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessData",
+          "schema:value": "Level 3 - Proof of concept"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessRequirements",
+          "schema:value": "Level 3 - Proof of concept"
+        }
+      ]
     },
     {
       "@type": "schema:Action",

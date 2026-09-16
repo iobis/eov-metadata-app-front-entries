@@ -67,7 +67,14 @@
           "schema:name": "Jean-Olivier Irisson"
         }
       ],
-      "schema:makesOffer": []
+      "schema:makesOffer": [],
+      "schema:additionalProperty": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessData",
+          "schema:value": "Level 9 - Sustained"
+        }
+      ]
     },
     {
       "@type": "schema:Action",

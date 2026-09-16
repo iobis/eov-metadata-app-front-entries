@@ -43,6 +43,30 @@ def extract_maintenance_frequency(additional_property):
     return 'unknown'
 
 
+READINESS_PROPERTY_NAMES = ('readinessCoordination', 'readinessData', 'readinessRequirements')
+
+
+def extract_readiness_properties(additional_property):
+    """Pull the readiness* PropertyValue entries out of additionalProperty and
+    return them as schema:PropertyValue dicts, in a fixed order."""
+    if isinstance(additional_property, dict):
+        additional_property = [additional_property]
+    found = {}
+    if isinstance(additional_property, list):
+        for prop in additional_property:
+            if isinstance(prop, dict) and prop.get('name') in READINESS_PROPERTY_NAMES:
+                found[prop.get('name')] = str(prop.get('value', ''))
+    readiness = []
+    for prop_name in READINESS_PROPERTY_NAMES:
+        if prop_name in found:
+            readiness.append({
+                "@type": "schema:PropertyValue",
+                "schema:name": prop_name,
+                "schema:value": found[prop_name]
+            })
+    return readiness
+
+
 def load_eov_lookup(schema_file):
     """Build a lookup from normalized EOV name to canonical propertyID(s) from schema.json."""
     try:
@@ -149,6 +173,7 @@ def transform_to_form_format(entry, seen_names=None, index=0, eov_lookup=None):
     project_id = f"https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/{safe_name}/{safe_name}.json"
 
     frequency = extract_maintenance_frequency(stripped.get('additionalProperty'))
+    readiness_properties = extract_readiness_properties(stripped.get('additionalProperty'))
 
     vm_list = normalize_to_list(stripped.get('variableMeasured'))
     if vm_list:
@@ -264,6 +289,8 @@ def transform_to_form_format(entry, seen_names=None, index=0, eov_lookup=None):
         "schema:contactPoint": contact_point,
         "schema:makesOffer": makes_offer
     }
+    if readiness_properties:
+        project["schema:additionalProperty"] = readiness_properties
 
     action = {
         "@type": "schema:Action",

@@ -167,6 +167,13 @@
             "schema:url": "https://portal.edirepository.org/nis/simpleSearch"
           }
         }
+      ],
+      "schema:additionalProperty": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessData",
+          "schema:value": "Level 7 - Fitness for purpose"
+        }
       ]
     },
     {

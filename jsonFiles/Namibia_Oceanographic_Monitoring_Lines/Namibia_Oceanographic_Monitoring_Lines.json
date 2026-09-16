@@ -110,7 +110,14 @@
           "schema:name": "Anja Kreiner"
         }
       ],
-      "schema:makesOffer": []
+      "schema:makesOffer": [],
+      "schema:additionalProperty": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessData",
+          "schema:value": "Level 6 - Operational"
+        }
+      ]
     },
     {
       "@type": "schema:Action",

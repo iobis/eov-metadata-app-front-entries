@@ -71,7 +71,24 @@
           "schema:name": "Teruhisa Komatsu"
         }
       ],
-      "schema:makesOffer": []
+      "schema:makesOffer": [],
+      "schema:additionalProperty": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessCoordination",
+          "schema:value": "Level 4 - Trial"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessData",
+          "schema:value": "Level 4 - Trial"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessRequirements",
+          "schema:value": "Level 4 - Trial"
+        }
+      ]
     },
     {
       "@type": "schema:Action",

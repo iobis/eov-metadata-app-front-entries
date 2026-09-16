@@ -119,7 +119,14 @@
           "schema:name": "Bachisio Mario Padedda"
         }
       ],
-      "schema:makesOffer": []
+      "schema:makesOffer": [],
+      "schema:additionalProperty": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessData",
+          "schema:value": "Level 1 - Idea"
+        }
+      ]
     },
     {
       "@type": "schema:Action",

@@ -168,7 +168,24 @@
           "schema:name": "Ioulia Santi"
         }
       ],
-      "schema:makesOffer": []
+      "schema:makesOffer": [],
+      "schema:additionalProperty": [
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessCoordination",
+          "schema:value": "Level 5 - Verification"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessData",
+          "schema:value": "Level 5 - Verification"
+        },
+        {
+          "@type": "schema:PropertyValue",
+          "schema:name": "readinessRequirements",
+          "schema:value": "Level 5 - Verification"
+        }
+      ]
     },
     {
       "@type": "schema:Action",
