@@ -23,7 +23,7 @@
           "geosparql:hasGeometry": {
             "geosparql:asWKT": {
               "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-              "@value": "LINESTRING Z EMPTY"
+              "@value": ""
             }
           }
         }
