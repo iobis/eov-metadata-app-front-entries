@@ -1711,11 +1711,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Observatory_of_Coastal_Marine_Habitats_of_the_Kerg/Observatory_of_Coastal_Marine_Habitats_of_the_Kerg.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Boknis_Eck_Underwater_Observatory/Boknis_Eck_Underwater_Observatory.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -3042,6 +3037,11 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Central_and_Northern_California_Ocean_Observing_Sy/Central_and_Northern_California_Ocean_Observing_Sy.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Observatory_of_Coastal_Marine_Habitats_of_the_Kerg/Observatory_of_Coastal_Marine_Habitats_of_the_Kerg.json</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>unknown</changefreq>
   </url>
