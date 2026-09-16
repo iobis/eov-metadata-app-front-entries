@@ -11,11 +11,6 @@
     <changefreq>asNeeded</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Explore_Your_Shore/Explore_Your_Shore.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_fish_gillnet_survey/Coastal_fish_gillnet_survey.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
@@ -167,11 +162,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Bedford_Basin_Monitoring_Program/Bedford_Basin_Monitoring_Program.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys_2/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys_2.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -386,11 +376,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_ARMS_program/European_ARMS_program.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_5/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_5.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
@@ -461,11 +446,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IOC-WESTPAC_Ocean_Remote_Sensing_Project_for_Coast/IOC-WESTPAC_Ocean_Remote_Sensing_Project_for_Coast.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gulf_Watch_Alaska/Gulf_Watch_Alaska.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
@@ -512,11 +492,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Flukebook/Flukebook.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Fisheries_-_Bering-Okhotsk_Seal_Survey_BOSS/NOAA_Fisheries_-_Bering-Okhotsk_Seal_Survey_BOSS.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -612,11 +587,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/OBIS_Spatial_Ecological_Analysis_of_Megavertebrate/OBIS_Spatial_Ecological_Analysis_of_Megavertebrate.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Fisheries_-_Dolphin_CMR_surveys_in_the_Gulf_o/NOAA_Fisheries_-_Dolphin_CMR_surveys_in_the_Gulf_o.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -736,11 +706,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Estación_Permanente_de_Estudios_Ambientales_EPEA/Estación_Permanente_de_Estudios_Ambientales_EPEA.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pelagic_monitoring_of_the_west_coast/Pelagic_monitoring_of_the_west_coast.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
@@ -807,11 +772,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NRW_Marine_Monitoring_Programme/NRW_Marine_Monitoring_Programme.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Palmer_Antarctica_LTER/Palmer_Antarctica_LTER.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -902,11 +862,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Applied_California_Current_Ecosystem_Studies/Applied_California_Current_Ecosystem_Studies.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Santa_Barbara_Channel_Marine_Biodiversity_Observat/Santa_Barbara_Channel_Marine_Biodiversity_Observat.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -1221,11 +1176,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Line_P_monitoring_program/Line_P_monitoring_program.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Australian_Antarctic_Data_Centre/Australian_Antarctic_Data_Centre.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
@@ -1306,11 +1256,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_Tracking_Network/European_Tracking_Network.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Irish_Sea_Razor_Clams_NISR_Survey/North_Irish_Sea_Razor_Clams_NISR_Survey.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
@@ -1386,11 +1331,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys.json</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Migratory_fish_populations/Migratory_fish_populations.json</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>unknown</changefreq>
@@ -1458,11 +1398,6 @@
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_9/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_9.json</loc>
     <lastmod>2026-05-22</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IT14-Marine_ecosystems_of_Sardinia_-_Italy/IT14-Marine_ecosystems_of_Sardinia_-_Italy.json</loc>
-    <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
   <url>
@@ -1671,11 +1606,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pacific_Islands_Ocean_Observing_System_PacIOOS/Pacific_Islands_Ocean_Observing_System_PacIOOS.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sea_trout/Sea_trout.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -1701,17 +1631,7 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Gijon_Xixon_Station_E2GI/RADIALES_Gijon_Xixon_Station_E2GI.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Assessment_commercial_forecasting_of_fish_and_othe/Assessment_commercial_forecasting_of_fish_and_othe.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_A_Coruna_Station_E2CO/RADIALES_A_Coruna_Station_E2CO.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -1727,11 +1647,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DK-D01.2-06_Mobile_species_-_abundance_-_porpoises/DK-D01.2-06_Mobile_species_-_abundance_-_porpoises.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Central_and_Northern_California_Ocean_Observing_Sy/Central_and_Northern_California_Ocean_Observing_Sy.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -1841,16 +1756,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Santander_Station_E9SA/RADIALES_Santander_Station_E9SA.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_4/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_4.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -1867,11 +1772,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_Zooplankton_s/Finland_s_Marine_Strategy_Monitoring_Zooplankton_s.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/White_Sea_Hydrology_and_Zooplankton_Time_Series_Ka/White_Sea_Hydrology_and_Zooplankton_Time_Series_Ka.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -1902,16 +1802,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Deepwater_Trawl_Survey/Irish_Deepwater_Trawl_Survey.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Santander_Station_E4SA/RADIALES_Santander_Station_E4SA.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -2071,11 +1961,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ionian_Dolphin_Project_Study_Area/Ionian_Dolphin_Project_Study_Area.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Monitoring/Marine_Monitoring.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -2201,11 +2086,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Reef_Life_Survey/Reef_Life_Survey.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/BALLT-D01256_Macrozoobenthos/BALLT-D01256_Macrozoobenthos.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -2237,11 +2117,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/N2K/N2K.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_Humpback_Whale_Sentinel_Programme_HWSP/The_Humpback_Whale_Sentinel_Programme_HWSP.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -2302,11 +2177,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -2386,11 +2256,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RadeZOO_-_Point_B/RadeZOO_-_Point_B.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/DK-D06-08_Benthic_species_-_abundance_and_or_bioma/DK-D06-08_Benthic_species_-_abundance_and_or_bioma.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -2422,11 +2287,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Monitoring_hydrodynamic_and_morphodynamic_processe/Monitoring_hydrodynamic_and_morphodynamic_processe.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation_.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -2506,11 +2366,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LifeWatchGreece/LifeWatchGreece.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Naples_Ecological_REsearch_for_Augmented_Observato/Naples_Ecological_REsearch_for_Augmented_Observato.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -2552,11 +2407,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_Phytoplankton/Finland_s_Marine_Strategy_Monitoring_Phytoplankton.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Biodiversity_Observation_Network_MBON_Pole_/Marine_Biodiversity_Observation_Network_MBON_Pole_.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -2652,11 +2502,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rothera_Time_Series/Rothera_Time_Series.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southeast_US_Marine_Biodiversity_Observation_Netwo/Southeast_US_Marine_Biodiversity_Observation_Netwo.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -2772,11 +2617,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ORCA_Observations/ORCA_Observations.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/eOceans/eOceans.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -2931,11 +2771,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Australian_continuous_plankton_recorder_survey_Aus/Australian_continuous_plankton_recorder_survey_Aus.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>asNeeded</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Laboratory_of_Marine_Ecology_Sozopol/Laboratory_of_Marine_Ecology_Sozopol.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -2996,11 +2831,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/EMO_BON/EMO_BON.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Sea_ecological_time_series_LTER_-_North_Sea_/North_Sea_ecological_time_series_LTER_-_North_Sea_.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -3041,11 +2871,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Cudillero_Station_E2CU/RADIALES_Cudillero_Station_E2CU.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring__4/FISH-PRO_III_-_Baltic_Sea_Coastal_Fish_Monitoring__4.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -3067,11 +2892,6 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Kongsfjorden_Rijpfjorden_Observatory_Program_KROP/Kongsfjorden_Rijpfjorden_Observatory_Program_KROP.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -3151,17 +2971,7 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Namibia_Oceanographic_Monitoring_Lines/Namibia_Oceanographic_Monitoring_Lines.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P2-Belgian_Seabirds_at_Sea/ANSBE-P2-Belgian_Seabirds_at_Sea.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/California_Cooperative_Oceanic_Fisheries_Investiga/California_Cooperative_Oceanic_Fisheries_Investiga.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
   </url>
@@ -3199,5 +3009,195 @@
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD-ILOC/PELD-ILOC.json</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>asNeeded</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IT14-Marine_ecosystems_of_Sardinia_-_Italy/IT14-Marine_ecosystems_of_Sardinia_-_Italy.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Explore_Your_Shore/Explore_Your_Shore.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys_2/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys_2.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pacific_Islands_Ocean_Observing_System_PacIOOS/Pacific_Islands_Ocean_Observing_System_PacIOOS.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Gijon_Xixon_Station_E2GI/RADIALES_Gijon_Xixon_Station_E2GI.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_A_Coruna_Station_E2CO/RADIALES_A_Coruna_Station_E2CO.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Central_and_Northern_California_Ocean_Observing_Sy/Central_and_Northern_California_Ocean_Observing_Sy.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Santander_Station_E9SA/RADIALES_Santander_Station_E9SA.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/White_Sea_Hydrology_and_Zooplankton_Time_Series_Ka/White_Sea_Hydrology_and_Zooplankton_Time_Series_Ka.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Santander_Station_E4SA/RADIALES_Santander_Station_E4SA.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_ARMS_program/European_ARMS_program.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IOC-WESTPAC_Ocean_Remote_Sensing_Project_for_Coast/IOC-WESTPAC_Ocean_Remote_Sensing_Project_for_Coast.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ionian_Dolphin_Project_Study_Area/Ionian_Dolphin_Project_Study_Area.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Fisheries_-_Bering-Okhotsk_Seal_Survey_BOSS/NOAA_Fisheries_-_Bering-Okhotsk_Seal_Survey_BOSS.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Fisheries_-_Dolphin_CMR_surveys_in_the_Gulf_o/NOAA_Fisheries_-_Dolphin_CMR_surveys_in_the_Gulf_o.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Reef_Life_Survey/Reef_Life_Survey.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_Humpback_Whale_Sentinel_Programme_HWSP/The_Humpback_Whale_Sentinel_Programme_HWSP.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Estación_Permanente_de_Estudios_Ambientales_EPEA/Estación_Permanente_de_Estudios_Ambientales_EPEA.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Palmer_Antarctica_LTER/Palmer_Antarctica_LTER.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RadeZOO_-_Point_B/RadeZOO_-_Point_B.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation_.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LifeWatchGreece/LifeWatchGreece.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Santa_Barbara_Channel_Marine_Biodiversity_Observat/Santa_Barbara_Channel_Marine_Biodiversity_Observat.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Biodiversity_Observation_Network_MBON_Pole_/Marine_Biodiversity_Observation_Network_MBON_Pole_.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southeast_US_Marine_Biodiversity_Observation_Netwo/Southeast_US_Marine_Biodiversity_Observation_Netwo.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/eOceans/eOceans.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Line_P_monitoring_program/Line_P_monitoring_program.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Australian_continuous_plankton_recorder_survey_Aus/Australian_continuous_plankton_recorder_survey_Aus.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>asNeeded</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_Tracking_Network/European_Tracking_Network.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/EMO_BON/EMO_BON.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Cudillero_Station_E2CU/RADIALES_Cudillero_Station_E2CU.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Namibia_Oceanographic_Monitoring_Lines/Namibia_Oceanographic_Monitoring_Lines.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/California_Cooperative_Oceanic_Fisheries_Investiga/California_Cooperative_Oceanic_Fisheries_Investiga.json</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>unknown</changefreq>
   </url>
 </urlset>
