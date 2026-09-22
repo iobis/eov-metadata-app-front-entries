@@ -2296,11 +2296,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Biological_Association_Continuous_Plankton_/Marine_Biological_Association_Continuous_Plankton_.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ANSBE-P21-Monitoring_of_beached_seabirds/ANSBE-P21-Monitoring_of_beached_seabirds.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -3182,6 +3177,11 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory.json</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Biological_Association_Continuous_Plankton_/Marine_Biological_Association_Continuous_Plankton_.json</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>unknown</changefreq>
   </url>
