@@ -18,7 +18,16 @@
       "schema:publishingPrinciples": [],
       "schema:foundingDate": "1997-07-01",
       "schema:dissolutionDate": "",
-      "schema:areaServed": [],
+      "schema:areaServed": [
+        {
+          "geosparql:hasGeometry": {
+            "geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-53 56.75, -52.642 56.57, -52 52.75, -51.552 52.843, -51.308 52.962, -51.082 53.047, -50.867 53.133, -50.555 53.258, -50.24 53.392, -49.783 53.595, -49.5 53.5)"
+            }
+          }
+        }
+      ],
       "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory.json",
       "schema:keywords": [
         {
@@ -127,7 +136,53 @@
           "schema:name": "Johannes Karstensen"
         }
       ],
-      "schema:makesOffer": []
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2016JC012271"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://bg.copernicus.org/articles/19/437/2022/"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://pubmed.ncbi.nlm.nih.gov/30705189/"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006GL026913"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://essd.copernicus.org/articles/14/4315/2022/"
+          }
+        }
+      ]
     },
     {
       "@type": "schema:Action",
