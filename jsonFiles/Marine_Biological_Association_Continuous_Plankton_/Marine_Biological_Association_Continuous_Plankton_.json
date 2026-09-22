@@ -10,7 +10,13 @@
       "schema:name": "Marine Biological Association Continuous Plankton Recorder (CPR) Survey",
       "schema:url": "https://www.cprsurvey.org/",
       "schema:description": "Driven by almost a century of sustained plankton observations, scientific excellence and innovation, the Continuous Plankton Recorder (CPR) Survey is a globally recognised leader on the impacts of environmental change on the health of our oceans. \r\nAs a large-scale global survey, it provides the scientific and policy communities with a basin-wide and long-term measure of the ecological health of marine plankton. Established in 1931, the CPR Survey is the longest running, most geographically extensive marine ecological survey in the world. Home to a considerable database of marine plankton and associated metadata that is used by researchers and policy makers to examine strategically important science pillars such as climate change, human health, fisheries, biodiversity, pathogens, invasive species, ocean acidification and natural capital.",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/01b1y2d10",
+        "schema:value": "01b1y2d10"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""
