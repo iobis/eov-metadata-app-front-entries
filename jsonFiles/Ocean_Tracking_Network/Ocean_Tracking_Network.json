@@ -10,7 +10,13 @@
       "schema:name": "Ocean Tracking Network",
       "schema:url": "http://oceantrackingnetwork.org/",
       "schema:description": "OTN is a global aquatic animal tracking, technology, data management and partnership platform headquartered at Dalhousie University in Canada. OTN and its partners are using electronic tags to track more than 400 keystone, commercially important, and endangered species worldwide.\r\nOTN is developing a global infrastructure to collect comprehensive data on sea animals in relation to the ocean’s changing physical properties. Despite its sophisticated technology, the tracking is quite simple. Scientists will tag a wide range of aquatic species — salmon, tuna, whales, sharks, penguins, crabs, and seals, to name a few — with small electronic transmitters that are surgically implanted or attached externally, and can operate for up to 20 years. Acoustic receivers, roughly the size of kitchen food processors, will be arranged 800 metres apart in invisible “listening lines” at strategic locations along the sea floor in 14 ocean regions off all seven continents.\r\nThese receivers will pick up coded acoustic signals identifying each tagged sea creature that passes within half a kilometre. As a tagged animal swims over a line, it is recorded. The data are subsequently uploaded to a central database, resulting in current and reliable global records that can be analyzed and applied to many different environmental research efforts. Tags and receivers can also be outfitted with sophisticated sensors that measure the ocean’s temperature, depth, salinity, currents, chemistry, and other properties.\r\n ",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/00tmbfm47",
+        "schema:value": "00tmbfm47"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""
