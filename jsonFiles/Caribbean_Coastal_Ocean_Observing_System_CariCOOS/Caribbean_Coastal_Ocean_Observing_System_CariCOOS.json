@@ -10,7 +10,13 @@
       "schema:name": "Caribbean Coastal Ocean Observing System (CariCOOS)",
       "schema:url": "http://caricoos.org",
       "schema:description": "CARICOOS facilitates de accessibility of coral reef monitoring data for the U.S. Caribbean. As part of this effort, long-term data from two principal monitoring programs in the region, the Puerto Rico Coral Reef Monitoring Program and the USVI Territorial Coral Reef Monitoring Program, were translated following Darwin Core Standards and published in OBIS. The Puerto Rico Long-Term Coral Reef Monitoring Program (PRCRMP) database compilation includes raw biological data (by transect) from reef locations around the Puerto Rican archipelago. Substrate cover by sessile-benthic categories and fish, and motile megabenthic invertebrate taxonomic composition and densities have been characterized in these stations, with variable sampling event frequencies between 1999 to 2021. At present, 42 permanent stations are surveyed biannually (21 per year). The PRCRMP database was made possible with support from the National Oceanic and Atmospheric Administration Coral Reef Conservation Program. The TCRMP is a central component of coral reef management and research in the US Virgin Islands since its inception in 2001. The program consists of annual to semi-annual assessments of coral health, benthic community structure, fish community structure, and physical dynamics at 33 sites down to 65 m (220 ft) depth. The TCRMP is funded by and coordinated with the NOAA Coral Reef Conservation Program, NOAA Protected Species, and the USVI Department of Planning and Natural Resources and collaborates with the VI NSF-Experimental Program to Stimulate Competitive Research (EPSCoR), and NOAA National Marine Fisheries.",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/05magkd24",
+        "schema:value": "05magkd24"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

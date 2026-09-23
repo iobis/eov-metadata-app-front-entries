@@ -10,7 +10,13 @@
       "schema:name": "Southern California Coastal Ocean Observing System (SCCOOS)",
       "schema:url": "http://sccoos.org/",
       "schema:description": "The Southern California Coastal Ocean Observing System (SCCOOS) is one of eleven regions that contributes to the national U.S. Integrated Ocean Observing System (IOOS®). The regional observing systems work to collect, integrate, and deliver coastal and ocean observations in order to improve safety, enhance the economy, and protect the environment. The principal goal of SCCOOS is to provide observations and products to a diverse stakeholder community of managers and planners, operational decision makers, scientists, and the general public. As the regional observing system for Southern California, SCCOOS, has developed the capabilities to support short-term decision-making and long-term assessment by implementing and leveraging biological, chemical, and physical observations and models, many of which are available in near real-time. SCCOOS priorities and objectives are aligned with the seven societal goals as outlined in the IOOS Summit Report. The focus themes, as designated by IOOS, highlight these priorities and are designed to improve safety, enhance the economy, and protect our environment.",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/02g349121",
+        "schema:value": "02g349121"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

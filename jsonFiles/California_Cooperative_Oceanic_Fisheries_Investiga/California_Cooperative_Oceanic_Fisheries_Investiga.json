@@ -10,7 +10,13 @@
       "schema:name": "California Cooperative Oceanic Fisheries Investigations (CalCOFI)",
       "schema:url": "http://calcofi.org",
       "schema:description": "The California Cooperative Oceanic Fisheries Investigations (CalCOFI) is an oceanographic and marine ecosystem research program off the coast of California has been holistically studying the physics, biogeochemistry, and biology of the marine environment since 1949 to inform the sustainable management of marine resources in the context of climate change. ",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/04c3j6v84",
+        "schema:value": "04c3j6v84"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

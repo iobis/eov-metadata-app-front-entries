@@ -10,7 +10,13 @@
       "schema:name": "Royal Belgian Institute of Natural Sciences",
       "schema:url": "http://www.rbins.be",
       "schema:description": "Royal Belgian Institute of Natural Sciences",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/02y22ws83",
+        "schema:value": "02y22ws83"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

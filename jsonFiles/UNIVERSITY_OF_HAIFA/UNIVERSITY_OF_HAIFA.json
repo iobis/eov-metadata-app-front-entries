@@ -10,7 +10,13 @@
       "schema:name": "UNIVERSITY OF HAIFA",
       "schema:url": "",
       "schema:description": "UNIVERSITY OF HAIFA",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/02f009v59",
+        "schema:value": "02f009v59"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

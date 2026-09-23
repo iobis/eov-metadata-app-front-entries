@@ -10,7 +10,13 @@
       "schema:name": "Italian Long-Term Ecological Research Network",
       "schema:url": "http://www.lteritalia.it",
       "schema:description": "Italian Long-Term Ecological Research Network",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/05ma8mw15",
+        "schema:value": "05ma8mw15"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

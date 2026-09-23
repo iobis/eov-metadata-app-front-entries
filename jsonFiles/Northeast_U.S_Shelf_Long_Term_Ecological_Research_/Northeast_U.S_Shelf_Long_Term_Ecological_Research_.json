@@ -10,7 +10,13 @@
       "schema:name": "Northeast U.S. Shelf Long Term Ecological Research (NES LTER)",
       "schema:url": "https://nes-lter.whoi.edu/",
       "schema:description": "The Northeast U.S. Shelf (NES) Long-Term Ecological Research (LTER) project integrates observations, experiments, and models to understand and predict how planktonic food webs are changing, and how those changes impact the productivity of higher trophic levels. The NES-LTER is co-located with the Northeast U.S. Continental Shelf Large Marine Ecosystem, spanning the Middle Atlantic Bight and Gulf of Maine. Our focal cross-shelf transect extends about 150 km southward from Martha’s Vineyard, MA, to just beyond the shelf break. Our overarching question is: How is climate change impacting the pelagic NES ecosystem and, in particular, affecting the relationship between compositional (e.g., species diversity and size structure) and aggregate (e.g., rates of primary production, and transfer of energy to important forage fish species) variability?",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/04sj20m66",
+        "schema:value": "04sj20m66"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

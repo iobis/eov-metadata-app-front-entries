@@ -10,7 +10,13 @@
       "schema:name": "Beaufort Lagoon Ecosystems Long Term Ecological Research",
       "schema:url": "https://ble.lternet.edu/",
       "schema:description": "Recent studies suggest that the ecological framework for understanding what controls food web structure needs to be expanded to include temporal forcing. More specifically, there is mounting evidence that differential availability of seasonally-distinct resources is critical for defining trophic linkages and maintaining stability and resilience of food webs. We propose to establish a new LTER focusing on Arctic lagoon ecosystems to test this concept, and broaden it to include temporal variations over longer timeframes. The Beaufort lagoons are ideal for testing this concept because they experience extreme variability in seasonal cycles, which are now subject to rapid directional shifts driven by climate change. Our overarching question is: How do variations in terrestrial inputs, local production, and exchange between lagoon and ocean waters over seasonal, inter-annual, inter-decadal, and longer timeframes interact to control food web structure through effects on carbon and nitrogen cycling, microbial and metazoan community composition, and trophic linkages? Arctic lagoons provide a unique opportunity to study these interactions in the absence of fringing wetlands that often modulate land-ocean interactions in other lagoon systems. In addition, barrier island geomorphology, which exerts a strong control on water exchange between lagoons and the open ocean, is highly dynamic in the Arctic because sea-ice effects are superimposed on the effects of currents, sea level and waves. Thus, connections between inputs from land and lagoon ecosystems are more direct, and water exchanges between lagoons and the open ocean are more variable than is typical of lower latitude systems. Specific study sites will be located in Elson Lagoon (western Beaufort), Simpson Lagoon and Stefansson Sound (central Beaufort), and Kaktovik and Jago lagoons (eastern Beaufort). We will operate this LTER in collaboration with local stakeholder groups and the US Fish and Wildlife Service, which manages the Arctic National Wildlife Refuge. The LTER will include seasonal field work during ice covered, ice break-up, and open water periods and also include sensor deployments for continuous measurements of key biogeochemical and hydrographic parameters.No abstract provided",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/055a54548",
+        "schema:value": "055a54548"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

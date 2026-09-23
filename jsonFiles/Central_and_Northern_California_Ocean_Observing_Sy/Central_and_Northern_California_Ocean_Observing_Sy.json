@@ -10,7 +10,13 @@
       "schema:name": "Central and Northern California Ocean Observing System (CeNCOOS)",
       "schema:url": "https://www.cencoos.org/",
       "schema:description": "The Central and Northern California Ocean Observing System (CeNCOOS) and the Southern California Coastal Ocean Observing System (SCCOOS) are two of eleven regions that contribute to the national U.S. Integrated Ocean Observing System (IOOS). The regional observing systems work to collect, integrate, and deliver coastal and ocean observations in order to improve safety, enhance the economy, and protect the environment. The principal goal of CeNCOOS and SCCOOS is to provide observations and products to a diverse stakeholder community of managers and planners, operational decision makers, scientists, and the general public. CeNCOOS and SCCOOS have developed the capabilities to support short-term decision-making and long-term assessment by implementing and leveraging biological, chemical, and physical observations and models, many of which are available in near real-time. This interactive catalog and map provides a place to explore and download publicly available oceanographic and coastal datasets in California.",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/028paz341",
+        "schema:value": "028paz341"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

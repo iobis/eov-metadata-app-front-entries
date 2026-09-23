@@ -10,7 +10,13 @@
       "schema:name": "Centre for Environment, Fisheries and Aquaculture Science (CEFAS)",
       "schema:url": "",
       "schema:description": "Centre for Environment, Fisheries and Aquaculture Science (CEFAS)",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/04r7rxc53",
+        "schema:value": "04r7rxc53"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

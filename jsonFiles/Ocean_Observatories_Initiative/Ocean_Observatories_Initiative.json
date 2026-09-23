@@ -10,7 +10,13 @@
       "schema:name": "Ocean Observatories Initiative",
       "schema:url": "https://oceanobservatories.org/",
       "schema:description": "OOI is an integrated infrastructure program composed of science-driven platforms and sensor systems that measure physical, chemical, geological and biological properties and processes from the seafloor to the air-sea interface.",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/00vnfmn19",
+        "schema:value": "00vnfmn19"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

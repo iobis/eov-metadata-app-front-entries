@@ -10,7 +10,13 @@
       "schema:name": "South African Environmental Observation Network",
       "schema:url": "http://saeon.ac.za",
       "schema:description": "South African Environmental Observation Network",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/041j42q70",
+        "schema:value": "041j42q70"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

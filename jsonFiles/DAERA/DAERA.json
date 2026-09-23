@@ -10,7 +10,13 @@
       "schema:name": "DAERA",
       "schema:url": "https://www.daera-ni.gov.uk",
       "schema:description": "DAERA",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/01jksdf22",
+        "schema:value": "01jksdf22"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

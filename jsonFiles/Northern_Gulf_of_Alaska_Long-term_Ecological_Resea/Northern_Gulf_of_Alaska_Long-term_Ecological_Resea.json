@@ -10,7 +10,13 @@
       "schema:name": "Northern Gulf of Alaska Long-term Ecological Research",
       "schema:url": "https://nga.lternet.edu/",
       "schema:description": "Northern Gulf of Alaska Long-term Ecological Reserach",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/01csn4944",
+        "schema:value": "01csn4944"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

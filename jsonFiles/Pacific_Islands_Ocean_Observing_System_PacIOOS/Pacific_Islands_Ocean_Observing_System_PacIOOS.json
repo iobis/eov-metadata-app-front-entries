@@ -10,7 +10,13 @@
       "schema:name": "Pacific Islands Ocean Observing System (PacIOOS)",
       "schema:url": "http://pacioos.org",
       "schema:description": "The Pacific Islands Ocean Observing System (PacIOOS) believes that ocean data and information can help save lives and resources. Aiming to promote a safe, healthy and productive ocean and resilient coastal zone, PacIOOS collects real-time data on ocean conditions, forecasts future events, and develops user-friendly tools to access this information. In collaboration with a large network of partners, PacIOOS helps inform decision-making in Pacific communities on a daily basis.\r\nThe PacIOOS region spans across the U.S. Pacific Islands, including the State of Hawaiʻi (Kauaʻi, Oʻahu, Maui County, Hawaiʻi Island); the territories of Guam, the Commonwealth of the Northern Mariana Islands (CNMI), and American Samoa; the Freely Associated States of the Federated States of Micronesia (FSM), the Republic of the Marshall Islands (RMI), and the Republic of Palau; and the Minor Outlying Islands of Howland, Baker, Johnston, Jarvis, Kingman, Palmyra, Midway, and Wake.\r\nBased within the School of Ocean and Earth Science and Technology (SOEST) at the University of Hawaiʻi at Mānoa (UH), PacIOOS is one of 11 regional associations within the U.S. Integrated Ocean Observing System (IOOS®). PacIOOS staff and regional liaisons are working closely with a wide range of stakeholders throughout the U.S. Pacific Islands to identify and address ocean observing needs.",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/04j9xr266",
+        "schema:value": "04j9xr266"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

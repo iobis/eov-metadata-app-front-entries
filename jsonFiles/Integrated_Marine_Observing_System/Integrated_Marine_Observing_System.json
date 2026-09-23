@@ -10,7 +10,13 @@
       "schema:name": "Integrated Marine Observing System",
       "schema:url": "http://imos.org.au/",
       "schema:description": "Integrated Marine Observing System",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/010x3gp67",
+        "schema:value": "010x3gp67"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""

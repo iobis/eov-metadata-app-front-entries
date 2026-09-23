@@ -10,7 +10,13 @@
       "schema:name": "Virginia Coast Reserve Long-Term Ecological Research",
       "schema:url": "https://www.vcrlter.virginia.edu",
       "schema:description": "Virginia Coast Reserve Long-Term Ecological Research",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:description": "ROR",
+        "schema:propertyID": "https://registry.identifiers.org/registry/ror",
+        "schema:url": "https://ror.org/013zder45",
+        "schema:value": "013zder45"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""
