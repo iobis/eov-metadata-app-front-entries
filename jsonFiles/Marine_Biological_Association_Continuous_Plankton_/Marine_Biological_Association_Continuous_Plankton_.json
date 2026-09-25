@@ -21,7 +21,9 @@
         "schema:legalName": "",
         "schema:url": ""
       },
-      "schema:publishingPrinciples": [],
+      "schema:publishingPrinciples": [
+        "https://doi.org/10.1016/j.pocean.2005.09.011"
+      ],
       "schema:foundingDate": "1931-01-01",
       "schema:dissolutionDate": "",
       "schema:areaServed": [
