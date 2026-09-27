@@ -2776,11 +2776,6 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MarineGeo_-_Marine_Global_Earth_Observatory/MarineGeo_-_Marine_Global_Earth_Observatory.json</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>unknown</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_Offshore_soft/Finland_s_Marine_Strategy_Monitoring_Offshore_soft.json</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>unknown</changefreq>
@@ -3188,6 +3183,11 @@
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Biological_Association_Continuous_Plankton_/Marine_Biological_Association_Continuous_Plankton_.json</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>unknown</changefreq>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MarineGeo_-_Marine_Global_Earth_Observatory/MarineGeo_-_Marine_Global_Earth_Observatory.json</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>unknown</changefreq>
   </url>
 </urlset>
