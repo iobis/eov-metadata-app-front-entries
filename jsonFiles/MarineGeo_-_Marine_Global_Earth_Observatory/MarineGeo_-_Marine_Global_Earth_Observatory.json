@@ -10,7 +10,10 @@
       "schema:name": "MarineGeo - Marine Global Earth Observatory",
       "schema:url": "http://marinegeo.si.edu",
       "schema:description": "\r\n\r\n\r\nMarineGEO is a global network of partners focused on understanding how coastal marine ecosystems work—and how to keep them working.\r\nWe focus on biodiversity as the heart of healthy, productive ecosystems and coastal regions, where marine life and people are concentrated and interact most. MarineGEO marshals the Smithsonian’s leadership in discovery and convening power to advance frontiers in knowledge and provide it to policymakers to support innovative management and protection of our oceans.\r\nClimate change and biodiversity loss pose existential challenges to the health of marine ecosystems and the people who depend on them. Yet our scattered knowledge of marine life hampers our ability to effectively address them.  The Smithsonian is committed to solving this challenge. The Marine Global Earth Observatory (MarineGEO) is a unique network of partners around the world dedicated to tracking the vital signs of coastal marine life, diagnosing the causes of change, and informing science-based solutions to build coastal resilience—all using standardized, coordinated methods. \r\n \r\nLed by the Smithsonian’s Tennenbaum Marine Observatories Network, MarineGEO coordinates the research of partner observatories and project collaborators that span the globe.   Our research focuses on biodiversity because it is the heart of functioning ecosystems, but is missing or poorly coordinated in most marine observing. We focus on coastal systems nearshore because this is where biodiversity and people are concentrated and interact most.  MarineGEO is also a community—the network is people. \r\n \r\nOur value proposition to partners is: The Smithsonian helps elevate your science and grow your professional network to take local science global and to accomplish outcomes none of us could reach alone. \r\n\r\n\r\n\r\n \r\n",
-      "schema:identifier": {},
+      "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:url": "https://marinegeo.si.edu"
+      },
       "schema:parentOrganization": {
         "schema:legalName": "",
         "schema:url": ""
