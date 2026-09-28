@@ -44,11 +44,6 @@
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance",
           "schema:url": "https://goosocean.org/eov/fish/abundance"
-        },
-        {
-          "@type": "schema:DefinedTerm",
-          "schema:name": "Fish distribution",
-          "schema:url": "https://goosocean.org/eov/dish/distribution"
         }
       ],
       "schema:funding": [

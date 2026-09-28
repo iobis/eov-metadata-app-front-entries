@@ -52,11 +52,6 @@
         },
         {
           "@type": "schema:DefinedTerm",
-          "schema:name": "Fish distribution",
-          "schema:url": "https://goosocean.org/eov/dish/distribution"
-        },
-        {
-          "@type": "schema:DefinedTerm",
           "schema:name": "Sea surface salinity",
           "schema:url": [
             "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",

@@ -49,11 +49,6 @@
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish abundance by size/age/stage",
           "schema:url": "https://goosocean.org/eov/fish/abundance/by_size_age_stage"
-        },
-        {
-          "@type": "schema:DefinedTerm",
-          "schema:name": "Fish distribution",
-          "schema:url": "https://goosocean.org/eov/dish/distribution"
         }
       ],
       "schema:funding": [

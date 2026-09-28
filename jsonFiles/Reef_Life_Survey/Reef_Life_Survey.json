@@ -92,11 +92,6 @@
         },
         {
           "@type": "schema:DefinedTerm",
-          "schema:name": "Fish distribution",
-          "schema:url": "https://goosocean.org/eov/dish/distribution"
-        },
-        {
-          "@type": "schema:DefinedTerm",
           "schema:name": "Fish ecosystem functioning",
           "schema:url": "https://goosocean.org/eov/fish/ecosystem_functioning"
         },

@@ -49,11 +49,6 @@
           "@type": "schema:DefinedTerm",
           "schema:name": "Fish community composition - community abundance",
           "schema:url": "https://goosocean.org/eov/fish/community_composition/abundance"
-        },
-        {
-          "@type": "schema:DefinedTerm",
-          "schema:name": "Fish distribution",
-          "schema:url": "https://goosocean.org/eov/dish/distribution"
         }
       ],
       "schema:funding": [

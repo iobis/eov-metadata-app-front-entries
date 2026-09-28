@@ -93,11 +93,6 @@
         },
         {
           "@type": "schema:DefinedTerm",
-          "schema:name": "Fish distribution",
-          "schema:url": "https://goosocean.org/eov/dish/distribution"
-        },
-        {
-          "@type": "schema:DefinedTerm",
           "schema:name": "Fish ecosystem functioning - ecosystem disturbances",
           "schema:url": "https://goosocean.org/eov/fish/ecosystem_functioning/ecosystem_disturbances"
         },
