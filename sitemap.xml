@@ -3186,6 +3186,11 @@
     <changefreq>unknown</changefreq>
   </url>
   <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/TropWATER/TropWATER.json</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>irregular</changefreq>
+  </url>
+  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Bio-GO-SHIP/Bio-GO-SHIP.json</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>irregular</changefreq>
