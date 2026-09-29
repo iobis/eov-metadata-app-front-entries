@@ -1,0 +1,83 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    },
+    "@graph": [
+        {
+            "@type": "Project",
+            "schema:url": "https://www.tropwater.com",
+            "schema:description": "TropWATER, James Cook University\u2019s Centre for Tropical Water and Aquatic Ecosystem Research, brings together over 150 leading researchers. We provide science-based solutions to industries, communities, and governments for managing, protecting, and restoring tropical ecosystems.\r\n\r\nOur mission is to conduct influential research in water science, resource management, and aquatic ecology, focusing on sustainable use and preservation of water ecosystems. Our research covers water quality, fish and marine mammals, seagrass, coral reefs, mangroves, freshwater, estuarine and marine ecosystems, biosecurity and Indigenous training and capacity-building.",
+            "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/TropWATER/TropWATER.json",
+            "schema:legalName": "James Cook University's Centre for Tropical Water and Aquatic Ecosystem Research",
+            "schema:name": "TropWATER",
+            "schema:identifier": [
+                {
+                    "@type": "schema:PropertyValue",
+                    "schema:description": "",
+                    "schema:propertyID": "",
+                    "schema:url": "https://www.tropwater.com",
+                    "schema:value": "www.tropwater.com"
+                }
+            ],
+            "schema:parentOrganization": {
+                "@type": "schema:Organization",
+                "schema:legalName": "James Cook University",
+                "schema:url": "https://www.jcu.edu.au/"
+            },
+            "schema:publishingPrinciples": [
+                {
+                    "@type": "schema:CreativeWork",
+                    "schema:name": "",
+                    "schema:url": ""
+                }
+            ],
+            "schema:areaServed": [
+                {
+                    "@type": "schema:Place",
+                    "schema:geo": {
+                        "@type": "schema:GeoShape",
+                        "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+                        "geosparql:asWKT": {
+                            "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                            "@value": "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON((105.067 -47.236, 160.209 -47.236, 160.209 -6.090, 105.067 -6.090, 105.067 -47.236 ))"
+                        }
+                    }
+                }
+            ],
+            "schema:keywords": [
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Seagrass cover and composition",
+                    "schema:url": [
+                        "http://vocab.nerc.ac.uk/collection/EXV/current/EXV064/",
+                        "https://goosocean.org/document/17513"
+                    ]
+                }
+            ],
+            "schema:contactPoint": [
+                {
+                    "@type": "schema:ContactPoint",
+                    "schema:contactType": "General Inquiries",
+                    "schema:name": "Contact page",
+                    "schema:email": "",
+                    "schema:url": "https://www.tropwater.com/contact"
+                }
+            ]
+        },
+        {
+            "@type": "schema:Action",
+            "schema:agent": {
+                "@type": "schema:ResearchProject",
+                "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/TropWATER/TropWATER.json",
+                "schema:name": "James Cook University's Centre for Tropical Water and Aquatic Ecosystem Research"
+            },
+            "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/TropWATER/TropWATER.json",
+            "schema:instrument": [],
+            "schema:actionProcess": []
+        },
+        {
+            "schema:frequency": "irregular"
+        }
+    ]
+}
