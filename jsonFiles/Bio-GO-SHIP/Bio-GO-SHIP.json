@@ -10,6 +10,15 @@
             "schema:description": "The vision of Bio-GO-SHIP is to develop a deep understanding of the link between the physio-chemical environment and global ocean plankton diversity, abundance, and biogeochemical roles in the context of a changing ocean.\r\n\r\nThe mission of Bio-GO-SHIP is to quantify the molecular diversity, size spectrum, chemical composition, and abundances of plankton communities across large spatial, vertical, and eventually temporal scales. This will be achieved through systematic, high-quality, and calibrated sampling of \u2018omics, plankton imaging, particle chemistry, and optical techniques as operational oceanographic tools. Integration with regular GO-SHIP measurements and their analyses of the physical and chemical environment will allow us to understand (and eventually predict) how plankton communities respond to ocean changes and how biological processes feeds back on carbon, oxygen and nutrient cycles.  ",
             "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/Bio-GO-SHIP/Bio-GO-SHIP.json",
             "schema:legalName": "Bio-GO-SHIP",
+            "schema:identifier": [
+                {
+                    "@type": "schema:PropertyValue",
+                    "schema:description": "",
+                    "schema:propertyID": "",
+                    "schema:url": "https://biogoship.org",
+                    "schema:value": "biogoship.org"
+                }
+            ],
             "schema:parentOrganization": {
                 "@type": "schema:Organization",
                 "schema:legalName": "GO-SHIP",
