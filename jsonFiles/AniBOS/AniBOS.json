@@ -1,0 +1,141 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    },
+    "@graph": [
+        {
+            "@type": "Project",
+            "schema:url": "https://anibos.com/",
+            "schema:description": "AniBOS builds and broadens the use of animal derived ocean observations through enhanced visibility, cross-network collaboration and communication.\r\n\r\nAniBOS (Animal Borne Ocean Sensors), an emerging network of the Global Ocean Observing System (GOOS), provides freely available oceanographic measurements across the hard-to-reach world\u2019s polar and tropical oceans collected through bio-logging, the deployment of sensors on marine animals. These data complement conventional approaches by providing both physical and ecological data in ocean regions directly at the scale and resolution at which animals move. AniBOS will integrate animal collected data within GOOS to improve our ability to observe and predict global climate processes and animal behaviour for societal benefit.",
+            "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/AniBOS/AniBOS.json",
+            "schema:legalName": "Animal Borne Ocean Sensors",
+            "schema:name": "AniBOS",
+            "schema:publishingPrinciples": [
+                {
+                    "@type": "schema:CreativeWork",
+                    "schema:name": "CC-BY-SA: Creative Commons Attribution Share Alike 4.0 International",
+                    "schema:url": "https://creativecommons.org/licenses/by-sa/4.0/"
+                }
+            ],
+            "schema:additionalProperty": [
+                {
+                    "@type": "schema:PropertyValue",
+                    "schema:name": "readinessCoordination",
+                    "schema:value": "Level 6 - Operational"
+                }
+            ],
+            "schema:foundingDate": "2020-01-01",
+            "schema:areaServed": [
+                {
+                    "@type": "schema:Place",
+                    "schema:geo": {
+                        "@type": "schema:GeoShape",
+                        "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+                        "geosparql:asWKT": {
+                            "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                            "@value": "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON((-169.963 -79.012, 192.146 -79.012, 192.146 84.802, -169.963 84.802, -169.963 -79.012 ))"
+                        }
+                    }
+                }
+            ],
+            "schema:keywords": [
+                {
+                    "schema:identifier": "http://vocab.nerc.ac.uk/collection/O01/current/O01010/1/",
+                    "@type": "schema:DefinedTerm",
+                    "schema:termCode": "SDN:O01::O01010",
+                    "schema:name": "Animal Borne Ocean Sensors",
+                    "schema:url": "http://vocab.nerc.ac.uk/collection/O01/current/O01010/1/"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Marine mammal abundance and distribution",
+                    "schema:url": [
+                        "http://vocab.nerc.ac.uk/collection/EXV/current/EXV062/",
+                        "https://goosocean.org/document/36266"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Sea surface salinity",
+                    "schema:url": [
+                        "https://vocab.nerc.ac.uk/collection/EXV/current/EXV019/",
+                        "https://goosocean.org/document/17470"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Sea surface temperature",
+                    "schema:url": [
+                        "http://purl.obolibrary.org/obo/ENVO_04000002",
+                        "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/",
+                        "https://goosocean.org/document/17466"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Subsurface salinity",
+                    "schema:url": [
+                        "https://vocab.nerc.ac.uk/collection/EXV/current/EXV020/",
+                        "https://goosocean.org/document/17471"
+                    ]
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Subsurface temperature",
+                    "schema:url": [
+                        "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+                        "https://goosocean.org/document/17467"
+                    ]
+                }
+            ],
+            "schema:contactPoint": [
+                {
+                    "@type": "schema:ContactPoint",
+                    "schema:contactType": "General Inquiries",
+                    "schema:name": "AniBOS",
+                    "schema:email": "anibos.ocean@gmail.com",
+                    "schema:url": "https://anibos.com/contact/"
+                }
+            ],
+            "schema:makesOffer": [
+                {
+                    "@type": "schema:Offer",
+                    "schema:name": "Distribution of McMahon et al. 2021. Animal Borne Ocean Sensors \u2013 AniBOS \u2013 An Essential Component of the Global Ocean Observing System. Front. Mar. Sci., 05 November 2021",
+                    "schema:itemOffered": {
+                        "@type": "schema:CreativeWork",
+                        "schema:name": "McMahon et al. 2021. Animal Borne Ocean Sensors \u2013 AniBOS \u2013 An Essential Component of the Global Ocean Observing System. Front. Mar. Sci., 05 November 2021",
+                        "schema:url": "https://doi.org/10.3389/fmars.2021.751840"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "schema:Action",
+            "schema:agent": {
+                "@type": "schema:ResearchProject",
+                "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/AniBOS/AniBOS.json",
+                "schema:name": "Animal Borne Ocean Sensors"
+            },
+            "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/AniBOS/AniBOS.json",
+            "schema:instrument": [
+                {
+                    "@type": "schema:Thing",
+                    "schema:name": "Autonomous: animal based",
+                    "schema:url": "http://vocab.nerc.ac.uk/collection/L06/current/70/"
+                }
+            ],
+            "schema:actionProcess": [
+                {
+                    "@type": "schema:HowTo",
+                    "schema:url": "https://doi.org/10.26198/ev75-0j83",
+                    "schema:name": "Jonsen, I., McMahon, C. and Harcourt, R. (2024). Best Practice Manual for SMRU CTD Satellite Relay Data Loggers: Instrument Calibration, Near Real-Time and Delayed Mode Data QA/QC, Version 1.0. Integrated Marine Observing System"
+                }
+            ],
+            "schema:description": "daily"
+        },
+        {
+            "schema:frequency": "asNeeded"
+        }
+    ]
+}
