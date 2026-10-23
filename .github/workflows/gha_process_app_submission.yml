@@ -4,7 +4,6 @@ on:
     workflow_dispatch:
     issues:
         types:
-            - opened
             - edited
             - labeled
 
@@ -12,7 +11,8 @@ jobs:
   process_metadata_submission:
     if: |
       contains(github.event.issue.labels.*.name, 'metadata submission') &&
-      !contains(github.event.issue.labels.*.name, 'draft submission')
+      !contains(github.event.issue.labels.*.name, 'draft submission') &&
+      (github.event.action != 'labeled' || github.event.label.name == 'metadata submission')
     runs-on: ubuntu-latest
     steps:
         - name: Checkout Repository
