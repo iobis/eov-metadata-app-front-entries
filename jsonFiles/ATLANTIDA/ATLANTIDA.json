@@ -1,0 +1,127 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    },
+    "@graph": [
+        {
+            "@type": "Project",
+            "schema:url": "https://www.ciimar.up.pt/projects/atlantida/",
+            "schema:description": "ATLANTIDA will develop a platform for the monitoring of the North Atlantic Ocean and tools for the sustainable exploitation of the marine resources. This project will be implemented by a multidisciplinary team of the UNorte.pt (Universities of Porto, Minho Tr\u00e1s-os-Montes) and CIIMAR (Interdisciplinary Centre of Marine and Environmental Research), mobilizing other 6 R&D units. This strategy will potentiate the expertise of the human resources involved in the consortium and implement a comprehensive approach of the Ocean observation and of the tools for its sustainable use.\r\n\r\nThe project is coherently structured in 5 RLs, each organized in 2-4 R&D activities and 1 transversal activity for coordination, communication, dissemination and exploitation of results. ATLANTIDA will create a coastal observatory and monitoring, focusing on data collection and supply, including monitoring platforms and systems, sensors, data management and information technologies. It will assess the impact of climate change on the wave energy resource. ATLANTIDA will study the role of global change as a driving force of biological change in coastal habitats, contributing to the management of coastal and estuarine ecosystems by developing new operative tools. Regarding deep sea, it will develop ocean circulation numerical models, ecological models and ecotoxicological tools. We will also produce knowledge baseline of deep-sea Vulnerable Marine Ecosystems (VMEs) to develop a framework for the co-creation of a knowledge baseline on the diversity and distribution of VMEs of the region. The project will focus also on monitoring the contamination and effects of microplastics, other contaminants and pathogenic bacteria in the environment. We will study pelagic ecosystems from microorganisms to large predators. The project will lead to the implementation of DNA (meta)barcoding approaches in marine species and communities biomonitoring. We will assess the distribution and residency patterns, and the genetic structure of the populations of cetaceans in the north coast of Portugal. The project will explore new opportunities to unlock the sustainable growth of aquaculture by minimising the environmental impact of fish farms whilst contributing to safe and healthier food items for consumers and deliver across economic, social and environmental sustainability dimensions. ATLANTIDA will create biobanks of marine organisms and valorize marine biomass, exploring them in terms of biotechnological applications such as pharmaceutical, industrial and environmental -bioremediation. Macroalgae and marine invertebrate species will be identified and selected as model organisms and used as raw-material for the isolation of biopolymers with industrial interest, particularly sulfated polysaccharides, collagens and bioadhesives.\r\nATLANTIDA will create a strong cohesion of the UNORTE institutions regarding the Ocean research and technologies, developing the conditions for a leading position at national and international levels.",
+            "schema:country": [
+                "Portugal"
+            ],
+            "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ATLANTIDA/ATLANTIDA.json",
+            "schema:legalName": "ATLANTIDA - Platform for the monitoring of the North Atlantic ocean and tools for the sustainable exploitation of the marine resources",
+            "schema:name": "ATLANTIDA",
+            "schema:parentOrganization": {
+                "@type": "schema:Organization",
+                "schema:legalName": "CIIMAR - Interdisciplinary Centre of Marine and Environmental Research",
+                "schema:url": "https://www.ciimar.up.pt/"
+            },
+            "schema:publishingPrinciples": [
+                {
+                    "@type": "schema:CreativeWork",
+                    "schema:name": "CC-BY: Creative Commons Attribution 4.0",
+                    "schema:url": "https://creativecommons.org/licenses/by/4.0/"
+                }
+            ],
+            "schema:foundingDate": "2021-06-01",
+            "schema:dissolutionDate": "2024-04-30",
+            "schema:areaServed": [
+                {
+                    "@type": "schema:Place",
+                    "schema:geo": {
+                        "@type": "schema:GeoShape",
+                        "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+                        "geosparql:asWKT": {
+                            "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                            "@value": "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON((-9.845 40.753, -8.447 40.753, -8.447 42.253, -9.845 42.253, -9.845 40.753 ))"
+                        }
+                    }
+                }
+            ],
+            "schema:keywords": [
+                {
+                    "schema:identifier": "http://vocab.nerc.ac.uk/collection/EXV/current/EXV062/1/",
+                    "@type": "schema:DefinedTerm",
+                    "schema:termCode": "SDN:EXV::EXV062",
+                    "schema:name": "Marine mammal abundance and distribution",
+                    "schema:url": "http://vocab.nerc.ac.uk/collection/EXV/current/EXV062/1/"
+                },
+                {
+                    "schema:identifier": "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0507/1/",
+                    "@type": "schema:DefinedTerm",
+                    "schema:termCode": "SDN:P14::GVAR0507",
+                    "schema:name": "Marine Mammals",
+                    "schema:url": "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0507/1/"
+                },
+                {
+                    "@type": "schema:DefinedTerm",
+                    "schema:name": "Marine mammal abundance and distribution",
+                    "schema:url": [
+                        "http://vocab.nerc.ac.uk/collection/EXV/current/EXV062/",
+                        "https://goosocean.org/document/36266"
+                    ]
+                }
+            ],
+            "schema:funding": [
+                {
+                    "@type": "schema:MonetaryGrant",
+                    "schema:name": "",
+                    "schema:identifier": "",
+                    "schema:funder": {
+                        "@type": "schema:FundingAgency",
+                        "schema:name": "NORTE 2020",
+                        "schema:legalName": "NORTE 2020",
+                        "schema:url": "https://www.norte2020.pt/"
+                    }
+                }
+            ],
+            "schema:contactPoint": [
+                {
+                    "@type": "schema:ContactPoint",
+                    "schema:contactType": "General Inquiries",
+                    "schema:name": "Lu\u00eds Afonso",
+                    "schema:email": "lafonso@ciimar.up.pt",
+                    "schema:url": ""
+                },
+                {
+                    "@type": "schema:ContactPoint",
+                    "schema:contactType": "Principle Investigator",
+                    "schema:name": "Ana Mafalda Correia",
+                    "schema:email": "amcorreia@ciimar.up.pt",
+                    "schema:url": ""
+                },
+                {
+                    "@type": "schema:ContactPoint",
+                    "schema:contactType": "Principle Investigator",
+                    "schema:name": "Catarina Magalh\u00e3es",
+                    "schema:email": "catarina.magalhaes@fc.up.pt",
+                    "schema:url": ""
+                }
+            ]
+        },
+        {
+            "@type": "schema:Action",
+            "schema:agent": {
+                "@type": "schema:ResearchProject",
+                "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ATLANTIDA/ATLANTIDA.json",
+                "schema:name": "ATLANTIDA - Platform for the monitoring of the North Atlantic ocean and tools for the sustainable exploitation of the marine resources"
+            },
+            "@id": "https://raw.githubusercontent.com/iobis/eov-metadata-app-front-entries/refs/heads/main/jsonFiles/ATLANTIDA/ATLANTIDA.json",
+            "schema:instrument": [
+                {
+                    "@type": "schema:Thing",
+                    "schema:name": "Fixed point: Fixed station",
+                    "schema:url": ""
+                }
+            ],
+            "schema:actionProcess": [],
+            "schema:description": "biannually"
+        },
+        {
+            "schema:frequency": "unknown"
+        }
+    ]
+}
